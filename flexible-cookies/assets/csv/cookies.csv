@@ -1,0 +1,1177 @@
+functional;cookiePreferences;Registers cookie preferences of a user
+analytics;td;Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.
+functional;CookieConsent;Registers cookie preferences of a user
+functional;CookieConsentBulkTicket;Enables sharing cookie preferences across domains / websites
+functional;userlang;Saves language preferences of user for a website
+functional;consentUUID;This cookie is used as a unique identification for the users who has accepted the cookie consent box.
+functional;cookieconsent_variant;Stores the variant of shown cookie banner
+functional;cookieconsent_system;Cookie consent system cookie for saving user's cookie opt-in/out choices.
+functional;cookieconsent_level;Cookie consent system cookie for storing the level of cookie consent.
+functional;cookieconsent_seen;Used to support the GDPR / AVG compliant cookie consent system
+functional;CookieConsent;Stores the user's cookie consent state for the current domain
+necessary;flexible_cookies_accepted;Flexible Cookies cookie.
+necessary;flexible_cookies_accepted_categories;Flexible Cookies cookie.
+necessary;flexible_cookies_accepted_all;Flexible Cookies cookie.
+analytics;_ga;ID used to identify users
+analytics;_ga_;ID used to identify users
+analytics;_gid;ID used to identify users for 24 hours after last activity
+analytics;_gat;Used to monitor number of Google Analytics server requests when using Google Tag Manager
+analytics;_dc_gtm_;Used to monitor number of Google Analytics server requests
+analytics;AMP_TOKEN;"Contains a token code that is used to read out a Client ID from the AMP Client ID Service. By matching this ID with that of Google Analytics, users can be matched when switching between AMP content and non-AMP content. Reference: https://support.google.com/analytics/answer/7486764?hl=en"
+analytics;_gat_gtag_;Used to set and get tracking data
+advertising;_gac_;Contains information related to marketing campaigns of the user. These are shared with Google AdWords / Google Ads when the Google Ads and Google Analytics accounts are linked together.
+analytics;__utma;ID used to identify users and sessions
+analytics;__utmt;Used to monitor number of Google Analytics server requests
+analytics;__utmb;Used to distinguish new sessions and visits. This cookie is set when the GA.js javascript library is loaded and there is no existing __utmb cookie. The cookie is updated every time data is sent to the Google Analytics server.
+analytics;__utmc;Used only with old Urchin versions of Google Analytics and not with GA.js. Was used to distinguish between new sessions and visits at the end of a session.
+analytics;__utmz;Contains information about the traffic source or campaign that directed user to the website. The cookie is set when the GA.js javascript is loaded and updated when data is sent to the Google Anaytics server
+analytics;__utmv;Bevat custom informatie die door de webdeveloper is ingesteld via de _setCustomVar methode in Google Analytics. Deze cookie wordt iedere keer geupdate als er nieuwe gegevens naar de Google Analytics server worden gestuurd. 
+analytics;__utmx;Used to determine whether a user is included in an A / B or Multivariate test.
+analytics;__utmxx;Used to determine when the A / B or Multivariate test in which the user participates ends
+advertising;FPAU;Assigns a specific ID to the visitor. This allows the website to determine the number of specific user-visits for analysis and statistics.
+analytics;FPID;Registers statistical data on users' behaviour on the website. Used for internal analytics by the website operator.
+analytics;FPLC;This FPLC cookie is the cross-domain linker cookie hashed from the FPID cookie. It’s not HttpOnly, which means it can be read with JavaScript. It has a relatively short lifetime, just 20 hours.
+functional;_GRECAPTCHA;Google reCAPTCHA sets a necessary cookie (_GRECAPTCHA) when executed for the purpose of providing its risk analysis.
+advertising;__gsas;Provides ad delivery or retargeting.
+advertising;__gpi;Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.
+advertising;__gpi_optout;Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.
+advertising;GED_PLAYLIST_ACTIVITY;Improves targeting/advertising within the website
+advertising;ACLK_DATA;This cookie is used to help improve advertising. This targets advertising based on what's relevant to a user, to improve reporting on campaign performance.
+functional;AEC;AEC cookies ensure that requests within a browsing session are made by the user, and not by other sites. These cookies prevent malicious sites from acting on behalf of a user without that user’s knowledge.
+advertising;ADS_VISITOR_ID;Cookie required to use the options and on-site web services
+advertising;__Secure-3PSIDCC;Targeting cookie. Used to create a user profile and display relevant and personalised Google Ads to the user.
+advertising;__Secure-3PSIDTS;Targeting cookie. Used to create a user profile and display relevant and personalised Google Ads to the user.
+advertising;__Secure-1PSIDTS;Targeting cookie. Used to create a user profile and display relevant and personalised Google Ads to the user.
+advertising;__Secure-1PAPISID;Targeting cookie. Used to create a user profile and display relevant and personalised Google Ads to the user.
+advertising;__Secure-3PSID;Targeting cookie. Used to profile the interests of website visitors and display relevant and personalised Google ads.
+advertising;__Secure-1PSID;Targeting cookie. Used to create a user profile and display relevant and personalised Google Ads to the user.
+advertising;__Secure-1PSIDCC;Targeting cookie. Used to create a user profile and display relevant and personalised Google Ads to the user.
+advertising;__Secure-3PAPISID;Profiles the interests of website visitors to serve relevant and personalised ads through retargeting.
+advertising;OGPC;These cookies are used by Google to store user preferences and information while viewing Google mapped pages.
+advertising;OGP;This cookie is used by Google to activate and track the Google Maps functionality.
+advertising;1P_JAR;These cookies are set via embedded youtube-videos. They register anonymous statistical data on for example how many times the video is displayed and what settings are used for playback.
+functional;CONSENT;Google cookie consent tracker
+functional;SOCS;Stores a user's state regarding their cookies choices
+functional;ACCOUNT_CHOOSER;Used to sign in with Google account.
+functional;SMSV;Used to sign in with Google account.
+functional;__Host-1PLSID;Used to sign in with Google account.
+functional;__Host-3PLSID;Used to sign in with Google account.
+functional;__Host-GAPS;Used to sign in with Google account.
+functional;LSOLH;This cookie is for authentication with your Google account
+functional;g_enabled_idps;Used for Google Single Sign On
+functional;G_AUTHUSER_H;Google Authentication
+functional;SEARCH_SAMESITE;SameSite prevents the browser from sending this cookie along with cross-site requests. The main goal is mitigate the risk of cross-origin information leakage. It also provides some protection against cross-site request forgery attacks.
+advertising;AID;Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search.
+advertising;SID;Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search.
+advertising;HSID;Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search.
+advertising;APISID;Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search.
+advertising;SAPISID;Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search.
+advertising;SSID;Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search.
+advertising;SIDCC;Download certain Google Tools and save certain preferences, for example the number of search results per page or activation of the SafeSearch Filter. Adjusts the ads that appear in Google Search.
+advertising;OTZ;Aggregate analysis of website visitors
+advertising;A;Google uses this cookies to make advertising more engaging to users and more valuable to publishers and advertisers
+advertising;DV;This cookies is used to collect website statistics and track conversion rates and Google ad personalisation
+advertising;NID;This cookies is used to collect website statistics and track conversion rates and Google ad personalisation
+advertising;TAID;This cookie is used to link your activity across devices if you’ve previously signed in to your Google Account on another device. We do this to coordinate that the ads you see across devices and measure conversion events.
+advertising;FPGCLDC;Used to help advertisers determine how many times users who click on their ads end up taking an action on their site
+advertising;_gcl_au;Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.
+advertising;_gcl_dc;Used by Google AdSense for experimenting with advertisement efficiency across websites using their services.
+functional;_gaexp;Used to determine a user's inclusion in an experiment and the expiry of experiments a user has been included in.
+functional;GCLB;This cookie is used in context with load balancing - This optimizes the response rate between the visitor and the site, by distributing the traffic load on multiple network links or servers.
+analytics;FCCDCF;Cookie for Google Funding Choices API which allows for functionality specific to consent gathering for things like GDPR consent and CCPA opt-out.
+analytics;FCNEC;Cookie for Google Funding Choices API which allows for functionality specific to consent gathering for things like GDPR consent and CCPA opt-out.
+advertising;IDE;This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite 
+advertising;DSID;This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite 
+advertising;ID;This cookie is used for targeting, analyzing and optimisation of ad campaigns in DoubleClick/Google Marketing Suite 
+advertising;RUL;Used by DoubleClick to determine if the website ad was properly displayed. This is done to make their marketing efforts more efficient.
+advertising;FLC;This cookie is used to link your activity across devices if you’ve previously signed in to your Google Account on another device. We do this to coordinate that the ads you see across devices and measure conversion events.
+advertising;__gads;This cookie is used by Google for a variety of purposes (e.g., ensuring Frequency Caps work correctly). It includes AdSense if you have AdSense enabled. This cookie is associated with the DoubleClick for Publishers service from Google. Its purpose is to monitor the showing of advertisements on the site, for which the owner may earn some revenue. The main purpose of this cookie is targeting/advertising.
+advertising;GoogleAdServingTest;Used to register what ads have been displayed to the user.
+analytics;S1;Comscore: statistical and analytical data
+analytics;C1;Comscore: statistical and analytical data
+analytics;s_cc;Used to determine if browser of user accepts cookies or not
+analytics;s_sq;Used to register the previous link clicked by the user
+analytics;s_vi;Contains a unique ID to identify a user
+analytics;s_fid;Alternative cookie with unique user ID / timestamp when the s_vi cookie can not be set for technical reasons
+analytics;fid;If other visitor ID methods fail, Adobe sets a fallback cookie or uses a combination of IP address and user agent to identify the visitor.
+advertising;s_ecid;This cookie is set by the customer's domain after the AMCV cookie is set by the client. The purpose of this cookie is to allow persistent ID tracking in the 1st-party state and is used as a reference ID if the AMCV cookie has expired.
+analytics;s_ppv;Stores information on the percentage of the page displayed
+analytics;s_tp;This lets us know how much of the page you viewed.
+functional;sat_track;The sat_track cookie is a part of Adobe Analytics. It controls the enabling and disabling of cookies and whether they are loaded onto the site.
+advertising;demdex;Unique value with which Audience Manager can identify a user. Used, among others, for identification, segmentation, modeling and reporting purposes.
+advertising;dextp;Registers the date plus time (timestamp) on which a data synchronization was last performed by the Audience Manager.
+advertising;dst;Used to register a possible error message when sending data to a linked system.
+advertising;_dp;Used to determine if browser of user accepts cookies or not
+advertising;aam_uuid;Adobe Audience Manager - data management platform uses these cookies to assign a unique ID when users visit a website.
+advertising;AMCV_;Adobe Experience Cloud uses a cookie to store a unique visitor ID that is used across Experience Cloud Solutions.
+advertising;AMCVS_;The AMCVS cookie serves as a flag indicating that the session has been initialized. Its value is always 1 and discontinues when the session has ended.
+advertising;mbox;Adobe Target uses cookies to give website operators the ability to test which online content and offers are more relevant to visitors.
+functional;at_check;A simple test value used to determine if a visitor supports cookies. Set each time a visitor requests a page.
+functional;renderid;This cookie is needed by the dispatcher (webserver) to distinguish between the different publisher server.
+advertising;dpm;DPM is an abbreviation for Data Provider Match. It tells internal, Adobe systems that a call from Audience Manager or the Adobe Experience Cloud ID Service is passing in customer data for synchronization or requesting an ID.
+advertising;TPC;Used to determine if browser of user accepts third party cookies or not
+advertising;C;Used to determine if browser of user accepts cookies or not
+advertising;uid;Contains a unique ID to identify a user
+advertising;cid;Unique value to be able to identify cookies from users (same as uid)
+advertising;GCM;Checks if a new partner cookie synchronization is required
+advertising;CM;Checks if a new partner cookie synchronization is required (cookie set by ad server)
+advertising;CM14;Checks if a new partner cookie synchronization is required (cookie set during cookie synchronization )
+advertising;token;Security token for opt out functionality
+advertising;otsid;Opt out cookie for specific advertiser
+advertising;adtrc;Used to determine if browser related information has been collected
+advertising;SR;Unique value that records info about consecutive ads - includes: total impressions, daily impressions, total clicks, daily clicks, and last impression date
+advertising;CT;Identifies the last click membership for third-party pixels on advertiser's pages
+advertising;EBFCD;Registers daily max. number of impressions (frequency cap) for expanding advertisements (expandables)
+advertising;EBFC;Registers max. total number of impressions (frequency cap) for expanding advertisements (expandables)
+advertising;CFFC;Registers max. number of impressions (frequency cap) for compound banners
+advertising;DigiTrust.v1.identity;Unique value with which the user is identified by DigiTrust, an independent industrial body
+advertising;lu;"Used to record whether the person chose to remain logged in
+
+Contents: User ID and miscellaneous log in information (e.g., number of logins per account, state of the ""remember me"" check box, etc.)"
+advertising;xs;"Used in conjunction with the c_user cookie to authenticate your identity to Facebook.
+
+Contents: Session ID, creation time, authentication value, secure session state, caching group ID"
+advertising;c_user;"Used in conjunction with the xs cookie to authenticate your identity to Facebook.
+
+Contents: User ID"
+advertising;m_user;"Used to authenticate your identity on Facebook's mobile website.
+
+Contents: Email, User ID, authentication value, version, user agent capability, creation time, Facebook version indicator"
+advertising;pl;"Used to record that a device or browser logged in via Facebook platform.
+
+Contents: Y/N"
+advertising;dbln;"Used to enable device-based logins
+
+Contents: Login authentication values"
+advertising;aks;"Determines the login state of a person visiting accountkit.com
+
+Contents: Account kit access token"
+advertising;aksb;"Authenticates logins using Account Kit
+
+Contents: Request time value"
+advertising;sfau;"Optimizes recovery flow after failed login attempts
+
+Contents: Encrypted user ID, contact point, time stamp, and other login information"
+advertising;ick;Stores an encryption key used to encrypt cookies
+advertising;csm;Insecure indicator
+advertising;s;"
+Facebook browser identification, authentication, marketing, and other Facebook-specific function cookies."
+advertising;datr;Used to prevent creation of fake / spammy accounts. Datr cookie is associated with a browser, not individual people.
+advertising;sb;Facebook browser identification, authentication, marketing, and other Facebook-specific function cookies.
+advertising;fr;Contains a unique browser and user ID, used for targeted advertising.
+advertising;oo;Ad optout cookie
+advertising;ddid;Used to open a specific location in an advertiser's app upon installation
+advertising;locale;"This cookie contains the display locale of the last logged in user on this browser. This cookie
+appears to only be set after the user logs out.
+The locale cookie has a lifetime of one week."
+advertising;_fbp;Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers
+advertising;_fbc;Used by Facebook to deliver a series of advertisement products such as real time bidding from third party advertisers
+advertising;js_ver;Records the age of Facebook javascript files.
+advertising;rc;Used to optimize site performance for advertisers
+advertising;campaign_click_url;Records the Facebook URL that an individual landed on after clicking on an ad promoting Facebook
+functional;wd;This cookie stores the browser window dimensions and is used by Facebook to optimise the rendering of the page.
+advertising;usida;Collects a combination of the user’s browser and unique identifier, used to tailor advertising to users.
+advertising;fl_inst;Used to check if Flash plugin is enabled in browser of user.
+advertising;pvc2;Contains information related to ad impressions.
+advertising;pcc2;Contains information related to ad impressions.
+advertising;trc;Contains information related to ad impressions.
+advertising;tuuid;Unique value to identify individual users.
+advertising;ad2;Contains information related to ad impressions.
+advertising;MR;Used to collect information for analytics purposes.
+advertising;MUID;Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.
+advertising;MUIDB;Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.
+advertising;MC1;Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.
+advertising;MSFPC;Identifies unique web browsers visiting Microsoft sites. These cookies are used for advertising, site analytics, and other operational purposes.
+advertising;_uetsid;This cookie is used by Bing to determine what ads should be shown that may be relevant to the end user perusing the site.
+advertising;_uetvid;This is a cookie utilised by Microsoft Bing Ads and is a tracking cookie. It allows us to engage with a user that has previously visited our website.
+advertising;ANON;Contains the A, a unique identifier derived from your Microsoft account, which is used for advertising, personalization, and operational purposes. It is also used to preserve your choice to opt out of interest-based advertising from Microsoft if you have chosen to associate the opt-out with your Microsoft account.
+advertising;ANONCHK;Used to store session ID for a users session to ensure that clicks from adverts on the Bing search engine are verified for reporting purposes and for personalisation
+advertising;CC;Contains a country code as determined from your IP address.
+functional;PPAuth;Helps to authenticate you when you sign in with your Microsoft account.
+functional;MSPAuth;Helps to authenticate you when you sign in with your Microsoft account.
+functional;MSNRPSAuth;Helps to authenticate you when you sign in with your Microsoft account.
+functional;KievRPSAuth;Helps to authenticate you when you sign in with your Microsoft account.
+functional;WLSSC;Helps to authenticate you when you sign in with your Microsoft account.
+functional;MSPProf;Helps to authenticate you when you sign in with your Microsoft account.
+functional;MC0;Detects whether cookies are enabled in the browser.
+functional;MS0;Identifies a specific session.
+advertising;NAP;Contains an encrypted version of your country, postal code, age, gender, language and occupation, if known, based on your Microsoft account profile.
+advertising;MH;Appears on co-branded sites where Microsoft is partnering with an advertiser. This cookie identifies the advertiser, so the right ad is selected.
+advertising;childinfo;Contains information that Microsoft account uses within its pages in relation to child accounts.
+advertising;kcdob;Contains information that Microsoft account uses within its pages in relation to child accounts.
+advertising;kcrelid;Contains information that Microsoft account uses within its pages in relation to child accounts.
+advertising;kcru;Contains information that Microsoft account uses within its pages in relation to child accounts.
+advertising;pcfm;Contains information that Microsoft account uses within its pages in relation to child accounts.
+functional;x-ms-gateway-slice;Identifies a gateway for load balancing.
+advertising;ToptOut;Records your decision not to receive interest-based advertising delivered by Microsoft.
+advertising;ACH01;Maintains information about which ad and where the user clicked on the ad.
+functional;AADSSO;Microsoft Microsoft Online Authentication Cookie
+functional;brcap;Microsoft Microsoft Online Authentication Cookie
+functional;SRM_B; Collected user data is specifically adapted to the user or device. The usercan also be followed outside of the loaded website, creating a picture of the visitor's behavior.
+functional;buid;This cookie is used by Microsoft to securely verify your login information
+functional;esctx;This cookie is used by Microsoft to securely verify your login information
+functional;fpc;This cookie is used by Microsoft to securely verify your login information
+functional;stsservicecookie;Cookie for Azure Active Directory B2C-verification
+functional;ARRAffinity;When using Microsoft Azure as a hosting platform and enabling load balancing, this cookie ensures that  requests from one visitor's browsing session are always handled by the same server in the cluster.
+functional;ARRAffinitySameSite;When using Microsoft Azure as a hosting platform and enabling load balancing, this cookie ensures that  requests from one visitor's browsing session are always handled by the same server in the cluster.
+functional;__AntiXsrfToken;This cookie is used to prevent Cross-site request forgery (often abbreviated as CSRF) attacks of the website. CSRF attacks exploit the trust that a site has in a user's browser.
+functional;.ASPXANONYMOUS;Created by ASP.Net. This cookie configures anonymous identification for application authorization. This is required to identify entities that are not authenticated when authorization is required.
+functional;.ASPXAUTH;Created by ASP.Net. .ASPXAUTH is a cookie to identify if the user is authenticated( As user's identity has been verified)
+functional;nSGt-;This cookie is used by Microsoft to securely verify your Sharepoint login information
+functional;RpsContextCookie;This cookie is used by Microsoft to securely verify your Sharepoint login information
+functional;ASLBSACORS;Microsoft App Service and Front Door Affinity Cookies. These cookies are used to direct your browser to use the appropriate backend server.
+functional;ASLBSA;Microsoft App Service and Front Door Affinity Cookies. These cookies are used to direct your browser to use the appropriate backend server.
+functional;ASPSESSIO;Browsing session: the asterisks identify an alphanumerical code that varies from session to session in automatic mode.
+functional;ApplicationGatewayAffinity;This cookie is used by Azure Apps to keep a user session on the same server.
+functional;ApplicationGatewayAffinityCORS;This cookie is used by Azure Apps to keep a user session on the same server.
+functional;VisitorStorageGuid;This cookie is used by Azure Apps to keep a user session on the same server.
+functional;ai_session;This is a unique anonymous session identifier cookie.
+functional;ai_user;This is a unique user identifier cookie enabling counting of the number of users accessing the application over time.
+functional;AADNonce.forms;Unique identifier of one authentication session to prevent replay.
+functional;DcLcid;Saves language preference.
+analytics;_clck; This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form.
+analytics;_clsk;This cookie is installed by Microsoft Clarity to store information of how visitors use a website and help in creating an analytics report of how the website is doing. The data collected including the number visitors, the source where they have come from, and the pages visited in an anonymous form.
+analytics;SM;This is a Microsoft cookie which we use to measure the use of the website for internal analytics
+analytics;CLID;The cookie is set by embedded Microsoft Clarity scripts. The purpose of this cookie is for heatmap and session recording.
+analytics;MicrosoftApplicationsTelemetryDeviceId;Used to store a unique device ID for tracking behavior and usage of the website
+advertising;guest_id;This cookie is set by Twitter to identify and track the website visitor. Registers if a users is signed in the Twitter platform and collects information about ad preferences. 
+advertising;personalization_id;Unique value with which users can be identified by Twitter. Collected information is used to be personalize Twitter services, including Twitter trends, stories, ads and suggestions.
+advertising;ct0;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.
+advertising;gt;Twitter uses these cookies to support plugin integration with our website. If you use the Tweet plugin and log into your Twitter account, Twitter will set some of these cookies to remember that you are logged in. Twitter will also use cookies for their own analytics purposes.
+advertising;guest_id_marketing;This cookie is for advertising when logged out
+advertising;guest_id_ads;This cookie is for advertising when logged out
+advertising;muc_ads;These cookies are placed when you come to our website via Twitter. A cookie from Twitter is also placed on our website, with which we can later show a relevant offer on Twitter
+analytics;__insp_pad;This cookie contains the page number of the session recording.
+analytics;__insp_sid;This cookie contains the ID of the Inspectlet session that is being recorded.
+analytics;__insp_ref;The cookie contains the referrer source/URL
+analytics;__insp_scpt;This cookie contains an integer that allows us to know if the screen capture was triggered or not.
+analytics;__insp_nv;This cookie contains a value that allows Inspectlet to know if this user is a new visitor or a returning visitor.
+analytics;__insp_wid;This cookie contains an uniqe user ID provided by the website if set up.
+analytics;__insp_uid;This cookie contains random ID assigned to a visitor.
+analytics;__insp_dct;Registers statistical data on visitors' behaviour on the website. Used for internal analytics by the website operator.
+analytics;CTK;Contains information related to registering (counting) a job application via a job listing on indeed.com.
+analytics;ctkgen;Contains information related to registering (counting) a job application via a job listing on indeed.com.
+analytics;INDEED_CSRF_TOKEN;Contains information related to registering (counting) a job application via a job listing on indeed.com.
+analytics;jasx_pool_id;Contains information related to registering (counting) a job application via a job listing on indeed.com.
+analytics;pagead/conv/%INTEGER%;Contains information related to registering (counting) a job application via a job listing on indeed.com.
+analytics;tv_spot_tracker;Contains information about the timeslot of a running TV ad
+functional;cookie-consent-io;Registers cookie preferences of a user
+functional;cookie-consent-io-timestamp;Registers user activity timestamp
+functional;cookie-consent-io-gdpr;Register anonymous consent identifier for GDPR consent compliance
+advertising;ccec_user;Contains information about the customer to allow retargeting.
+advertising;GPS;Registers a unique ID on mobile devices to enable tracking based on geographical GPS location.
+advertising;VISITOR_INFO1_LIVE;Tries to estimate the users' bandwidth on pages with integrated YouTube videos. Also used for marketing
+functional;PREF;This cookie stores your preferences and other information, in particular preferred language, how many search results you wish to be shown on your page, and whether or not you wish to have Google’s SafeSearch filter turned on.
+functional;YSC;Registers a unique ID to keep statistics of what videos from YouTube the user has seen.
+functional;DEVICE_INFO;Used to detect if the visitor has accepted the marketing category in the cookie banner. This cookie is necessary for GDPR-compliance of the website.
+functional;LOGIN_INFO;This cookie is used to play YouTube videos embedded on the website.
+advertising;__adm_ui;Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+advertising;__adm_uiex;Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+advertising;__adm_usyncc;Used to identify the visitor across visits and devices. This allows the website to present the visitor with relevant advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;uids;Registers user behaviour and navigation on the website, and any interaction with active campaigns. This is used for optimizing advertisement and for efficient retargeting.
+functional;__cfduid;The '__cfduid' cookie is set by the CloudFlare service to identify trusted web traffic. It does not correspond to any user id in the web application, nor does the cookie store any personally identifiable
+functional;__cfruid;Used by the content network, Cloudflare, to identify trusted web traffic.
+functional;__cf_bm;Cloudflare's bot products identify and mitigate automated traffic to protect your site from bad bots. Cloudflare places the __cf_bm cookie on End User devices that access Customer sites that are protected by Bot Management or Bot Fight Mode. The __cf_bm cookie is necessary for the proper functioning of these bot solutions.
+functional;cf_chl_2;Used by Cloudflare for the execution of Javascript or Captcha challenges. These cookies are not used for tracking or beyond the scope of the challenge.
+functional;__cflb;When enabling session affinity with Cloudflare Load Balancer, Cloudflare sets a __cflb cookie with a unique value on the first response to the requesting client. Cloudflare routes future requests to the same origin, optimizing network resource usage. In the event of a failover, Cloudflare sets a new __cflb cookie to direct future requests to the failover pool.
+advertising;__uin_bw;Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.
+advertising;__uir_bw;Collects data on visitors' behaviour and interaction - This is used to optimize the website and make advertisement on the website more relevant.
+advertising;__uis;Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+advertising;HAPLB5S;Used to track visitors on multiple websites, in order to present relevant advertisement based on the visitor's preferences.
+advertising;_dbefe;Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products.
+analytics;_hjid;Hotjar cookie. This cookie is set when the customer first lands on a page with the Hotjar script. It is used to persist the random user ID, unique to that site on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID.
+analytics;_hjIncludedInSample;Hotjar cookie. This session cookie is set to let Hotjar know whether that visitor is included in the sample which is used to generate funnels.
+analytics;_hjClosedSurveyInvites;Hotjar cookie. This cookie is set once a visitor interacts with a Survey invitation modal popup. It is used to ensure that the same invite does not re-appear if it has already been shown.
+analytics;_hjDonePolls;Hotjar cookie. This cookie is set once a visitor completes a poll using the Feedback Poll widget. It is used to ensure that the same poll does not re-appear if it has already been filled in.
+analytics;_hjMinimizedPolls;Hotjar cookie. This cookie is set once a visitor minimizes a Feedback Poll widget. It is used to ensure that the widget stays minimizes when the visitor navigates through your site.
+analytics;_hjDoneTestersWidgets;Hotjar cookie. This cookie is set once a visitor submits their information in the Recruit User Testers widget. It is used to ensure that the same form does not re-appear if it has already been filled in.
+analytics;_hjMinimizedTestersWidgets;Hotjar cookie. This cookie is set once a visitor minimizes a Recruit User Testers widget. It is used to ensure that the widget stays minimizes when the visitor navigates through your site.
+analytics;_hjShownFeedbackMessage;This cookie is set when a visitor minimizes or completes Incoming Feedback. This is done so that the Incoming Feedback will load as minimized immediately if they navigate to another page where it is set to show.
+functional;_hjTLDTest;When the Hotjar script executes we try to determine the most generic cookie path we should use, instead of the page hostname. This is done so that cookies can be shared across subdomains (where applicable). To determine this, we try to store the _hjTLDTest cookie for different URL substring alternatives until it fails. After this check, the cookie is removed.
+functional;_hjUserAttributesHash;User Attributes sent through the Hotjar Identify API are cached for the duration of the session in order to know when an attribute has changed and needs to be updated.
+analytics;_hjCachedUserAttributes;This cookie stores User Attributes which are sent through the Hotjar Identify API, whenever the user is not in the sample. These attributes will only be saved if the user interacts with a Hotjar Feedback tool.
+functional;_hjLocalStorageTest;This cookie is used to check if the Hotjar Tracking Script can use local storage. If it can, a value of 1 is set in this cookie. The data stored in_hjLocalStorageTest has no expiration time, but it is deleted immediately after creating it so the expected storage time is under 100ms.
+functional;_hjptid;This cookie is set for logged in users of Hotjar, who have Admin Team Member permissions. It is used during pricing experiments to show the Admin consistent pricing across the site.
+functional;_hjAbsoluteSessionInProgress;The cookie is set so Hotjar can track the beginning of the user's journey for a total session count. It does not contain any identifiable information.
+functional;_hjFirstSeen;The cookie is set so Hotjar can track the beginning of the user's journey for a total session count. It does not contain any identifiable information.
+functional;_hjIncludedInPageviewSample;This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's page view limit.
+functional;_hjIncludedInSessionSample;This cookie is set to let Hotjar know whether that visitor is included in the data sampling defined by your site's daily session limit
+functional;_hjSession_;A cookie that holds the current session data. This ensues that subsequent requests within the session window will be attributed to the same Hotjar session.
+functional;_hjSessionUser_;Hotjar cookie that is set when a user first lands on a page with the Hotjar script. It is used to persist the Hotjar User ID, unique to that site on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID.
+functional;_hjSessionTooLarge;Causes Hotjar to stop collecting data if a session becomes too large. This is determined automatically by a signal from the WebSocket server if the session size exceeds the limit.
+functional;_hjSessionRejected;If present, this cookie will be set to 1 for the duration of a user’s session, if Hotjar rejected the session from connecting to our WebSocket due to server overload. This cookie is only applied in extremely rare situations to prevent severe performance issues.
+functional;_hjSessionResumed;A cookie that is set when a session/recording is reconnected to Hotjar servers after a break in connection.
+advertising;_twitter_sess;This cookie is set due to Twitter integration and sharing capabilities for the social media.
+advertising;ac_enable_tracking;This cookie is associated with Active Campaign and is set to confirm that tracking has been enabled for the website. Tracking is used to create reports of our web traffic and improve the user experience of the website.
+functional;ASP.NET_Sessio;General purpose platform session cookie, used by sites written with Microsoft .NET based technologies. Usually used to maintain an anonymised user session by the server.
+functional;ASP.NET_Sessio_Fallback;Fallback session cookie to support older browsers that haven't implemented the Secure flag, in modern evergreen browsers this cookie is never set as it haven't got the Secure flag.
+functional;JSESSIO;JSESSIO is a platform session cookie and is used by sites with JavaServer Pages (JSP). The cookie is used to maintain an anonymous user session by the server.
+functional;ORA_WWV_APP_;Security cookie for applications.
+functional;laravel_session;Internally laravel uses laravel_session to identify a session instance for a user
+functional;PHPSESSID;Cookie generated by applications based on the PHP language. This is a general purpose identifier used to maintain user session variables. It is normally a random generated number, how it is used can be specific to the site, but a good example is maintaining a logged-in status for a user between pages.
+functional;XSRF-TOKEN;This cookie is written to help with site security in preventing Cross-Site Request Forgery attacks.
+advertising;lidc;Used by the social networking service, LinkedIn, for tracking the use of embedded services.
+advertising;bcookie;Used by LinkedIn to track the use of embedded services.
+advertising;bscookie;Used by LinkedIn to track the use of embedded services.
+advertising;trkCode;This cookie is used by LinkedIn to support the functionality of adding a panel invite labeled 'Follow Us'
+advertising;trkInfo;This cookie is used by LinkedIn to support the functionality of adding a panel invite labeled 'Follow Us'
+advertising;li_oatml;Collects information about how visitors use our site.
+advertising;liap;Cookie used for Sign-in with Linkedin and/or to allow for the Linkedin follow feature.
+advertising;lissc;Pending
+advertising;spectroscopyId;These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the 'Apply with LinkedIn' or the 'Sign-in with LinkedIn' functions, collecting information about how visitors use the site, etc.
+advertising;UserMatchHistory;These cookies are set by LinkedIn for advertising purposes, including: tracking visitors so that more relevant ads can be presented, allowing users to use the 'Apply with LinkedIn' or the 'Sign-in with LinkedIn' functions, collecting information about how visitors use the site, etc.
+functional;lang;Used to remember a user's language setting
+functional;li_gc;Used to store guest consent to the use of cookies for non-essential purposes
+functional;li_rm;Used as part of the LinkedIn Remember Me feature and is set when a user clicks Remember Me on the device to make it easier for him or her to sign in to that device
+functional;AnalyticsSyncHistory;Used to store information about the time a sync with the lms_analytics cookie took place for users in the Designated Countries
+analytics;ln_or;Used to determine if Oribi analytics can be carried out on a specific domain
+advertising;li_sugr;Used to make a probabilistic match of a user's identity outside the Designated Countries
+functional;AWSALB;These cookies enable us to allocate server traffic to make the user experience as smooth as possible. A so-called load balancer is used to determine which server currently has the best availability. The information generated cannot identify you as an individual.
+functional;AWSALBCORS;For continued stickiness support with CORS use cases after the Chromium update, we are creating additional stickiness cookies for each of these duration-based stickiness features named AWSALBCORS (ALB).
+functional;AWSELBCORS;For continued stickiness support with CORS use cases after the Chromium update, we are creating additional stickiness cookies for each of these duration-based stickiness features named AWSELBCORS (ALB).
+functional;AWSELB;AWS Classic Load Balancer Cookie: Load Balancing Cookie: Used to map the session to the instance.
+functional;AWSALBTGCORS;For continued stickiness support with CORS use cases after the Chromium update, we are creating additional stickiness cookies for each of these duration-based stickiness features named AWSELBCORS (ALB).
+functional;AWSALBTG;For continued stickiness support with CORS use cases after the Chromium update, we are creating additional stickiness cookies for each of these duration-based stickiness features named AWSELBCORS (ALB).
+functional;aws-csds-token;Anonymous metrics validation token
+functional;aws_lang;Stores the language used with AWS.
+analytics;aws-target-visitor-id;Used to collect anonymised information about how which web pages are visited, how long users spend on pages and what users search for.
+functional;aws-priv;Anonymous cookie for privacy regulations
+advertising;ad-id;Clickthroughs to Amazon websites: Noting how the user got to Amazon via this website
+advertising;ad-privacy;Provided by amazon-adsystem.com for tracking user actions on other websites to provide targeted content to the users.
+advertising;CMID;Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.
+advertising;CMPRO;Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that the visitor is shown the same advertisement.
+advertising;CMPS;Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads
+advertising;CMRUM3;Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.
+advertising;CMST;Collects visitor data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.
+advertising;cookieJartestCookie;Pending
+advertising;obuid;Holds the anonymous user's ID. Used for tracking user actions, such as clicks on the recommendations
+advertising;apnxs;This cookie is set by Outbrain and it is used to analyse technical data about the website
+advertising;criteo;This cookie is set by Outbrain and it is used to analyse technical data about the website
+advertising;mdfrc;This cookie is set by Outbrain and it is used to analyse technical data about the website
+advertising;adrl;This cookie is set by Outbrain and it is used to analyse technical data about the website
+advertising;ttd;This cookie is set by Outbrain and it is used to analyse technical data about the website
+advertising;jpxumaster;Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;jpxumatched;Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;PUBMDCID;Registers a unique ID that identifies the user's device during return visits across websites that use the same ad network. The ID is used to allow targeted ads.
+advertising;pp;This cookie tracks the last publisher website that you visited that contained an advertisement served by PubMatic.
+advertising;SPugT;This cookie is used to track when the server-side cookie store was last updated for the browser, and it is used in conjunction with the PugT cookie, described below.
+advertising;KADUSERCOOKIE;PubMatic UserId. this identifier to identify each user uniquely. Some of the uses of this anonymous identifier are to support frequency capping, perform UID sync ups with DSP's, DMP's. DMP's / DP's push audicne data against this ID. API publishers sends this ID while making API requests to PubMatic AdServer. UAS Ad Engine also uses this cookie for FCAP purposes.
+advertising;PUBRETARGET;Pixel expiry. Used to indicate if user must be considered for various re-targeting ad campaigns running in PubMatic system.
+advertising;KCCH;To avoid race condition in PubMatic userId generation, showad.js / universalpixel.js set this cookie first. if and only if not set already. Existence of this cookie means that current flow of the execution should not generate PubMatic userId cookie, as its already being set by other flow which has set KCCH.
+advertising;SyncRTB;Keeps list of DSP pixel Id's PubMatic synced with so far. PubMatic does userId sync up with DSP's. This cookie holds next sync up time for every pixel. Helps to maintain sync up frequency at DSP level.
+advertising;DPSync;Keeps list of DMP pixel Id's PubMatic synced with so far PubMatic does userId sync up with DMP's. This cookie holds next sync up time for every pixel. Helps to maintain sync up frequency at DMP level.
+advertising;ADUSERCOOKIE;PubMatic UserId. this identifier to identify each user uniquely. Some of the uses of this anonymous identifier are to support frequency capping, perform UID sync ups with DSP's, DMP's. DMP's / DP's push audicne data against this ID. API publishers sends this ID while making API requests to PubMatic AdServer. UAS Ad Engine also uses this cookie for FCAP purposes.
+advertising;PugT;It is used to track when the cookies were updated on the browser. It is used to limit the number of calls to server side cookie store
+advertising;KRTBCOOKIE_;Registers a unique ID that identifies the user's device during return visits across websites that use the same ad network. The ID is used to allow targeted ads.
+analytics;f5_cspm;This cookie name is associated with the BIG-IP product suite from company F5. It is used to monitor page load speed, as part of site performance monitoring.
+functional;KTPCACOOKIE;We use this cookie to check if third-party cookies are enabled on the user’s browser.
+functional;COKENBLD;This cookie sets a flag to “true” if cookies are enabled on the user’s browser.
+advertising;USCC;This cookie enables PubMatic to sync user IDs properly in situations where multiple advertisements might appear on the same webpage.
+advertising;DPPIX_ON;These cookies enable PubMatic to properly sync cookie IDs with our partners by ensuring that our partners do not override each other during the sync process.
+advertising;SYNCUPPIX_ON;These cookies enable PubMatic to properly sync cookie IDs with our partners by ensuring that our partners do not override each other during the sync process.
+functional;PUBUIDSYNCUPFQ;This cookie indicates the last time that we synced IDs with our partner.
+advertising;camfreq_;This cookie is set for each campaign and indicates the number of times (e.g., frequency) that a particular advertisement may have been shown on the applicable publisher site.
+advertising;pubfreq_;This cookie is set for each advertising network and indicates the number of times (e.g., frequency) that a particular advertisement may have been shown on the applicable publisher site.
+functional;pubtime_;This cookie stores the period of time after which ad frequency counters reset.
+functional;PMFREQ_ON;This cookie ensures the proper functioning of the camfreq and pubfreq cookies, described above, in situations where one cookie may override the other.
+advertising;DPFQ;This cookie stores information regarding the number of times that a partner’s pixel is loaded by a user’s browser. This enables us to cap the number of times that a pixel is used to record a user’s visit to a website within a specific period of time.
+advertising;pi;This cookie enables us to determine which set of pixels needs to be executed on the browser.
+functional;FPtrust;This cookie is a session cookie used to  support the opt-out process via the Network Advertising Initiative.
+functional;_curtime;This cookie stores the current timestamp.
+functional;PMDTSHR;This cookie is set for Komli ad server and is used for default impression when other data is not available.
+functional;chk;This cookie is set on Google Chrome browsers that have a version less 67 or non-Chrome browsers, and is used for testing purposes.
+functional;chkSecSet;This cookie is set on Google Chrome browsers that have a version less 67 or non-Chrome browsers, and is used for testing purposes.
+functional;chkChromeAb67;This cookie is set on Google Chrome browsers that have a version above 67 and is used for testing purposes.
+functional;chkChromeAb67Sec;This cookie is set on Google Chrome browsers that have a version above 67 and is used for testing purposes.
+functional;pubsyncexp;Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.
+functional;Kiyohnl;Cookies are associated with the use of Kiyoh to collect and display customer reviews
+advertising;id5;Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.
+advertising;cip;Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;car;Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;callback;Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that the visitor is shown the same advertisement.
+advertising;cnac;Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;cf;Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.
+functional;gdpr;Determines whether the visitor has accepted the cookie consent box. This ensures that the cookie consent box will not be presented again upon re-en try.
+advertising;UIDR;Collects information of the user and his/her movement, such as timestamp for visits, most recently loaded pages and IP address. The data is used by the marketing research network, Scorecard Research, to analyse traffic patterns and carry out surveys to help their clients better understand the customer's preferences.
+advertising;SEUNCY;Registers a unique ID that identifies the user’s device for return visits.
+advertising;ljt_reader;Collects data related to reader interests, context, demographics and other information on behalf of the Lijit platform with the purpose of finding interested users on websites with related content.
+advertising;rek_content;Pending
+advertising;um;To enable the bidding process.
+advertising;umeh;To enable the bidding process.
+advertising;BSWtracker;Collects data on visitor behaviour from multiple websites, in order to present more relevant advertisement - This also allows the website to limit the number of times that the visitor is shown the same advertisement.
+advertising;_rxuuid;Sets a unique ID for the visitor, with which external advertisers can target the visitor with relevant advertisements. This linking service is provided by third-party advertising hubs, facilitating real-time bidding for advertisers.
+advertising;AA003;Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.
+advertising;ATN;Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.
+advertising;tt_viewer;Teads uses a “tt_viewer” cookie to help personalize the video ads you see on our partner websites.
+functional;cfid;This cookie is used to determine which type of device the visitor is using, so the website can be properly formatted
+functional;cftoken;This cookie is used to determine which type of device the visitor is using, so the website can be properly formatted
+functional;test_cookie;This cookie is set by DoubleClick (which is owned by Google) to determine if the website visitor's browser supports cookies.
+advertising;gckp;Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.
+advertising;um2;Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.
+advertising;tuuid_lu;Contains a unique visitor ID, which allows Bidswitch.com to track the visitor across multiple websites. This allows Bidswitch to optimize advertisement relevance and ensure that the visitor does not see the same ads multiple times.
+advertising;uu;Used to target ads by registering the user's movements across websites.
+advertising;cct;Necessary for the shopping cart functionality on the website
+advertising;tu;Used to target ads by registering the user's movements across websites.
+advertising;betweendigital.com;Collects data on visitors' behaviour and interaction - This is used to optimize the website and make advertisement on the website more relevant.
+functional;ss;Necessary for the functionality of the website's chat-box function.
+advertising;st_csd;Date of the last cookie-syn
+advertising;st_cs;Unique identifiers of DSPs
+advertising;cnfq;Technical cookie used to trigger the injection of monitoring scripts from a CNAME
+advertising;lcsrc;Technical cookie used to refresh date serialized in ISO format
+functional;dyncdn;End-point and traffic data
+advertising;gid;Global unique ID cross domains associated with an end-user
+advertising;csfq;Technical cookie used to trigger the injection of monitoring scripts
+advertising;partner-;Labeling end-users with keywords defined by a client.
+analytics;vs;Counting new visits
+advertising;Comp;Labeling end-users with keywords defined by a client.
+advertising;Pwb;Allows for the display of ads in the correct format based on browser, screen size, and OS.
+functional;Pdomid;Technical cookie used to distribute the traffic between Smart's servers
+advertising;sasd;Geolocation collection
+advertising;sasd2;Geolocation collection
+advertising;TestIfCookie;Technical cookie used to test if persistent cookies are accepted
+advertising;csync;Optimises ad display based on the user's movement combined and various advertiser bids for displaying user ads.
+advertising;TestIfCookieP;Technical cookie used to test if persistent cookies are accepted
+advertising;pid;Unique ID associated with an end-user (according to a domain and browser)
+functional;.AspNetCore.Antiforgery.;Anti-forgery cookie is a security mechanism to defend against cross-site request forgery (CSRF) attacks.
+advertising;unruly_m;Pending
+advertising;bdswch;Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;lidid;Collects data on visitors' behaviour and interaction - This is used to make advertisement on the website more relevant. The cookie also allows the website to detect any referrals from other websites.
+advertising;_li_ss;Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.
+advertising;tluid;This cookie is used to identify the visitor and optimize ad-relevance by collecting visitor data from multiple websites – this exchange of visitor data is normally provided by a third-party data-center or ad-exchange.
+advertising;t_gid;This cookie gives a user who interacts with Taboola Widget a User ID allowing us to target advertisements and content to this specific user ID.
+advertising;__zlcmid;Live chat widget on Slack contact page (ZopIM)
+advertising;i;Registers user data, such as IP address, geographical location, websites visited and on which advertisements the user has clicked, with the aim of optimizing the display of advertisements based on user relocation on websites that use the same advertising network.
+advertising;univ_id;This cookie collects information about the visitor for the purpose of serving advertisements.
+advertising;pd;This cookie stores information about which other third parties the user cookie (‘i’ cookie) has been synced with to reduce the amount of user matching done on your device.
+advertising;OAID;This cookie is used by the ad server software to manage which ads are placed on our website, and to capture clicks on those ads. Information is collected in anonymous form, and we do not use this data to deliver specific content, advertising or otherwise, to your browser.
+advertising;OAGEO;Used to avoid the repeated display of the same ad. Contains information about the users location.
+functional;__atuvc;This cookie is associated with the AddThis social sharing widget, it stores an updated page share count.
+functional;__atuvs;This cookie is associated with the AddThis social sharing widget, which serves a similar purpose to other cookies set by the service.
+functional;ssc;AddThis - Cookie related to an AddThis sharing button available on the website
+functional;uvc;AddThis - Cookie related to an AddThis sharing button available on the website
+functional;loc;AddThis - Cookie related to an AddThis sharing button available on the website
+functional;na_id;AddThis - Cookie related to an AddThis sharing button available on the website
+functional;na_tc;AddThis - Cookie related to an AddThis sharing button available on the website
+functional;ouid;AddThis - Cookie related to an AddThis sharing button available on the website
+advertising;DG_HID;Pending
+advertising;DG_IID;Pending
+advertising;DG_SID;Pending
+advertising;DG_UID;Pending
+advertising;DG_ZID;Pending
+advertising;DG_ZUID;Pending
+functional;fonts-loaded;This cookie checks and remembers whether you have the font used by funda. Remembering this check makes visiting the website faster.
+functional;html-classes;Remembering how the website is displayed to adjust the appearance of the site to the environment and browser used by the user. This ensures that the site loads faster on a subsequent visit.
+functional;SNLB2;Pending
+functional;lz_last_visit;Last Visit (Timestamp), used to determine when the website visitor browsed the website the last time.
+functional;lz_userid;Sets up a unique ID which is used to generate statistical data about the website visitor's usage of the website.
+functional;lz_visits;Number of visits, is used to identify how often the website visitor already visited the website.
+functional;.secureclient;Pending
+functional;.securesession;Pending
+functional;.stateflags;Pending
+functional;.auth;Pending
+advertising;advst_uid_11;Pending
+advertising;DISPATCHER;Pending
+advertising;DSP_UID;Pending
+analytics;picreel_tracker__visited;Used for statistical purposes when counting the number of pages, the user visited
+analytics;picreel_tracker__first_visit;Used for statistical purposes, keeping the date of the first visit
+analytics;picreel_tracker__page_views;Pending
+analytics;picreel_new_price;Pending
+analytics;__auc;Used to track and report information to the Alexa analytics
+analytics;ajs_user_id; This cookie helps track visitor usage, events, target marketing, and can also measure application performance and stability.
+analytics;ajs_anonymous_id;Used for Analytics and help count how many people visit a certain site by tracking if you have visited before
+analytics;ajs_group_id;Track visitor usage and events within the website
+advertising;ads_prefs;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.
+advertising;auth_token;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.
+advertising;csrf_same_site;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.
+advertising;csrf_same_site_set;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.
+advertising;dnt;These are third party Twitter cookies. These cookies enable users, if they wish, to login to their Twitter account share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website.
+advertising;eu_cn;These are third party Twitter cookies. These cookies enable users, if they wish, to login to their Twitter account share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website.
+advertising;external_referer;Our Website uses Twitter buttons to allow our visitors to follow our promotional Twitter feeds, and sometimes embed feeds on our Website.
+advertising;kdt;These are third party Twitter cookies. These cookies enable users, if they wish, to login to their Twitter account share content from our websites with their friends. These cookies do not allow us access to your accounts or provide us with any confidential information relating to your accounts. These cookies also allow a news feed of tweets to appear on the website.
+advertising;remember_checked_on;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. These cookies do not provide us with any confidential information relating to your account.
+advertising;rweb_optin;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. These cookies do not provide us with any confidential information relating to your account.
+advertising;syndication_guest_id;Used to collect information about users browsing behaviour for marketing purposes including digital display and social media advertising.
+advertising;twid;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.
+advertising;tfw_exp;These cookies enable us to track visitor activity from our Twitter ads on our website, and also to allow users to share content from our websites. They cookies do not provide us with any confidential information relating to your account.
+analytics;__asc;A cookie set by Trustpilot if you click the read more widget
+analytics;__insp_norec_sess;Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website.
+analytics;__insp_slim;Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website.
+analytics;__insp_targlpt;Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website.
+analytics;__insp_targlpu;Inspectlet uses cookies to keep track of session information. These cookies are needed to accurately understand how visitors are navigating the website.
+functional;__RequestVerificationToken;This is an anti-forgery cookie set by web applications built using ASP.NET MVC technologies. It is designed to stop unauthorised posting of content to a website, known as Cross-Site Request Forgery.
+analytics;__stid;The __stid cookie is set as part of the ShareThis service and monitors user-activity, e.g. Web pages viewed, navigation from page to page, time spent on each page etc.
+advertising;__uin_mm;These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign.
+advertising;__uir_mm;These cookies are used to deliver adverts more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign.
+advertising;_cc_aud;Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising. 
+advertising;_cc_cc;Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising. 
+advertising;_cc_id;Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising.
+advertising;panoramaId;Registers data on visitors from multiple visits and on multiple websites. This information is used to measure the efficiency of advertisement on websites.
+advertising;panoramaId_expiry;Registers data on visitors from multiple visits and on multiple websites. This information is used to measure the efficiency of advertisement on websites.
+advertising;panoramaId_expiry_exp;Contains the expiry-date for the cookie with corresponding name.
+advertising;ab;This cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site.
+advertising;bkdc;Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network.
+advertising;bku;Registers anonymised user data, such as IP address, geographical location, visited websites, and what ads the user has clicked, with the purpose of optimising ad display based on the user's movement on websites that use the same ad network.
+advertising;everest_g_v2;Created after a user initially clicks a client's ad, and used to map the current and subsequent clicks with other events on the client's website
+advertising;mt_misc;MediaMath uses this cookie to hold attributes about the browser for fraud prevention and other technical optimizations.
+advertising;mt_mop;MediaMath uses this cookie to synchronize the visitor ID with a limited number of trusted exchanges and data partners
+advertising;pl_user_id;This cookie registers data on the visitor. The information is used to optimize advertisement relevance.
+advertising;pxrc;This cookie registers non-personal data on the visitor. The information is used to optimize advertisement relevance.
+advertising;rlas3;Collects anonymous data related to the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded, with the purpose of displaying targeted ads.
+advertising;TapAd_DID;Used to determine what type of devices (smartphones, tablets, computers, TVs etc.) is used by a user.
+advertising;TapAd_TS;Used to determine what type of devices (smartphones, tablets, computers, TVs etc.) is used by a user.
+advertising;TapAd_3WAY_SYNCS;Used for data-synchronization with advertisement networks
+advertising;TDCPM;Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.
+advertising;TDID;Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.
+advertising;uid-bp-;The uid cookie is used by FreeWheel to generate statistics to show how many people may have seen a particular ad. Whereas the other cookies recognize returning users for the purpose of presenting users with relevant advertisements.
+advertising;MRM_UID;Used to track the visitor across multiple devices including TV
+advertising;uuidc;Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads.
+advertising;zc;Registers data on visitors from multiple visits and on multiple websites. This information is used to measure the efficiency of advertisement on websites.
+advertising;amplitude_id;These cookies are used by the TrustPilot service to identify you and enable you to leave reviews of our products and services.
+functional;csrf-canary;These cookies are used by the TrustPilot service to identify you and enable you to leave reviews of our products and services. 
+advertising;3pi;Sets a unique ID for the visitor, that allows third party advertisers to target the visitor with relevant advertisement. This pairing service is provided by third party advertisement hubs, which facilitates real-time bidding for advertisers.
+advertising;am-uid;This cookie is used to identify the visitor and optimize ad-relevance by collecting visitor data from multiple websites – this exchange of visitor data is normally provided by a third-party data-center or ad-exchange.
+advertising;_cc_dc;Collects anonymous statistical data related to the user's website visits, such as the number of visits, average time spent on the website and what pages have been loaded. The purpose is to segment the website's users according to factors such as demographics and geographical location, in order to enable media and marketing agencies to structure and understand their target groups to enable customised online advertising.
+advertising;bkpa;Used to present the visitor with relevant content and advertisement - The service is provided by third party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;_ljtrtb_;These cookies are used temporarily when multiple partners pass us their ID simultaneously. To avoid technical conflicts that arise from accessing the ljtrtb cookie for multiple partners at the same time, we store each partner’s ID in a separate cookie and then consolidate these IDs into the ljtrtb cookie when it’s available.
+advertising;ljtrtb;Enables us to help our advertising partners make decisions about displaying an advertisement to you. We store the ID that each partner uses to identify you and pass that information to the partner when a website requests an advertisement from us.
+advertising;uuid;Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads.
+functional;_pinterest_cm;Pinterest cookie ensures that you can share our website pages via Pinterest by means of the 'share' button
+functional;_pinterest_sess;session cookie (expires after your session) which collects anonymous data about a user's visit to the website, such as the number of visits, average time spent on the site and which pages have been loaded in order to personalise and improve the Pinterest service.
+advertising;_pin_unauth;Registers a unique ID that identifies and recognizes the user. Is used for targeted advertising.
+advertising;_pinterest_ct_ua;This cookieis a third party cookie which groups actions for users who cannot be identified by Pinterest.
+advertising;sessionFunnelEventLogged;A generic technical cookie used for storing user session identifier in web applications
+advertising;_routing_id;Allows users to share pictures via Pinterest / the Pin It button. Pinterest can collect statistical information about usage of their service.
+advertising;_derived_epik;Cookie is placed by the Pinterest tag when a match is identified when no cookies are present, such as enhanced match.
+advertising;_pinterest_ct;They contain a user ID and the timestamp at which the cookie was created.
+advertising;_pinterest_ct_rt;They contain a user ID and the timestamp at which the cookie was created.
+advertising;_epik;Cookie is placed by the JavaScript tag based on information sent from Pinterest with promoted traffic to help identify the user.
+functional;Nop.customer;Customer cookie. Used to identifier guest customers.
+functional;NopCommerce.RecentlyViewedProducts;Recently viewed products cookie. Stores a list of the recently viewed products
+functional;NOPCOMMERCE.AUTH;Forms authentication cookie. Used for authenticating registered customers.
+functional;tsrvid;Feedback company review cookie
+functional;form_key;A security measure that appends a random string to all form submissions to protect the data from Cross-Site Request Forgery (CSRF).
+functional;product_data_storage;Stores configuration for product data related to Recently Viewed / Compared Products.
+functional;mage-cache-sessid;The value of this cookie triggers the cleanup of local cache storage. When the cookie is removed by the backend application, the Admin cleans up local storage, and sets the cookie value to true.
+functional;mage-cache-storage;Local storage of visitor-specific content that enables ecommerce functions.
+functional;mage-cache-storage-section-invalidation;Forces local storage of specific content sections that should be invalidated.
+functional;mage-cache-timeout;This cookie is necessary for the cache function. A cache is used by the website to optimize the response time between the visitor and the website. The cache is usually stored on the visitor's browser.
+functional;mage-messages;Tracks error messages and other notifications that are shown to the user, such as the cookie consent message, and various error messages. The message is deleted from the cookie after it is shown to the shopper.
+functional;mage-translation-file-version;Tracks the version of translations in local storage. Used when Translation Strategy is configured as Dictionary (Translation on Storefront side).
+functional;mage-translation-storage;Stores translated content when requested by the shopper. Used when Translation Strategy is configured as Dictionary (Translation on Storefront side).
+functional;product_data_storage;Stores configuration for product data related to Recently Viewed / Compared Products.
+functional;recently_compared_product;Stores product IDs of recently compared products.
+functional;recently_compared_product_previous;Stores product IDs of previously compared products for easy navigation.
+functional;recently_viewed_product;Stores product IDs of recently viewed products for easy navigation.
+functional;recently_viewed_product_previous;Stores product IDs of recently previously viewed products for easy navigation.
+functional;user_allowed_save_cookie;Indicates if a customer is allowed to use cookies.
+functional;external_no_cache;A flag that indicates if caching is disabled.
+functional;persistent_shopping_cart;Stores the key (ID) of persistent cart to make it possible to restore the cart for an anonymous shopper.
+functional;stf;Records the time messages are sent by the SendFriend (Email a Friend) module.
+functional;pollN;A poll ID that indicates if a vote has occurred.
+functional;frontend;Session ID
+functional;guest-view;Allows guests to edit their orders.
+functional;mage-banners-cache-storage;Stores banner content locally to improve performance.
+functional;searchReport-log;Magento, used to log information about searching
+functional;private_content_version;Appends a random, unique number and time to pages with customer content to prevent them from being cached on the server.
+functional;X-Magento-Vary;X-Magento-Vary cookie is used by Magento 2 system to highlight that version of a page requested by a user has been changed. It allows having different versions of the same page stored in cache e.g. Varnish.
+functional;section_data_ids;Stores customer-specific information related to shopper-initiated actions such as display wish list, checkout information, etc.
+functional;section_data_clean;Determines which products the user has viewed, allowing the website to promote related products.
+functional;last_visited_store;This cookie keeps track of the last website you visited. This is necessary to enable the correct language on the website.
+advertising;dsps:;Service to display targeted advertising to visitors.
+advertising;_mb;Used in context with video-advertisement. The cookie limits the number of times a visitor is shown the same advertisement-content. The cookie is also used to ensure relevance of the video-advertisement to the specific visitor.
+functional;wordpress_test_cookie;Cookie set by WordPress to check if the cookies are enabled on the browser to provide appropriate user experience to the users
+functional;componentType;componentType is a session cookie, used for correct recording the type of the page (frontpage, single page, blog etc)
+functional;componentStyle;componentStyle is a session cookie, used for setting the proper template in compliance with visited type of the page
+functional;nrid;This cookie is used to remember a user's choice about cookies on the website. Where users have previously indicated a preference, that user’s preference will be stored in this cookie.
+advertising;koitk;Collects data on visitors behavior and interaction - This is used to optimize the website and make advertisement on the website more relevant.
+advertising;__ss_referrer;This cookie contains information about where the visitor came from, called the source for the visit.
+advertising;__ss_tk;This is Sharspring’s token cookie which enables user tracking. It ensures that the visit to website is connected to the user independent of the session and the source.
+advertising;__ss;This cookie is storing the session ID for your visit. It is used in combination with _ss_tk to group website visits in reports for a single user.
+analytics;_pk_id;Used to store a few details about the user such as the unique visitor ID
+analytics;_pk_ref;Used to store the attribution information, the referrer initially used to visit the website
+analytics;_pk_ses;Short lived cookies used to temporarily store data for the visit
+analytics;_pk_cvar;Short lcts data on visitors behavior and interaction - This is used to optimize the website and make advertisement on the website more relevant.
+analytics;_pk_hsr;Short lived cookies used to temporarily store data for the visit
+analytics;_pk_testcookie;Cookie is created and should be then directly deleted (used to check whether the visitor’s browser supports cookies)
+analytics;mtm_consent;Cookie is created with no expiry date to forever remember that consent was given by the user.
+advertising;datatrics_optin;Saving opt-in preferences.
+advertising;datatricsDebugger;Saving Datatrics debugger preferences.
+advertising;datatrics_customData;Saving defined custom data.
+analytics;_wepublishGa;ID used to identify users
+analytics;_wepublishGa_gid;ID used to identify users for 24 hours after last activity 24 hours
+functional;OptanonConsent;This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the user’s browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor.
+functional;OptanonAlertBoxClosed;This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor.
+functional;OptanonControl;This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the user’s browser, when consent is not given. The cookie has a normal lifespan of one year, so that returning visitors to the site will have their preferences remembered. It contains no information that can identify the site visitor.
+advertising;optimizelyEndUserId;Stores a visitor's unique Optimizely identifier. It's a combination of a timestamp and random number. No other information about you or your visitors is stored inside.
+advertising;optimizelyRedirectData;After Optimizely has executed a redirect experiment, stores various data from the original page so that Optimizely still has access to it on the new page.
+advertising;optimizelyDomainTestCookie;When Optimizely loads a URL, the snippet places the cookie to get the current domain, for the purpose of whether cross-domain syncing is possible. If successful, the cookie is immediately removed. 
+advertising;optimizelyOptOut;Stores a boolean indicating whether the visitor has opted out of participating in Optimizely-powered experimentation.
+functional;wwwchannelme_z_sid;The cookie is used when using the co-browsing feature.
+advertising;app_ts;Used by adscience.nl to display remarketing campaigns.
+advertising;viewer;Used by adscience.nl to measure visitor numbers and information and use it to optimize marketing campaigns.
+advertising;spx_ts;These cookies ensure that relevant advertisements are displayed on external websites.
+advertising;adx_ts;These cookies ensure that relevant advertisements are displayed on external websites.
+advertising;id_ts;These cookies ensure that relevant advertisements are displayed on external websites.
+advertising;euconsent;Cookie compliance check
+functional;SSR-caching;Indicates how a site was rendered
+functional;smSession;Identifies logged in site members
+advertising;svSession;Identifies unique visitors and tracks a visitor’s sessions on a site
+functional;ForceFlashSite;When viewing a mobile site (old mobile under m.domain.com) it will force the server to display the non-mobile version and avoid redirecting to the mobile site
+functional;hs;Security
+functional;bSession;Used for system effectiveness measurement
+functional;TS01;Used for security and anti-fraud reasons
+functional;fedops.logger.sessionId;Used for stability/effectiveness measurement
+functional;wixLanguage;Used on multilingual websites to save user language preference
+functional;_ab;Used in connection with access to admin.
+functional;_secure_session_id;Used in connection with navigation through a storefront.
+functional;Cart;Used in connection with shopping cart.
+functional;cart_sig;Used in connection with shopping cart.
+functional;cart_ts;Used in connection with checkout.
+functional;checkout_token;Used in connection with checkout.
+functional;Secret;Used in connection with checkout.
+functional;Secure_customer_sig;Used in connection with customer login.
+functional;storefront_digest;Used in connection with customer login.
+functional;_shopify_u;Used to facilitate updating customer account information.
+advertising;_tracking_consent;Tracking preferences.
+advertising;_landing_page;Track landing pages.
+advertising;_orig_referrer;Track landing pages.
+analytics;_s;Shopify analytics.
+analytics;_shopify_fs;Shopify analytics.
+analytics;_shopify_s;Shopify analytics.
+advertising;_shopify_sa_p;Shopify analytics relating to marketing & referrals.
+advertising;_shopify_sa_t;Shopify analytics relating to marketing & referrals.
+analytics;_shopify_uniq;Shopify analytics.
+analytics;_shopify_visit;Shopify analytics.
+analytics;_shopify_y;Shopify analytics.
+analytics;_y;Shopify analytics.
+analytics;tracked_start_checkout;Shopify analytics relating to checkout.
+analytics;ki_r;Shopify analytics.
+analytics;ki_t;Shopify analytics.
+analytics;_Brochure_session;Used in connection with browsing through site.
+functional;shopify_pay_redirect;Used in connection with checkout.
+functional;cart_currency;Set after a checkout is completed to ensure that new carts are in the same currency as the last checkout.
+functional;dynamic_checkout_shown_on_cart;Used in connection with checkout.
+functional;keep_alive;Used in connection with buyer localization.
+functional;checkout_session_token;Used in connection with checkout.
+functional;checkout_session_lookup;Used in connection with checkout.
+functional;cart_ver;Used in connection with shopping cart.
+functional;localization;Used in connection with checkout.
+functional;locale_bar_accepted;This cookie is provided by app (BEST Currency Converter) and is used to secure currency chosen by the customer.
+functional;_cmp_a;Used for managing customer privacy settings.
+functional;__hs_opt_out;This cookie is used by the opt-in privacy policy to remember not to ask the visitor to accept cookies again.
+functional;__hs_do_not_track;This cookie can be set to prevent the tracking code from sending any information to HubSpot.
+functional;__hs_initial_opt_in;This cookie is used to prevent the banner from always displaying when visitors are browsing in strict mode.
+functional;hs_ab_test;This cookie is used to consistently serve visitors the same version of an A/B test page they’ve seen before.
+functional;hs-messages-is-open;This cookie is used to determine and save whether the chat widget is open for future visits.
+functional;hs-messages-hide-welcome-message;This cookie is used to prevent the chat widget welcome message from appearing again for one day after it is dismissed.
+functional;__hsmem;This cookie is set when visitors log in to a HubSpot-hosted site.
+functional;hs-membership-csrf;This cookie is used to ensure that content membership logins cannot be forged.
+functional;hs_langswitcher_choice;This cookie is used to save the visitor's selected language choice when viewing pages in multiple languages.
+advertising;__hstc;The main cookie for tracking visitors.
+advertising;hubspotutk;This cookie keeps track of a visitor's identity. It is passed to HubSpot on form submission and used when deduplicating contacts.
+advertising;__hssc;This cookie keeps track of sessions.
+advertising;__hssrc;Whenever HubSpot changes the session cookie, this cookie is also set to determine if the visitor has restarted their browser.
+advertising;messagesUtk;This cookie is used to recognize visitors who chat with you via the chatflows tool. If the visitor leaves your site before they're added as a contact, they will have this cookie associated with their browser.
+functional;renderCtx;Used to deliver requested pages and content based on a user's navigation.
+analytics;pctrk;Used to count page views by unauthenticated users against license usage.
+functional;force-stream;Used to properly route server requests within Salesforce infrastructure for sticky sessions.
+functional;sfdc-stream;Used to properly route server requests within Salesforce infrastructure for sticky sessions.
+functional;BrowserId_sec;Used to log secure browser sessions/visits for internal-only product analytics.
+functional;force-proxy-stream;Used to ensure client requests hit the same proxy hosts and are more likely to retrieve content from cache.
+functional;BrowserId;Used to log browser sessions/visits for internal-only product analytics.
+functional;QCQQ;Used to detect the official login page for Forced Login POST detection.
+functional;sid_Client;Used to validate orgid and userid on the client side.
+functional;idccsrf;Used for SSO authentication as CSRF protection.
+functional;rsid;Used for an admin user to 'log in as' one of their org user.
+functional;rsid2;Used for an admin user to 'log in as' one of their org portal user.
+functional;RRetURL;Used for 'log in as' to return to original page.
+functional;RRetURL2;Used for portal 'log in as' to return to original page.
+functional;alohaEpt;Used to log page load EPT (Experience Page Time) for Visualforce (Classic UI) pages.
+functional;clientSrc;Used to validate the IP from where a user logs in.
+advertising;oinfo;Used to track the State, Edition and orgID of a customer's org.
+functional;autocomplete;Used to determine whether the browser remembers a user’s login username.
+functional;inst;Used to optimize routing to the user's instance.
+advertising;expid_;Used to render pages based on specified brand.
+advertising;disco;Used to verify the last Salesforce org that was accessed on the same browser for session discovery.
+functional;oid;Used to redirect a user to the correct Salesforce org and assist the user for the next login.
+functional;CookieConsentPolicy;Used to apply end-user cookie consent preferences set by our client-side utility.
+advertising;_kuid_;Registers a unique ID that identifies a returning user's device. The ID is used for targeted ads.
+advertising;visitor_id;The visitor cookie includes a unique visitor ID and the unique identifier for your account.
+analytics;vuid;This first party cookie created by Vimeo is used to assign a Vimeo Analytics unique id.
+functional;Player;This first party cookie created by Vimeo is used to remember user’s player mode preferences.
+functional;continuous_play_v3;Used to keep track of whether continuous play is on or not for a user
+functional;__stripe_mid;Fraud prevention and detection
+functional;__stripe_sid;Fraud prevention and detection
+functional;m;Set by payment provider stripe.com to process payments
+functional;_gat_pro;Allows Snapwidget to offer anonymous analytics about how the visitors are using your widgets
+functional;woocommerce_cart_hash;Helps WooCommerce determine when cart contents/data changes.
+functional;woocommerce_items_in_cart;Helps WooCommerce determine when cart contents/data changes.
+functional;wp_woocommerce_session_;Contains a unique code for each customer so that it knows where to find the cart data in the database for each customer.
+functional;woocommerce_recently_viewed;Powers the Recent Viewed Products widget
+functional;store_notice;Allows customers to dismiss the Store Notice.
+functional;woocommerce_snooze_suggestions__;Allows dashboard users to dismiss Marketplace suggestions, if enabled.
+functional;woocommerce_dismissed_suggestions__;Count of suggestion dismissals, if enabled.
+functional;tk_ai;Stores a randomly-generated anonymous ID. This is only used within the dashboard (/wp-admin) area and is used for usage tracking, if enabled.
+advertising;edgebucket;Used by Reddit to deliver advertising
+advertising;initref;Used by Reddit to deliver advertising
+functional;incap_ses_;This cookie is set to allow a visitor to receive site content from one out of multiple servers as the visitor browses the site. This allows the visitor's session to be maintained.
+functional;nlbi_;Incapsula DDoS Protection and Web Application Firewall: Load balancing cookie. To ensure requests by a client are sent to the same origin server.
+functional;visid_incap_;This cookie is from the incapsula CDN and helps us with reliability, security and the performance of our site.
+functional;sp_t;Required to ensure the functionality of the integrated Spotify plugin. This does not result in any cross-site functionality.
+functional;sp_landing;Required to ensure the functionality of the integrated Spotify plugin. This does not result in any cross-site functionality.
+advertising;anj;The anj cookie contains data denoting whether a cookie ID is synced with our partners. ID syncing enables our partners to use their data from outside the Platform on the Platform. 
+advertising;uuid2;This cookie contains a unique randomly-generated value that enables the Platform to distinguish browsers and devices.
+functional;cc-;References a cart for anonymous users
+functional;pgid-org-;Hash of personalization information. Used to cache pages or snippets for users with same personalization information
+functional;SecureSessionID-;Reference to authenticated user
+functional;CMSCsrfCookie;Store's a security token that the system uses to validate all form data submitted via POST requests. Helps protect against Cross site request forgery.
+functional;CMSCookieLevel;Specifies which cookies are allowed by the visitor.
+analytics;CMSLandingPageLoaded;Indicates that the landing page has already been visited and the Landing page activity is not logged again for the current visitor. Expires after 20 minutes and the expiration period of the key is renewed every time the website is accessed again.
+functional;CMSPreferredCulture;Stores the visitor's preferred content culture.
+analytics;CMSUserPage;Stores the IDs (DocumentID, NodeID) of the last visited page. Used for logging landing and exit page web analytics and activities.
+analytics;CurrentContact;Stores the GUID of the contact related to the current site visitor. Used to track activities on the website.
+analytics;VisitorStatus;Indicates if the visitor is new or returning. Used for tracking the visitors statistic in Web analytics.
+advertising;sc_at;Used to identify a visitor across multiple domains.
+advertising;_scid;Used to help identify a visitor.
+advertising;_schn;This cookies come from the Snapchat retargeting pixel. This pixel is used to retarget and attribute traffic coming from the social network.
+functional;X-AB;This cookie is used by the website’s operator in context with multi-variate testing. This is a tool used to combine or change content on the website. This allows the website to find the best variation/edition of the site.
+functional;_vwo_uuid_v2;Used to track visitor movements anonymously.
+functional;_vwo_uuid;Used to track visitor movements anonymously.
+functional;_vis_opt_s;This cookie detects if you are new or returning to a particular test.
+functional;_vis_opt_test_cookie;This is a temporary session cookie generated to detect if the cookies are enabled on the user browser or not.
+functional;_vis_opt_exp_;This cookie is generated when a goal is created.
+analytics;_vwo_sn;Collects statistics on the visitor's visits to the website, such as the number of visits, average time spent on the website and what pages have been read.
+analytics;_vwo_ds;Collects data on the user's visits to the website, such as the number of visits, average time spent on the website and what pages have been loaded with the purpose of generating reports for optimising the website content.
+analytics;_vwo_referrer;Registers data on visitors' website-behaviour. This is used for internal analysis and website optimization.
+functional;zc_consent;Determines whether the user has accepted the cookie consent box.
+functional;ZCAMPAIGN_CSRF_TOKEN;This cookie is used to distinguish between humans and bots.
+advertising;zc_show;Collects data on visitors' preferences and behaviour on the website - This information is used make content and advertisement more relevant to the specific visitor.
+functional;zc_cu_exp;Contains the expiration date for the cookie with its name.
+advertising;zc_loc;Collects information on user preferences and/or interaction with web-campaign content - This is used on CRM-campaign-platform used by website owners for promoting events or products.
+functional;wa_ul;Used to access the service it provides.
+functional;wa_lang_pref;Used by WhatsApp to save language preferences
+advertising;pa_rubicon_ts;This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data.
+advertising;pa_google_ts;This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data.
+advertising;pa_twitter_ts;This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data.
+advertising;pa_yahoo_ts;This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data.
+advertising;pa_openx_ts;This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data.
+advertising;pa_uid;This cookie is set by Perfect Audience and is used for advertising purposes based on user behavior data.
+advertising;mailmunch_second_pageview;Used for tracking by the Mailmunch mailing list software
+advertising;_mailmunch_visitor_id;This cookie is set by MailMunch which is email collection and email marketing platform.
+advertising;tPHG-PS;Partnerize’s tracking cookie, deployed either upon a user’s clicking of a link on a partner website, or upon the loading of a customer's image to a partner website.
+advertising;digitalAudience;Digital Audience uses cookies to improve the effectiveness of digital platforms, thanks to online recognition mechanisms.
+functional;has_js;Drupal uses this cookie to indicate whether or not the visitors browser has JavaScript enabled.
+advertising;_omappvs;Cookie is used to identify returning visitors
+advertising;_omappvp;Cookie is used to identify returning visitors
+advertising;_lfa;"Leadfeeder cookie collects the behavioral data of all website visitors. This includes; pages viewed, visitor source and time spent on the site"
+advertising;SnapABugHistory;This cookie is associated with live chat software from SnapEngage. It identifies a visitor to enable a history of engagement to be recorded.
+functional;SnapABugUserAlias;Stores a unique ID string for each chat-box session. This allows the website-support to see previous issues and reconnect with the previous supporter.
+functional;SnapABugVisit;This cookie is associated with live chat software from SnapEngage. It identifies a new user session.
+advertising;SnapABugRef;This cookie is associated with live chat software from SnapEngage. It records the landing page and origin of a visitor.
+advertising;audience;Sync audience data between buyers and sellers.
+functional;yith_wcwl_session_;YITH WooCommerce Wishlist plugin uses cookies in order to correctly store user wishlists
+advertising;A3;Ads targeting cookie for Yahoo
+advertising;APID;Collects information on visitor behaviour on multiple websites. This information is used on the website, in order to optimize the relevance of advertisement.
+advertising;APIDTS;This is a Yahoo! Cookie used in the targeting of relevant adverts and content on the Yahoo! platform.
+advertising;IDSYNC;Identifies if the cookie-data needs to be updated in the visitor's browser - This is determined through third-party ad-serving-companies.
+functional;INGRESSCOOKIE;Registers which server-cluster is serving the visitor. This is used in context with load balancing, in order to optimize user experience.
+functional;AlteonP;This cookie is set by the load balancers and allows us to evenly balance the number of users across the web servers that we use.
+advertising;cref;Contains data on user navigation, interaction and time spent on the website and its sub-pages – This data is used to optimise the relevance of advertisements and for statistical purposes.
+advertising;mc;Tracking of users and measure and improve performance and supports personalisation
+advertising;d;Tracking of users and measure and improve performance and supports personalisation
+advertising;iutk;Recognises the user's device and what Issuu documents have been read.
+functional;cookielawinfo-checkbox-necessary;This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category 'Necessary'.
+functional;cookielawinfo-checkbox-non-necessary;This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category 'Non Necessary'.
+functional;viewed_cookie_policy;The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.
+functional;cookielawinfo-checkbox-marketing;This cookie is set by GDPR Cookie Consent plugin. The purpose of this cookie is to check whether or not the user has given the consent to the usage of cookies under the category 'Marketing'.
+functional;cookielawinfo-checkbox-analytics;This cookie is set by GDPR Cookie Consent plugin. The purpose of this cookie is to check whether or not the user has given the consent to the usage of cookies under the category 'Analytics'.
+functional;cookielawinfo-checkbox-performance;This cookie is set by GDPR Cookie Consent plugin. The purpose of this cookie is to check whether or not the user has given the consent to the usage of cookies under the category 'Performance'.
+functional;cookielawinfo-checkbox-others;This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category 'Other'.
+functional;cookielawinfo-checkbox-functional;This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category 'Functional'.
+functional;cookielawinfo-checkbox-advertisement;This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category 'Advertisement'.
+functional;cli_user_preference;The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.
+functional;cookielawinfo-checkbox-preferences;This cookie is set by GDPR Cookie Consent plugin. The purpose of this cookie is to check whether or not the user has given the consent to the usage of cookies under the category 'Preferences'.
+functional;CookieLawInfoConsent;The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.
+advertising;__qca;This cookie is set by Quantcast, who present targeted advertising. Stores browser and HTTP request information.
+analytics;stg_traffic_source_priority;Stores the type of traffic source that explains how the visitor reached your website.
+analytics;stg_last_interaction;Determines whether the last visitor's session is still in progress or a new session has started.
+analytics;stg_returning_visitor;Determines if the visitor has already been to your website — they are returning visitors.
+analytics;stg_externalReferrer;Stores an URL of a website that referred a visitor to your website.
+functional;__sqra;Tracks the user's interaction with the website's search-bar-function. This data can be used to present the user with relevant products or services.
+functional;__sqrb;Tracks the user's interaction with the website's search-bar-function. This data can be used to present the user with relevant products or services.
+functional;__sqrc;Tracks the user's interaction with the website's search-bar-function. This data can be used to present the user with relevant products or services.
+analytics;nmstat;This cookie is used to help record the visitor's use of the website. It is used to collect statistics about site usage such as when the visitor last visited the site. This information is then used to improve the user experience on the website. This Siteimprove Analytics cookie contains a randomly generated ID used to recognize the browser when a visitor reads a page. The cookie contains no personal information and is used only for web analytics. It is also used to track the sequence of pages a visitor looks at during a visit to the site. This information can be used to reduce user journeys, and enable visitors to find relevant information quicker.
+analytics;sp;Stores a server-side collector generated unique identifier for a user that is sent with all subsequent tracking event events. Can be used as a first party cookie is the collector is on the same domain as the site.
+analytics;_sp_id.;Stores user information that is created when a user first visits a site and updated on subsequent visits. It is used to identify users and track the users activity across a domain. This cookie stores a unique identifier for each user, a unique identifier for the users current session, the number of visits a user has made to the site, the timestamp of the users first visit, the timestamp of their previous visit and the timestamp of their current visit.
+analytics;_sp_ses.;Used to identify if the user is in an active session on a site or if this is a new session for a user (i.e. cookie doesn’t exist or has expired).
+functional;AUTH_SESSION_ID;ID of current authentication session.
+functional;KC_RESTART;Internal cookie from Keycloak.
+functional;KC_START;Internal cookie from Keycloak.
+functional;KEYCLOAK_IDENTITY;ID of the current user.
+functional;KEYCLOAK_LOCALE;Language of the interface.
+functional;KEYCLOAK_REMEMBER_ME;Internal cookie from Keycloak.
+functional;KEYCLOAK_SESSION;ID of the current browser session
+functional;_abck;This cookie is used to analyse traffic to determine if it is automated traffic generated by IT systems or a human user
+functional;AKA_A2;Used for Akamai's Advanced Acceleration feature, intended to improve web performance
+functional;ak_bmsc;Cookie used to optimize performance, and to improve the user experience, on Akamai websites
+functional;bm_sv;Used by Akamai Botman Manager to help differentiate between web requests generated by humans and web requests generated by bots or other automated processes
+functional;CRAFT_CSRF_TOKEN;Facilitates protection against cross-site request forgeries. This helps to safeguard data as it is submitted through forms on the website.
+functional;CraftSessionId;Craft relies on PHP sessions to maintain sessions across web requests. That is done via the PHP session cookie. Craft names that cookie 'CraftSessionId' by default. This cookie will expire as soon as the session expires.
+functional;ci_session;Cookie to track the users logged in state and access level to restricted pages.
+functional;__lc_cid;Necessary for the functionality of the website's chat-box function.
+functional;__lc_cst;Necessary for the functionality of the website's chat-box function.
+functional;__lc2_cid;Stores a unique ID string for each chat-box session. This allows the website-support to see previous issues and reconnect with the previous supporter.
+functional;__lc2_cst;Stores a unique ID string for each chat-box session. This allows the website-support to see previous issues and reconnect with the previous supporter.
+functional;__livechat;Used to hide the user's personal customisation of LiveChat.
+analytics;BVBRANDID;BVBRANDID is a persistent cookie that allows Bazaarvoice to track website analytics data such as how often you visit the site and allocate it to the same website visitor.
+analytics;BVBRANDSID;This cookie allows internal Bazaarvoice web analytics to be correlated to the same user browsing session for interactions within a particular client domain.
+advertising;BVID;Allows internal Bazaarvoice web analytics to be correlated to the same user for interactions across the Bazaarvoice network.
+advertising;BVSID;Allows internal Bazaarvoice web analytics to be correlated to the same user browsing session for interactions across the Bazaarvoice network.
+advertising;_li_id;These cookies enable us to get insights about the business use of our website, based on IP addresses of the website visitors.
+advertising;_li_ses;These cookies enable us to get insights about the business use of our website, based on IP addresses of the website visitors.
+functional;CAKEPHP;A cookie controller used to manage other Cookies
+functional;wp-wpml_current_language;This cookie is used to track the language preference fo the user
+functional;_flowbox;Used to differentiate between users and sessions and collecting statistics on the viewing behaviour for Instagram posts displayed on the website.
+advertising;acalltracker;Adcalls call tracking: ID, phone number
+functional;acalltrackersession;This cookie stores a unique identifier, so that it can be tracked which session the visitor is in.
+analytics;acalltrackerreferrer;This cookie is set as soon as the AdCalls JavaScript is loaded. The cookie is used to store the referrer of the visitor as quickly as possible, so that it cannot be lost. As soon as the JavaScript has been executed, this cookie is immediately deleted.
+functional;excludecalltracking;This cookie is set as soon as the visitor - for whatever reason - is not measured, so that we do not take any further actions.
+advertising;acalltrackernumber;This cookie stores the phone number for the session that is active.
+functional;wordpress_google_apps_login;Used for secure log in to the web site with a Google account.
+functional;ckies_functional;Opt-out for functional cookies
+functional;ckies_necessary;Confirms that other necessary cookies get set
+functional;ckies_performance;Opt-out for performance cookies
+functional;ckies_marketing;Opt-out for marketing/third party/consent based cookies
+functional;ClickAndChange;Session Cookie for Creator CMS
+functional;pll_language;Saves the chosen language.
+functional;browserupdateorg;Stores information if user dismissed notification about outdated browser
+functional;TawkConnectionTime;This cookie is used to determine the connection duration of tawk sessions.
+analytics;tawkUUID;This cookie is used to collect information about how the visitor handles the live chat function on the website.
+functional;TawkCookie;Main Tawk.to cookie.
+functional;__tawkuuid;Tawk.to cookie used to distinguish users.
+advertising;stx_user_id;Delivering targeted and relevant content
+advertising;dc;This cookie is used for advertising purposes
+advertising;sqzl_abs;A cookie used by Squeezely
+functional;sqzl_consent;Stores the user's cookie consent state for the current domain
+advertising;sqzl_session_id;A cookie used by Squeezely
+advertising;sqzl_vw;A cookie used by Squeezely
+advertising;sqzllocal;This is a cookie from the service Squeezely. It helps us with registering which pages you have visited and with sending you personalized ads
+functional;belco-anonymous-id;This cookie enables you to make use of the chat-function of our customer service-tool, so we can help you anytime.
+functional;belco-cookies;This cookie enables you to make use of the chat-function of our customer service-tool, so we can help you anytime.
+analytics;ABTasty;This cookie sends all test data (visitorID, test and variant IDs, timestamps).
+analytics;ABTastySession;This cookie allows us to identify a unique session. It allows us to determine that a new session has begun for a given user.
+advertising;BCSessionID;Unique identifier for the BlueConic profile.
+advertising;BCTempID;Temporary unique identifier for the BlueConic profile, removed after BCSessionID is created.
+functional;BCPermissionLevel;Opt-in level (PERSONAL|ANONYMOUS|DO_NOT_TRACK)
+advertising;BCReferrerOverrule;Stores a custom bcChannelIdentifier as referrer. For these channels the actual referrer points to the website and not the overrule. The overrule would be lost if not stored in this cookie.
+advertising;BCRefusedObjectives;Used to store the identifiers of BlueConic Objectives that were explicitly refused.
+advertising;BCRevision;"Used to store requests that are sent to BlueConic, but haven't returned yet. On the next page view, if BCRevision still contains values, those requests are sent again, to prevent data loss. This information is now stored in localStorage; when this fails, the cookie solution is used as fallback."
+advertising;BCTracking;Used for tracking the channel of an external tracker.
+advertising;__adal_ca;Stores which advertising campaign drove a user to visit, stores traffic source and campaign data.
+advertising;__adal_cw;Ties back conversion events to earlier visits, stores a visit timestamp.
+advertising;__adal_id;Uniquely identify a device, stores a generated Device ID.
+advertising;__adal_ses;Determines whether there is an active session and which conversions have taken place in this session to prevent duplicates, stores a list of events in this session.
+analytics;Pastease.passive.activated;The visitor is selected via this Mopinion cookie and the visitor sees the form.
+analytics;Pastease.passive.chance;This Mopinion cookie determines the chance that the visitor will see the form.
+analytics;AFFICHE_W;Used by the advertising platform Weborama to determine the visitor’s interests based on pages visits, content clicked and other actions on the website.
+advertising;matchadform;Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;wfivefivec;Collects data on the user's visits to the website, such as what pages have been loaded. The registered data is used for targeted ads.
+advertising;UserID1;Cookie sets a unique anonymous ID for a website visitor. This ID is used to recognize the user on different sessions and to track their activities on the website. The data collected is used for analysis purposes.
+advertising;arcki2;Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.
+advertising;arcki2_adform;Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;arcki2_ddp;Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers.
+analytics;_sn_a;This is the cookie used for visitor analytics tracking. It sets a visitor ID so that the visitor can be identified across sessions. This enables all visitor related analytics data to be shown on the analytics pages in your Dashboard. Note that if a visitor is opted out of this cookie, you will still be able to see how many views and conversions your campaigns had, just not any visitor-related data like referrer, location, and so on.
+advertising;_sn_m; This cookie contains information used for marketing related targeting options. Targeting options like the referrer, UTM, or geo-location. Note that if this cookie is opted out, the marketing targeting options will not work, and the campaign will default to not show.
+functional;_sn_n;This is the necessary cookie set by Sleeknote, as it contains technical information so that the campaigns can show properly and tracking works properly.
+functional;apbct_antibot;This cookie is used to distinguish between humans and bots. This is beneficial for the website, in order to make valid reports on the use of their website.
+functional;ct_check_js;Used in order to detect spam and improve the website's security.
+functional;ct_fkp_timestamp;Used in order to detect spam and improve the website's security. Does not store visitor specific data.
+functional;ct_has_scrolled;This cookie is used to distinguish between humans and bots.
+functional;ct_pointer_data;Used in order to detect spam and improve the website's security. Does not store visitor specific data.
+functional;ct_ps_timestamp;Used in order to detect spam and improve the website's security. Does not store visitor specific data.
+functional;ct_timezone;Used in order to detect spam and improve the website's security.
+advertising;__kla_id;When Klaviyo’s JavaScript is enabled, the __kla_id cookie can track and identify site visitors through an auto-generated ID. This cookie can temporarily hold personally identifiable information. Once a visitor is identified, the cookie can pass their data into Klaviyo.
+advertising;__trf.src;Registers how the user has reached the website to enable pay-out of referral commission fees to partners.
+analytics;_ALGOLIA;Identifies users for your Search Analytics and Personalization.
+functional;_csrf;This cookie is used to prevent Cross-site request forgery (often abbreviated as CSRF) attacks of the website.
+advertising;_tt_enable_cookie;Tracking cookie used by TikTok to identify a visitor
+advertising;_ttp;Tracking cookie used by TikTok to identify a visitor
+advertising;MONITOR_WEB_ID;Used by the social networking service, TikTok, for tracking the use of embedded services.
+advertising;msToken;Collects information on user behaviour on multiple websites. This information is used in order to optimize the relevance of advertisement on the website.
+advertising;ttwid;Used by the social networking service, TikTok, for tracking the use of embedded services.
+analytics;ahoy_visit;Registers statistical data on visitors behaviour on the website. Used for internal analytics by the website operator.
+analytics;ahoy_visitor;Registers statistical data on visitors behaviour on the website. Used for internal analytics by the website operator.
+functional;auth0;Used to implement the Auth0 session layer.
+functional;auth0_compat;Fallback cookie for single sign-on on browsers that don't support the sameSite=None attribute.
+functional;auth0-mf;Used to establish the trust level for a given device.
+functional;auth0-mf_compat;Fallback cookie for multi-factor authentication on browsers that don't support the sameSite=None attribute.
+functional;a0_users:sess;Used for CSRF protection in Classic Universal Login flows.
+functional;a0_users:sess.sig;Used for CSRF protection in Classic Universal Login flows.
+functional;did;Device identification for attack protection.
+functional;did_compat;Fallback cookie for anomaly detection on browsers that don't support the sameSite=None attribute.
+advertising;HAPLB8S;Sonobi sets this cookie for advertising purposes.
+analytics;atidvisitor;List of numsites encountered by the visitor and storage of identified visitor information
+analytics;atuserid;Visitor ID for client-side cookie sites
+functional;ja_purity_tpl;Indicates the website uses a JoomlArt template
+functional;ja_purity_ii_tpl;Indicates the website uses a JoomlArt template
+functional;BIGipServer;Used by the f5 BIG-IP load balancer to ensure one user's request is always handled by the same server to maintain a consistent user experience
+functional;active_template::;Used to store which template you are viewing on this website.
+functional;ezds;Used to store the pixel size of your screen to help personalize your experience and ensure content fits.
+functional;ezoab_;Used to split test different features and functionality.
+analytics;ezoadgid_;Stores an ID that connects you to an age and gender category.
+functional;ezohw;Used to store the pixel size of your browser to help personalize your experience and ensure content fits.
+analytics;ezopvc_;Used to store the number of pages that you have viewed on this site in this session.
+analytics;ezoref_;Used to store the referring domain (the website you were at before you can to this website).
+functional;ezostid_;Used to test different features and functionality and to record which features and functionality are available to you so you receive a consistent experience.
+advertising;ezosuigeneris;Used to uniquely identify you across different websites on the internet so your experience can be customized.
+advertising;ezosuibasgeneris-1;Used to uniquely identify you across different websites on the internet so your experience can be customized.
+analytics;ezouid_;Used to uniquely identify you as a visitor on this website. Used for analytics and personalization of your experience.
+analytics;ezovid_;Used to uniquely identify a visit by you to this website. Used for analytics and personalization of your experience.
+analytics;ezovuuid_;Used to uniquely identify a visit by you to this website. Used for analytics and personalization of your experience.
+analytics;ezovuuidtime_;Used to record the time of your visit to this website so different visits can be differentiated from each other.
+analytics;ezux_et_;Used to record the amount of time that you engaged with content on this website. Used for analytics purposes to improve user experience.
+analytics;ezux_ifep_;Used to record whether you have engaged with the content on this site. Used for analytics purposes to improve user experience.
+analytics;ezux_lpl_;Used to record the time that you loaded the last page on this website.
+analytics;ezux_tos_;Used to record the amount of time you have spent on this website.
+functional;ezoawesome_;Used for fraud and invalid activity detection.
+functional;easysize_button_loaded_for_user;Sizing display for products
+functional;swym-email;This stores the email address when the shopper logs into the store or when the shopper authenticates their wishlist or subscribes for a back-in-stock alert.
+functional;swym-session-id;This is a general-purpose platform session cookie used to maintain an anonymous user session.
+functional;swym-pid;Unique identifier to track merchants and their wishlist settings.
+functional;swym-swymRegid;This cookie is used to store an encrypted version of the user's device ID and information on the user’s session.
+functional;swym-cu_ct;Related to custom cart experience from Swym on the wishlist.
+functional;swym-o_s;Related to swym app versioning systems.
+functional;swym-instrumentMap;Related to Wishlist instrumentation for identification of API.
+functional;swym-ol_ct;Related to swym cart functionality.
+functional;swym-v-ckd;Related to swym app versioning systems.
+functional;swym-tpermts;Related to asking user permission for marketing
+functional;swym-u_pref;Related to user’s marketing preference.
+functional;swym-weml;Related to user’s email address for Swym apps
+functional;enforce_policy;This cookie is provided by Paypal. The cookie is used in context with transactions on the website - The cookie is necessary for secure transactions.
+functional;x-pp-s;This cookie is provided by PayPal and supports payment services in the website.
+functional;ts;This cookie is generally provided by PayPal and supports payment services on the website
+functional;ts_c;This cookie is provided by Paypal. The cookie is used in context with transactions on the website.
+functional;tsrce;This cookie is generally provided by PayPal and supports payment services on the website.
+functional;nsid;Cookie for fraud detection. When making a payment via PayPal these cookies are issued – PayPal session/security
+functional;X-PP-SILOVER;This cookie is generally provided by PayPal and supports payment services on the website.
+functional;X-PP-L7;Paypal - These cookies are essential in order to enable you to move around the website and use its features, such as accessing secure areas of the website. Without these cookies services you have asked for, like shopping baskets or e-billing, cannot be provided.
+functional;l7_az;This cookie is necessary for the PayPal login-function on the website.
+functional;SERVERID;Load balancer cookie
+advertising;arcki2;Collects data on user behaviour and interaction in order to optimize the website and make advertisement on the website more relevant.
+advertising;v_usr;Collects data about the user's visit to the site, such as the number of returning visits and which pages are read. The purpose is to deliver targeted ads.
+advertising;idsync-bsw-uid-s;Presents the user with relevant content and advertisement. The service is provided by third-party advertisement hubs, which facilitate real-time bidding for advertisers.
+advertising;done_redirects;Used to monitor website performance for statistical purposes.
+advertising;vidoomy-uids;Used in context with video-advertisement. The cookie limits the number of times a user is shown the same advertisement. The cookie is also used to ensure relevance of the video-advertisement to the specific user.
+functional;bbuserid;Used to store the ID of the logged in user.
+functional;bbpassword;Used to store a hash of the logged in user's password.
+functional;bbsessionhash;Used to track the current session from the database.
+functional;bbcpsessionhash;Used to track the current administrator session from the database.
+functional;bbnp_notices_displayed;Used to keep track of notices to display to the client.
+functional;bbsitebuilder_active;Used to designate whether the Site Builder is active.
+functional;bblastactivity;Stores the time of the last activity.
+functional;bblastvisit;Stores the time of the last page view.
+advertising;viewer_token;This cookie is associated with csync.loopme.me. It is used to track visitors on multiple websites in order to present relevant advertising based on the visitor's preferences.
+functional;wires;ProcessWire session identifier.
+functional;wires_challenge;ProcessWire session cookie used to verify the validity of a session.
+functional;ab.storage.userId.;Used to determine whether the currently logged-in user has changed and to associate events with the current user.
+analytics;ab.storage.sessionId.;Randomly-generated string used to determine whether the user is starting a new or existing session to sync messages and calculate session analytics.
+analytics;ab.storage.deviceId.;Randomly-generated string used to identify anonymous users, and to differentiate users’ devices and enables device-based messaging.
+functional;ab.optOut;Used to store a user’s opt-out preference.
+functional;ab._gd;Temporarily created (and then deleted) to determine the root-level cookie domain, which allows the SDK to work properly across sub-domains.
+functional;devicePixelRatio;Used to make the site responsive to the visitor’s screen size.
+analytics;tk_qs;JetPack sets this cookie to store a randomly-generated anonymous ID which is used only within the admin area and for general analytics tracking.
+advertising;tk_lr;Jetpack - Stores the unique identifier for the publisher to enable Jetpack to collect data.
+advertising;tk_or;Jetpack - Stores the unique identifier for the publisher to enable Jetpack to collect data.
+analytics;tk_r3d;JetPack installs this cookie to collect internal metrics for user activity and in turn improve user experience.
+analytics;tk_tc;JetPack sets this cookie to record details on how user's use the website.
+functional;wp-settings-;Used to persist a user’s wp-admin configuration.
+functional;wporg_logged_in;Used to check whether the current visitor is a logged-in WordPress.org user.
+functional;wporg_sec;Used to check whether the current visitor is a logged-in WordPress.org user.
+functional;wporg_locale;Used to persist a user’s locale configuration.
+functional;welcome-;Used to record if you’ve chosen to hide the “Welcome” message at the top of the corresponding blog.
+functional;showComments;Used to determine if you prefer comments to be shown or hidden when reading the site.
+functional;trac_form_token;Used as a security token for cross-site request forgery protection.
+functional;trac_session;Used to keep anonymous session information.
+functional;codexToken;Used to check whether the current visitor is a logged-in WordPress.org user. Only set if you select “Keep me logged in” when logging in.
+functional;codexUserId;Used to check whether the current visitor is a logged-in WordPress.org user.
+functional;codexUserName;Used to check whether the current visitor is a logged-in WordPress.org user.
+analytics;camptix_client_stats;Used to track unique visitors to tickets page on a WordCamp site
+functional;wp-saving-post;Used to track if there is saved post exists for a post currently being edited. If exists then let user restore the data
+functional;comment_author_;Used to tracked comment author name, if “Save my name, email, and website in this browser for the next time I comment.” is checked
+functional;comment_author_url_;Used to track comment author url, if “Save my name, email, and website in this browser for the next time I comment.” checkbox is checked
+functional;wp-postpass_;Used to maintain session if a post is password protected
+functional;wp-settings-time-;Time at which wp-settings-{user} was set
+functional;tix_view_token;Used for session managing private CampTix content
+functional;jetpackState;Used for maintaining Jetpack State
+functional;jpp_math_pass;Verifies that a user answered the math problem correctly while logging in.
+functional;stnojs;Remember if user do not want JavaScript executed
+functional;wordpress_logged_in_;Remember User session
+functional;cookiefirst-consent;This cookie saves your cookie preferences for this website. You can change these or withdraw your consent easily.
+functional;_iub_cs-;This cookie is used to store cookie acceptance and register consent.
+functional;didomi_token;This cookie contains consent information for personalized purposes and for personalized partners, as well as information specific to Didomi (e.g. user ID).
+functional;euconsent-v2;This cookie contains the chain of consent for the IAB's Transparency and consent framework as well as the consent information for all IAB standards (partners and purposes).
+functional;_global_lucky_opt_out;If set, will not run Lucky Orange. Set via our opt out links.
+functional;_lo_np_;Set if a user should no longer receive a particular poll.
+functional;_lo_bn;Indicated this visitor has been banned from tracking.
+functional;_lo_cid;	ID of the visitor's current chat, if any.
+analytics;_lo_uid;Unique identifier for the visitor.
+analytics;_lo_rid;ID of the visitor's current recording.
+analytics;_lo_v;Total number of visitor's visits.
+analytics;__lotl;URL of the visitor's original landing page, if any.
+analytics;__lotr;URL of the visitor's original referrer, if any.
+functional;axeptio_authorized_vendors;Lists all cookies validated by the user
+functional;axeptio_cookies;Cookie is set by a script that displays a banner allowing the user to accept Cookies on a case-by-case basis and is kept for 12 months, in order to determine for which Cookies the user has given his consent.
+functional;axeptio_all_vendors;Lists all available vendors subject to the user's consent
+functional;cookieyes-consent;CookieYes sets this cookie to remember user's consent preferences so that their preferences are respected on their subsequent visits to this site. It does not collect or store any personal information of the site visitors.
+functional;borlabs-cookie;Stores the user’s cookie consent state for embedded content on the current domain
+functional;osano_consentmanager;Stores the user's current consent status.
+functional;osano_consentmanager_expdate;Stores the expiration of the user's captured consent.
+functional;osano_consentmanager_uuid;Stores the user's unique consent identifier.
+functional;cookieconsent_status;This cookie is used to remember if you have consented to the use of cookies on this website.
+functional;cookieconsent_page;Page where the user complies to the cookie consent
+functional;__cmpconsent;Consent String of the IAB CMP Framework (TCF) v2 specific to a single account in our platform.
+functional;__cmpiab;(only if simplified format is enabled) List of IAB vendor IDs separated by underscore
+functional;__cmpcvc;List of custom vendor IDs separated by underscore specific to a single account in our platform
+functional;__cmpcpc;List of custom purpose IDs separated by underscore
+functional;__cmpccc;Consent information in custom consent format
+functional;__cmpwel;Information on PUR (pay or accept) mode
+functional;__cmpiuid;If enabled, a unique random ID per visitor
+functional;__cmpccx;Integer. Test if visitor left the website after seeing the consent layer.
+functional;__cmpcc;Integer. Test if visitors browser supports cookies.
+functional;__cmpfcc;Integer. Test if visitors browser supports cookies.
+functional;__cmpld;	Timestamp. Contains the time when the visitor last saw the consent layer.
+functional;__cmpccpausps;Consent information in IAB USP CCPA Format.
+functional;hu-consent;Stores the permission to use cookies for the current domain by the user
+functional;complianz_policy_id;Stores the user’s cookie consent state for the current domain
+functional;complianz_consent_status;Stores the status of the cookie agreement of the current user
+functional;cmplz_marketing;Stores the setting of the marketing/statistic level of the cookie agreement.
+functional;cmplz_statistics;Stores the setting of the statistic level of the cookie agreement.
+functional;cmplz_preferences;Stores the setting of the preferences level of the cookie agreement.
+functional;cmplz_functional;Stores the setting of the functional level of the cookie agreement.
+functional;cmplz_stats;Stores the setting of the stats level of the cookie agreement.
+functional;cmplz_choice;Store if a message has been dismissed
+functional;cmplz_id;Store cookie consent preferences
+functional;cmplz_user_data;Read to determine which cookie banner to show
+functional;cmplz_saved_services;Store cookie consent preferences
+functional;cmplz_consented_services;Store cookie consent preferences
+functional;cmplz_policy_id;Store accepted cookie policy ID
+functional;cmplz_saved_categories;Store cookie consent preferences
+functional;cmplz_banner-status;This cookie stores if the cookie banner has been dismissed
+functional;cookie_notice_accepted;Identifies whether the user has accepted the use of cookies on this web site
+functional;moove_gdpr_popup;When this Cookie is enabled, these Cookies are used to save your Cookie Setting Preferences.
+functional;__tlbcpv;Used to record the cookie consent preferences of visitors
+functional;__tltpl_;Used to record the policies that visitors consent to
+functional;__tluid;Assigns a random ID number to each visitor so that their policy consent and cookie consent preferences can be saved.
+advertising;_stid;ShareThis cookie ID.
+advertising;_stidv;ShareThis cookie ID version.
+functional;pubconsent;ShareThis cookie set to indicate user has made a declaration about GDPR data collection for IAB TCF v1 format.
+functional;st_optout;ShareThis cookie set to indicate that user has opted out from data collection.
+analytics;pxcelBcnLcy;ShareThis Tag Management System cookie to track latency on reporting beacon.
+functional;pxcelAcc3PC;ShareThis Tag Management System cookie to check whether third party cookies are accepted by the browser. This is only set if there is no incoming cookie in the request.
+analytics;pxcelPage;ShareThis Tag Management System cookie to track status of pixel rotation loading. ShareThis uses a different cookie for different groups of sites within the ShareThis network.
+functional;usprivacy;ShareThis reads if the usprivacy cookie is present in the publisher domain.
+functional;euconsent;ShareThis reads if the euconsent cookie is present in the publisher domain.
+functional;fpestid;Fpestid is a ShareThis cookie ID set in the domain of the website operator.
+advertising;khaos;Rubicon Project cookie used for tracking advertising campaigns and collect anonymized user behavior statistics
+advertising;audit;Set by Rubicon Project to record cookie consent data.
+advertising;put_;Records anonymous user data, such as IP, geographical location, websites visited and ads clicked on, in order to optimise visualisation of ads according to user movement around websites using the same advertising network.
+advertising;rpb;Records anonymous user data, such as IP, geographical location, websites visited and ads clicked on, in order to optimise visualisation of ads according to user movement around websites using the same advertising network.
+advertising;rpx;Records anonymous user data, such as IP, geographical location, websites visited and ads clicked on, in order to optimise visualisation of ads according to user movement around websites using the same advertising network.
+advertising;c;Records anonymous user data, such as IP, geographical location, websites visited and ads clicked on, in order to optimise visualisation of ads according to user movement around websites using the same advertising network.
+advertising;apiDomain_;The shared domain API calls for all sites in a group should be sent to.
+functional;gac_;Used to trigger server initiated login.
+functional;_gig_APIProxy_enabled;Used to indicate whether to use APIProxy or not.
+advertising;gig_bootstrap_;If declined, user may be intermittently logged out.
+functional;gig_canary;Indicates whether the client is using the canary version of the WebSDK.
+advertising;_gig_email;Last used email address in share (when sending email).
+functional;gig_canary_ver;The version name of the WebSDK's canary version.
+advertising;gig_hasGmid;Internal cookie for the Web SDK
+advertising;_gig_llu;Last login provider username for Login Welcome back screen.
+advertising;_gig_llp;Last login provider username for Login Welcome back screen.
+functional;glt_;Login Token for authentication.
+functional;_gig_lt;Login Token for authentication.
+functional;gig_last_ver_;Last time of verification of the session when the site is using the verifyLoginInterval property of global CONF in order to trigger reverification.
+functional;gig_loginToken_;SAP Customer Data Cloud's Single Sign On (SSO) group login token.
+functional;_gig_shareUI_cb_;Login Token for authentication.
+advertising;_gig_shareUI_lastUID;Last logged in UID.
+advertising;_gigRefUid_;Last referrer User ID.
+functional;gig_toggles;This value is sent to SAP Customer Data Cloud in order to identify toggles that the back-end behavior depends on to process the specified toggle.
+functional;gig3pc;Remembers if third-party cookies are blocked to avoid checking every time.
+functional;gig3pctest;A temp cookie used to check if third-party cookies are blocked.
+functional;glnk;Ticket for second phase of login.
+advertising;gmid;User cookie.
+functional;gst;Server ticket for second phase of login.
+functional;GSLM_;Session magic cookie.
+advertising;hasGmid;Internal cookie for the Web SDK
+functional;SAML_;This cookie is saved by SAML SP to manage the SAML session information and, specifically, the parameters needed for logout.
+functional;gltexp_;Login Token Expiration.
+advertising;_gig_;Callback for listener.
+functional;ua_;COPPA (under age).
+advertising;ucid;Unique computer identifier used for generating reports, and used by the Web SDK to get saved response.
+advertising;ozone_uid;This cookie contains unique randomly-generated values that enable the Ozone Project to distinguish browsers and mobile devices.
+analytics;mc_cid;Mailchimp campaign ID
+analytics;mc_eid;Mailchimp email ID
+analytics;mc_landing_site;Page visitor entered your site on
+advertising;_BEAMER_FIRST_VISIT_;Set by Beamer (hotjar.com) to store the date of the user’s first interaction with insights.
+advertising;_BEAMER_USER_ID_;Set by Beamer (hotjar.com) to store an internal ID for a user.
+advertising;_BEAMER_DATE_;Set by Beamer (hotjar.com). Stores the latest date in which the feed or page was opened.
+advertising;_BEAMER_LAST_POST_SHOWN_;Set by Beamer (hotjar.com). Stores the timestamp for the last time the number of unread posts was updated for the user.
+advertising;_BEAMER_FILTER_BY_URL_;This cookie is set by Beamer to store whether to apply URL filtering on the feed
+analytics;adhese2;Unique Reach reporting
+advertising;cap;Frequency Capping
+advertising;pubmatic_uid;When Adhese is used as server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)
+advertising;improvedigital_uid;When Adhese is used as server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)
+advertising;rubicon_uid;When Adhese is used as server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)
+advertising;adform_uid;When Adhese is used as server connection to SSPs or DSPs with whom the Account holder has a contract, a user syncing process can be installed where the SSP user_uid is stored in an Adhese cookie. This is dependent of consent for all parties involved (Accountholder, SSP, Adhese)
+functional;pmaAuth-;Per server authentication
+functional;phpMyAdmin;Session identifier
+functional;pmaUser-;Per server username
+functional;pma_lang;Language preference
+functional;PLESKSESSID;Keeps a Plesk session
+functional;plesk-items-per-page;Save the state of UI elements in Plesk
+functional;plek-list-type;Save the state of UI elements in Plesk
+functional;plesk-sort-dir;Save the state of UI elements in Plesk
+functional;plesk-sort-field;Save the state of UI elements in Plesk
+functional;sites-active-list-state-collapsed;Save the state of UI elements in Plesk
+functional;lists-state;Save the state of UI elements in Plesk
+functional;fe_typo_user;Used to identify a session ID when logged-in to the TYPO3 Frontend
+functional;be_typo_user;Used to identify a backend session when a Backend User logged in to TYPO3 Backend or Frontend
+functional;Typo3InstallTool;Used to validate a session for the System Maintenance Area / Install Tool
+functional;be_lastLoginProvider;Stores information about the last login provider when logging into TYPO3 Backend
+advertising;KelkooID;This cookie identifies the user for statistics and ad retargeting.
+advertising;_cio;Used to identify visitors in order to send transactional and targeted email messages.
+advertising;_cioid;Used to identify visitors in order to send transactional and targeted email messages.
+advertising;_cioanonid;Used to identify visitors in order to send transactional and targeted email messages.
+advertising;cioFT;Used to identify visitors in order to send transactional and targeted email messages.
+advertising;cioLT;Used to identify visitors in order to send transactional and targeted email messages.
+analytics;_chartbeat2;Cookie is used to register if a person has visited the domain before (to calculate new vs returning users).
+analytics;_SUPERFLY_nosample;Cookie is used only if you go over your plan's traffic limit. At that point the cookie is set and will disable the beacon from that visitor for one hour.
+functional;Datadome;This a security cookie based upon detecting BOTS and malicious traffic.
+advertising;TXCSDMN_;This cookie is associated with Tappx, an AdTech platform.
+advertising;TXCD;This cookie is associated with Tappx, an AdTech platform.
+advertising;rai-pltn-pl-;Ad-serving frequency control, optimization and Brand Safety.
+advertising;avcid-;ID Syncing with DSP / SSP for communications using Open RTB protocol
+advertising;pdid;Randomly generated user ID.
+advertising;data-;Cookie used to record your browsing activity, with the purpose of displaying targeted ads.
+advertising;visitor-id;This cookie is used to collect information on the visitor, which we then use for analytics purposes.
+advertising;gdpr_status;Determines whether you have accepted the cookie consent box, to prevent it being shown the next time you visit
+functional;_pbjs_userid_consent_data;This cookie is used to know if the user's consent choices have changed since the last page load. It is a hashed (cyrb53Hash) value of the consent string with a 30 day expiration.
+advertising;DotomiUser;This cookie is set by the provider Dotomi. This cookie is used for sales/lead correlation and for targeting and marketing purposes. it is used to store unique surfer ID.
+advertising;cjae;The cookie is set by the provider Dotomi. This cookie is used to record visitor behaviour.
+advertising;DotomiStatus;Used to honor device-level opt-out preferences.
+advertising;DotomiSession_;Pseudonymous session id
+advertising;DotomiSync;Used to identify which sync pixels we set on users via registration tags
+advertising;dtm_token;Manage cookie level profile, freq. cap, retargeting
+advertising;dtm_token_exp;Logs timestamp for dtm_token cookie
+advertising;dtm_tcdata;Stores consent for vendors that participate in the IAB Transparency and Consent Framework.
+advertising;dtm_tcdata_exp;Logs timestamp for dtm_tcdata cookie
+advertising;dtm_token_sc;Our first party cookie set via headers on registration tags
+advertising;dtm_user_id;Used to identify users registration
+advertising;dtm_user_id_sc;Used to identify users registration
+advertising;dtm_gdpr_delete;Set when GDPR data delete is executed. Life span is 30 days. When this cookie exists, GDPR consent is considered revoked.
+advertising;dtm_gpc_optout;Set when GPC Optout is initiated. Presence of this cookie helps us prevent multiple downstream optout requests for the same user
+advertising;pluto2;This is a temporary cookie that is created in the case when no PLUTO cookie is set AND the user hits the advertiser site where a Re-Targeting pixel has been executed.
+advertising;pluto;The Session ID is used to track preference information.
+functional;fastclick;Tells the delivery system that the browser had opted out of the network
+advertising;svid;Used to relate preference information for marketing purposes
+advertising;rts;Used to track last time browser was redirected through Corporate Cookie Service / Dotomi.com domain

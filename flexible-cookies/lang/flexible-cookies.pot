@@ -1,0 +1,713 @@
+# Copyright (C) 2025 WP Desk
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible Cookies 1.1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-cookies\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-03T07:30:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: flexible-cookies\n"
+
+#. Plugin Name of the plugin
+#: flexible-cookies.php
+#: src/Settings/SettingsPage.php:61
+#: src/Settings/SettingsPage.php:62
+#: src/Views/Dashboard/settings.php:18
+msgid "Flexible Cookies"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: flexible-cookies.php
+msgid "https://www.wpdesk.net/products/flexible-cookies/"
+msgstr ""
+
+#. Description of the plugin
+#: flexible-cookies.php
+msgid "Plugin for managing cookies"
+msgstr ""
+
+#. Author of the plugin
+#: flexible-cookies.php
+msgid "WP Desk"
+msgstr ""
+
+#. Author URI of the plugin
+#: flexible-cookies.php
+msgid "https://www.wpdesk.net/"
+msgstr ""
+
+#: src/Cookies/Categories/Advertising.php:18
+#: src/Settings/Tabs/AdvancedTab.php:43
+msgid "Advertisement"
+msgstr ""
+
+#: src/Cookies/Categories/Advertising.php:19
+msgid "Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads."
+msgstr ""
+
+#: src/Cookies/Categories/Analytics.php:18
+#: src/Settings/Tabs/AdvancedTab.php:44
+msgid "Analytics"
+msgstr ""
+
+#: src/Cookies/Categories/Analytics.php:19
+msgid "Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc."
+msgstr ""
+
+#: src/Cookies/Categories/Functional.php:18
+#: src/Settings/Tabs/AdvancedTab.php:45
+msgid "Functional"
+msgstr ""
+
+#: src/Cookies/Categories/Functional.php:19
+msgid "Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features."
+msgstr ""
+
+#: src/Cookies/Categories/Necessary.php:58
+#: src/Settings/Tabs/AdvancedTab.php:46
+#: src/Views/Front/preferences/category_row.php:14
+msgid "Necessary"
+msgstr ""
+
+#: src/Cookies/Categories/Necessary.php:59
+msgid "Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously."
+msgstr ""
+
+#: src/Cookies/Categories/Other.php:26
+#: src/Settings/Tabs/AdvancedTab.php:47
+msgid "Others"
+msgstr ""
+
+#: src/Cookies/Categories/Other.php:27
+msgid "Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet."
+msgstr ""
+
+#: src/Cookies/Categories/Performance.php:18
+#: src/Settings/Tabs/AdvancedTab.php:48
+msgid "Performance"
+msgstr ""
+
+#: src/Cookies/Categories/Performance.php:19
+msgid "Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors."
+msgstr ""
+
+#: src/Plugin.php:180
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:188
+msgid "Settings"
+msgstr ""
+
+#: src/Plugin.php:181
+msgid "https://wpdesk.net/docs/flexible-cookies/"
+msgstr ""
+
+#: src/Plugin.php:181
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:184
+msgid "Docs"
+msgstr ""
+
+#: src/Settings/SettingsPage.php:107
+msgid "General"
+msgstr ""
+
+#: src/Settings/SettingsPage.php:108
+msgid "Appearance"
+msgstr ""
+
+#: src/Settings/SettingsPage.php:109
+msgid "Categories"
+msgstr ""
+
+#: src/Settings/SettingsPage.php:110
+msgid "Scanner"
+msgstr ""
+
+#: src/Settings/SettingsPage.php:111
+msgid "Google Integration"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:33
+msgid "Show cookie bar on page"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:34
+msgid "Check if you want to display a banner with information about cookies for visitors."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:38
+msgid "Simple cookie bar"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:39
+msgid "Check if you want the bar to be used only to inform about the use of cookies on the site. Enabling this option will prevent visitors from being able to manage their cookie preferences."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:44
+msgid "Block cookies before accepting"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:45
+msgid "Check if you want cookies to be blocked before the visitor makes a choice."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:51
+msgid "Admin mode"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:52
+msgid "If enabled, cookies will not be blocked for users with admin permissions"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:57
+msgid "Title"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:59
+#: src/UI/CookieBars.php:14
+msgid "We value your privacy"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:60
+msgid "Enter the title that will be displayed in the banner informing about the use of cookies on the site."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:63
+msgid "Message about cookies"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:64
+msgid "Enter the message that will be displayed in the banner informing about the use of cookies on the site."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:67
+#: src/UI/CookieBars.php:13
+msgid "This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:71
+msgid "Automatically accept cookies"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:72
+msgid "Automatically accept cookies after selected time."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:78
+msgid "Time to automatically accept cookies"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:79
+msgid "Enter the time after which cookies will be automatically accepted (in seconds)."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:85
+msgid "Automatically accept cookies on scroll"
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:86
+msgid "Automatically accept cookies if user scrolls down."
+msgstr ""
+
+#: src/Settings/Tabs/GeneralTab.php:91
+#: src/Settings/Tabs/GoogleIntegrationTab.php:158
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:87
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:64
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:50
+#: src/Settings/Tabs/SubTabs/Styles/CustomCSSSubTabFields.php:53
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:41
+#: src/Views/Scanner/scanner.php:34
+msgid "Save"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:43
+msgid "Enable GCM"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:44
+msgid "Enable Google Consent Mode."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:50
+msgid "Consent mode"
+msgstr ""
+
+#. translators: %1$s and %2$s are replaced by opening and closing anchor tag respectively.
+#: src/Settings/Tabs/GoogleIntegrationTab.php:54
+msgid "Select consent mode, you can learn more about it in %1$sGoogle Privacy Policy%2$s."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:59
+msgid "Basic"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:60
+msgid "Advanced"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:65
+msgid "Google Tag Manager Container ID"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:66
+msgid "Enter your GTM ID. In Tag Manager, click Workspace. Near the top of the window, find your container ID, formatted as \"GTM-XXXXXX\"."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:70
+msgid "Mapping of cookie categories"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:71
+msgid "Select the cookie category to which you want to assign the google parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:77
+msgid " Select cookie category for ad_storage parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:84
+msgid " Select cookie category for analytics_storage parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:91
+msgid " Select cookie category for ad_user_data parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:98
+msgid " Select cookie category for ad_personalization parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:102
+msgid "Default consent values"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:103
+msgid "Select default value for google parameter. This value will be used if the user has not interacted with the consent banner."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:109
+msgid "Select default value for ad_storage parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:112
+#: src/Settings/Tabs/GoogleIntegrationTab.php:125
+#: src/Settings/Tabs/GoogleIntegrationTab.php:138
+#: src/Settings/Tabs/GoogleIntegrationTab.php:151
+msgid "Denied"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:113
+#: src/Settings/Tabs/GoogleIntegrationTab.php:126
+#: src/Settings/Tabs/GoogleIntegrationTab.php:139
+#: src/Settings/Tabs/GoogleIntegrationTab.php:152
+msgid "Granted"
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:122
+msgid "Select default value for analytics_storage parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:135
+msgid "Select default value for ad_user_data parameter."
+msgstr ""
+
+#: src/Settings/Tabs/GoogleIntegrationTab.php:148
+msgid "Select default value for ad_personalization parameter."
+msgstr ""
+
+#: src/Settings/Tabs/ScannerTab.php:64
+msgid "Saved."
+msgstr ""
+
+#: src/Settings/Tabs/ScannerTab.php:66
+msgid "Select one or more cookies to save."
+msgstr ""
+
+#: src/Settings/Tabs/ScannerTab.php:75
+#: src/Settings/Tabs/TabWithFields.php:82
+msgid "An error occurred during form verification. Changes were not saved."
+msgstr ""
+
+#: src/Settings/Tabs/ScannerTab.php:79
+#: src/Settings/Tabs/TabWithFields.php:86
+msgid "This form has expired. Try again later."
+msgstr ""
+
+#: src/Settings/Tabs/StylesTab.php:79
+msgid "Cookie Bar"
+msgstr ""
+
+#: src/Settings/Tabs/StylesTab.php:80
+msgid "Buttons"
+msgstr ""
+
+#: src/Settings/Tabs/StylesTab.php:81
+msgid "Preferences window"
+msgstr ""
+
+#: src/Settings/Tabs/StylesTab.php:82
+#: src/Settings/Tabs/SubTabs/Styles/CustomCSSSubTabFields.php:46
+msgid "Custom CSS"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:33
+msgid "Necessary category"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:34
+msgid "Do not allow the use of this category of cookies to be disabled."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:58
+msgid "Category description"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:59
+msgid "Edit the description of the cookie category, visible in the preferences window."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:64
+msgid "Additional cookies"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:65
+msgid "Manually add the names of additional cookies in this category."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:78
+msgid "Enable/disable category"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:79
+msgid "When the option Disable is selected, the category will not be visible to the user and cookies will be automatically blocked (not recommended)."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:24
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:29
+msgid "Text color"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:25
+msgid "Select the color of the text on the cookie bar."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:30
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:36
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:35
+msgid "Background color"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:31
+msgid "Select the background color of the cookie bar."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:36
+msgid "Full width"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:37
+msgid "Disable this option if you want to set the bar in the corner of the screen."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:43
+msgid "Width"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:44
+msgid "Enter the width of the cookie bar."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:51
+msgid "Position"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:52
+msgid "Select the position of the cookie bar."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:56
+msgid "Left"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:57
+msgid "Right"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:22
+msgid "Enable custom styling"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:23
+msgid "Enable options to customize buttons. While the option is disabled, button styles will be loaded from the default theme."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:30
+msgid "Select the color of the button text."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:37
+msgid "Select the background color of the buttons."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:43
+msgid "Hover background color"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:44
+msgid "Select the background color that will be applied if the user places the cursor over the button."
+msgstr ""
+
+#. translators: %1$s and %2$s are replaced by opening and closing anchor tag respectively.
+#: src/Settings/Tabs/SubTabs/Styles/CustomCSSSubTabFields.php:35
+msgid "Enter custom CSS code. You can find instructions for this field in the %1$splugin's documentation%2$s."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:23
+msgid "Header color"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:24
+msgid "Choose the color of the header with the category name."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:29
+msgid "Description color"
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:30
+msgid "Choose the color of the text with the category description."
+msgstr ""
+
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:36
+msgid "Choose the background color of the preference window."
+msgstr ""
+
+#: src/Views/Dashboard/customcss.php:34
+msgid "Reset"
+msgstr ""
+
+#: src/Views/Front/cookies_bar.php:16
+msgid "Accept all"
+msgstr ""
+
+#: src/Views/Front/cookies_bar.php:17
+msgid "Deny all"
+msgstr ""
+
+#: src/Views/Front/cookies_bar.php:18
+msgid "Preferences"
+msgstr ""
+
+#: src/Views/Front/cookies_settings.php:13
+msgid "Cookies preferences"
+msgstr ""
+
+#: src/Views/Front/cookies_settings.php:86
+msgid "Save and accept"
+msgstr ""
+
+#: src/Views/Front/simple_bar.php:16
+msgid "Accept"
+msgstr ""
+
+#: src/Views/Scanner/scanner.php:12
+msgid "Page preview"
+msgstr ""
+
+#: src/Views/Scanner/scanner.php:20
+msgid "Scanning..."
+msgstr ""
+
+#: src/Views/Scanner/scanner.php:25
+msgid "Cookie name"
+msgstr ""
+
+#: src/Views/Scanner/scanner.php:26
+msgid "Category"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:65
+msgid "Grow your business with WP Desk"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:291
+msgid "Buy now"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:293
+msgid "Learn more"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:296
+msgid "Download"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php:307
+msgid "More info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:181
+msgid "Support"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:46
+msgid "Set image"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:57
+msgid "Remove image"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:82
+msgid "Select or Upload Media"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:86
+msgid "Use this media"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/product-select.php:22
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:41
+msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:70
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:41
+msgid "Enable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:75
+msgid "Disable usage tracking"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:23
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+msgid "Hey %s,"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:26
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:18
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:35
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:27
+msgid "Allow & Continue &rarr;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:40
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:32
+msgid "Skip"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:47
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:39
+msgid "What permissions are being granted?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:56
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:48
+msgid "Your Site Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:51
+msgid "WP version, PHP info"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:67
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:59
+msgid "Plugin Usage"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:70
+msgid "Current settings and usage information of %1$s plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:78
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:70
+msgid "Your Store Overview"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:81
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:73
+msgid "Anonymized and non-sensitive store usage information"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:91
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:83
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:27
+msgid "Find out more &raquo;"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:62
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+msgid "You are deactivating %s plugin."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:19
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:28
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:38
+msgid "The plugin broke my site"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:48
+msgid "I found a better plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:53
+msgid "What's the plugin's name?"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:63
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:73
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:83
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:93
+msgid "Other"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:98
+msgid "Kindly tell us the reason so we can improve"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:107
+msgid "Cancel"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
+msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-opt-out-notice.php:11
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr ""

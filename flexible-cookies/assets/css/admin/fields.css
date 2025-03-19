@@ -1,0 +1,3 @@
+tr:has(.hide_if_checked), tr:has(.hide_if_not_checked){
+    display: none;
+}
