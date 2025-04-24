@@ -1,8 +1,7 @@
 const block_until_accepted = dataObject.block_until_accepted;
 const allowed_cookies = dataObject.allowed_cookies;
-const flexible_cookies_now = new Date();
-flexible_cookies_now.setDate(flexible_cookies_now.getDate() + 30);
-const expire_time = Math.floor(flexible_cookies_now.getTime() / 1000);
+const days_to_expire = 30;
+const expire_time = days_to_expire * 24 * 60 * 60;
 const cookie_path = '/';
 const plugin_cookies = dataObject.plugin_cookies;
 const accept_after_time = dataObject.accept_after_time;
@@ -34,7 +33,7 @@ class FlexibleCookiesBlocker {
     }
 
     blockCookie(cookie_name) {
-        flexibleCookiesFunctions.setCookie(cookie_name, '', 'expires=Thu, 01 Jan 1970 00:00:00 UTC', '/', '');
+        flexibleCookiesFunctions.setCookie(cookie_name, '', {'expires':'Thu, 01 Jan 1970 00:00:00 UTC', 'path':'/', 'domain':'' });
     }
 
     acceptAllCookies() {
@@ -42,8 +41,8 @@ class FlexibleCookiesBlocker {
         flexibleCookiesUI.hideCookieBar();
 		flexibleCookiesUI.checkAllCategoryCheckboxes();
         flexibleCookiesBlocker.savePreferences(categories.join(','));
-        flexibleCookiesFunctions.setCookie(plugin_cookies['accepted_all_cookies'], expire_time, expire_time, cookie_path);
-		if( flexibleCookiesGTMConsentUpdater ){
+        flexibleCookiesFunctions.setCookie(plugin_cookies['accepted_all_cookies'], expire_time, {'max-age':expire_time, 'path':cookie_path });
+		if( typeof flexibleCookiesGTMConsentUpdater !== 'undefined' && flexibleCookiesGTMConsentUpdater !== null ){
 			flexibleCookiesGTMConsentUpdater.grantAll();
 		}
     }
@@ -52,7 +51,7 @@ class FlexibleCookiesBlocker {
         flexibleCookiesUI.hideCookieBar();
         flexibleCookiesBlocker.savePreferences();
 		flexibleCookiesUI.uncheckAllCategoryCheckboxes();
-		if( flexibleCookiesGTMConsentUpdater ){
+		if( typeof flexibleCookiesGTMConsentUpdater !== 'undefined' && flexibleCookiesGTMConsentUpdater !== null ){
 			let allowed_categories = flexibleCookiesFunctions.getAcceptedCategories();
 			flexibleCookiesGTMConsentUpdater.grantAcceptedCategories( allowed_categories );
 		}
@@ -64,14 +63,14 @@ class FlexibleCookiesBlocker {
         flexibleCookiesBlocker.blockCookie(plugin_cookies['accepted_all_cookies']);
         flexibleCookiesUI.hideCookiesSettingsWindow();
         flexibleCookiesUI.hideCookieBar();
-		if( flexibleCookiesGTMConsentUpdater ){
+		if( typeof flexibleCookiesGTMConsentUpdater !== 'undefined' && flexibleCookiesGTMConsentUpdater !== null ){
 			flexibleCookiesGTMConsentUpdater.grantAcceptedCategories( allowed_categories );
 		}
     }
 
     savePreferences(categories = '') {
-        flexibleCookiesFunctions.setCookie(plugin_cookies['bar'], expire_time, expire_time, cookie_path);
-        flexibleCookiesFunctions.setCookie(plugin_cookies['accepted_categories'], categories, expire_time, cookie_path);
+        flexibleCookiesFunctions.setCookie(plugin_cookies['bar'], expire_time, {'max-age':expire_time, 'path':cookie_path });
+        flexibleCookiesFunctions.setCookie(plugin_cookies['accepted_categories'], categories, {'max-age':expire_time, 'path':cookie_path });
     }
 
     containsNecessaryPattern(cookie_name) {

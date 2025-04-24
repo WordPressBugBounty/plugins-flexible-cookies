@@ -3,7 +3,7 @@
  * Plugin Name: Flexible Cookies
  * Plugin URI: https://www.wpdesk.net/products/flexible-cookies/
  * Description: Plugin for managing cookies
- * Version: 1.1.9
+ * Version: 1.1.10
  * Author: WP Desk
  * Author URI: https://www.wpdesk.net/
  * License: GPL v2 or later
@@ -32,7 +32,7 @@ use WPDesk\FlexibleCookies\Plugin;
 defined( 'ABSPATH' ) || exit;
 
 /* THESE TWO VARIABLES CAN BE CHANGED AUTOMATICALLY */
-$plugin_version = '1.1.9';
+$plugin_version = '1.1.10';
 
 $plugin_name        = 'Flexible Cookies';
 $plugin_class_name  = Plugin::class;

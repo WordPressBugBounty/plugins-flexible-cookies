@@ -48,8 +48,13 @@ class FlexibleCookiesFunctions{
 
         return cookiesArray;
     }
-    setCookie( cookie_name , cookie_value , expires, path = '/', domain = '' ) {
-        document.cookie = cookie_name + '=' + cookie_value + ';' + expires + ';path=' + path + ';domain=' + domain+';';
+    setCookie( cookie_name , cookie_value , parameters) {
+		let newCookie = cookie_name + '=' + cookie_value + ';'
+
+		Object.entries(parameters).forEach(function([key, value]) {
+			newCookie += key + '=' + value + ';';
+		});
+        document.cookie = newCookie;
     }
     getAcceptedCategories(){
         const checkboxValues = [];
