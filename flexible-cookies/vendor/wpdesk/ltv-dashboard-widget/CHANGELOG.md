@@ -1,3 +1,7 @@
+## 1.5.9 - 2025-05-23
+### Changed
+- Promo URL wpde.sk -> wpdesk.link
+
 ## 1.5.8 - 2024-11-18
 ### Fixed
 - Possible preemptive execution of translation function, when main library class is instantiated directly before `init` hook.
