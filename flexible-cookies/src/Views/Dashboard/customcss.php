@@ -7,6 +7,33 @@ namespace FlexibleCookiesVendor;
  * @var string              $name_prefix
  * @var string              $value
  */
+
+$settings = wp_enqueue_code_editor(
+	[
+		'type'       => 'text/css',
+		'codemirror' => [
+			'indentUnit'        => 2,
+			'tabSize'           => 2,
+			'lineNumbers'       => true,
+			'lint'              => true,
+			'gutters'           => [ 'CodeMirror-lint-markers' ],
+			'autoCloseBrackets' => true,
+			'matchBrackets'     => true,
+		],
+	]
+);
+
+if ( $settings !== false ) {
+	wp_add_inline_script(
+		'wp-codemirror',
+		sprintf(
+			'jQuery( function() { wp.codeEditor.initialize( "%s", %s ); } );',
+			esc_js( $field->get_id() ),
+			wp_json_encode( $settings )
+		)
+	);
+}
+
 ?>
 
 <textarea

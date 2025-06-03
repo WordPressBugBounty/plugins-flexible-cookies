@@ -3,15 +3,15 @@
  * Plugin Name: Flexible Cookies
  * Plugin URI: https://www.wpdesk.net/products/flexible-cookies/
  * Description: Plugin for managing cookies
- * Version: 1.1.11
+ * Version: 1.2.0
  * Author: WP Desk
  * Author URI: https://www.wpdesk.net/
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: flexible-cookies
  * Domain Path: /lang/
- * Requires at least: 6.2
- * Tested up to: 6.5
+ * Requires at least: 6.3
+ * Tested up to: 6.8
  * Requires PHP: 7.4
  * Copyright 2022 WP Desk Ltd.
  * This program is free software; you can redistribute it and/or modify
@@ -32,7 +32,7 @@ use WPDesk\FlexibleCookies\Plugin;
 defined( 'ABSPATH' ) || exit;
 
 /* THESE TWO VARIABLES CAN BE CHANGED AUTOMATICALLY */
-$plugin_version = '1.1.11';
+$plugin_version = '1.2.0';
 
 $plugin_name        = 'Flexible Cookies';
 $plugin_class_name  = Plugin::class;

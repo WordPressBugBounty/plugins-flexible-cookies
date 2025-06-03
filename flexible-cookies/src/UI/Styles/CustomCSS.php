@@ -12,10 +12,8 @@ use WPDesk\FlexibleCookies\UI\UIElement;
  */
 class CustomCSS extends UIElement {
 
-	/**
-	 * @var string
-	 */
-	protected $template = 'custom_css';
+	protected string $template = 'custom_css';
+	public const TEMPLATE      = 'custom_css';
 
 	public function __construct( Settings $settings ) {
 		$this->settings = $settings;

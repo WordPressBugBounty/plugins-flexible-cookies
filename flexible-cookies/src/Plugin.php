@@ -128,7 +128,7 @@ class Plugin extends AbstractPlugin implements LoggerAwareInterface, HookableCol
 				$scanner = new Scanner();
 				$this->add_hookable( $scanner );
 
-				$this->add_hookable( new SettingsPage( $this->settings, $this->get_form_renderer(), $this->cookie_categories ) );
+				$this->add_hookable( new SettingsPage( $this->settings, $this->get_form_renderer(), $this->cookie_categories, $this->get_plugin_assets_url() ) );
 
 				if ( $gcm_enabled && ! empty( $gtm_tag_id ) ) {
 					$this->add_hookable( new GoogleIntegration( $this->settings, $this->get_selected_consent_mode(), $this->cookie_categories, $this->plugin_version ) );

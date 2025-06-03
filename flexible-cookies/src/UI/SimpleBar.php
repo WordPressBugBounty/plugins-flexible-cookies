@@ -9,8 +9,6 @@ namespace WPDesk\FlexibleCookies\UI;
  */
 class SimpleBar extends CookieBars {
 
-	/**
-	 * @var string
-	 */
-	protected $template = 'simple_bar';
+	protected string $template = 'simple_bar';
+	public const TEMPLATE      = 'simple_bar';
 }

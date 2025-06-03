@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'wpdesk/flexible-cookies',
-        'pretty_version' => '1.1.11',
-        'version' => '1.1.11.0',
-        'reference' => '151e57ec82b9e70015be220308d3be69ded46e24',
+        'pretty_version' => '1.2.0',
+        'version' => '1.2.0.0',
+        'reference' => '397f2008e332b373b3901065645bdd6ee3508b07',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'wpdesk/flexible-cookies' => array(
-            'pretty_version' => '1.1.11',
-            'version' => '1.1.11.0',
-            'reference' => '151e57ec82b9e70015be220308d3be69ded46e24',
+            'pretty_version' => '1.2.0',
+            'version' => '1.2.0.0',
+            'reference' => '397f2008e332b373b3901065645bdd6ee3508b07',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

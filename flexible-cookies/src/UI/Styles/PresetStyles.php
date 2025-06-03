@@ -11,10 +11,8 @@ use WPDesk\FlexibleCookies\UI\UIElement;
  */
 class PresetStyles extends UIElement {
 
-	/**
-	 * @var string
-	 */
-	protected $template = 'styles';
+	protected string $template = 'styles';
+	public const TEMPLATE      = 'styles';
 
 	protected function get_default_params(): array {
 		return [

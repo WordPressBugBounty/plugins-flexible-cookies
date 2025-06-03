@@ -2,22 +2,22 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Flexible Cookies 1.1.11\n"
+"Project-Id-Version: Flexible Cookies 1.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-cookies\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-23T13:25:25+00:00\n"
+"POT-Creation-Date: 2025-06-03T09:32:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: flexible-cookies\n"
 
 #. Plugin Name of the plugin
 #: flexible-cookies.php
-#: src/Settings/SettingsPage.php:61
-#: src/Settings/SettingsPage.php:62
+#: src/Settings/SettingsPage.php:58
+#: src/Settings/SettingsPage.php:59
 #: src/Views/Dashboard/settings.php:18
 msgid "Flexible Cookies"
 msgstr ""
@@ -111,23 +111,23 @@ msgstr ""
 msgid "Docs"
 msgstr ""
 
-#: src/Settings/SettingsPage.php:107
+#: src/Settings/SettingsPage.php:104
 msgid "General"
 msgstr ""
 
-#: src/Settings/SettingsPage.php:108
+#: src/Settings/SettingsPage.php:105
 msgid "Appearance"
 msgstr ""
 
-#: src/Settings/SettingsPage.php:109
+#: src/Settings/SettingsPage.php:106
 msgid "Categories"
 msgstr ""
 
-#: src/Settings/SettingsPage.php:110
+#: src/Settings/SettingsPage.php:107
 msgid "Scanner"
 msgstr ""
 
-#: src/Settings/SettingsPage.php:111
+#: src/Settings/SettingsPage.php:108
 msgid "Google Integration"
 msgstr ""
 
@@ -217,7 +217,7 @@ msgstr ""
 #: src/Settings/Tabs/GoogleIntegrationTab.php:158
 #: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:87
 #: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:64
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:50
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:52
 #: src/Settings/Tabs/SubTabs/Styles/CustomCSSSubTabFields.php:53
 #: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:41
 #: src/Views/Scanner/scanner.php:34
@@ -238,6 +238,7 @@ msgstr ""
 
 #. translators: %1$s and %2$s are replaced by opening and closing anchor tag respectively.
 #: src/Settings/Tabs/GoogleIntegrationTab.php:54
+#, php-format
 msgid "Select consent mode, you can learn more about it in %1$sGoogle Privacy Policy%2$s."
 msgstr ""
 
@@ -328,28 +329,28 @@ msgid "Select one or more cookies to save."
 msgstr ""
 
 #: src/Settings/Tabs/ScannerTab.php:75
-#: src/Settings/Tabs/TabWithFields.php:82
+#: src/Settings/Tabs/TabWithFields.php:79
 msgid "An error occurred during form verification. Changes were not saved."
 msgstr ""
 
 #: src/Settings/Tabs/ScannerTab.php:79
-#: src/Settings/Tabs/TabWithFields.php:86
+#: src/Settings/Tabs/TabWithFields.php:83
 msgid "This form has expired. Try again later."
 msgstr ""
 
-#: src/Settings/Tabs/StylesTab.php:79
+#: src/Settings/Tabs/StylesTab.php:74
 msgid "Cookie Bar"
 msgstr ""
 
-#: src/Settings/Tabs/StylesTab.php:80
+#: src/Settings/Tabs/StylesTab.php:75
 msgid "Buttons"
 msgstr ""
 
-#: src/Settings/Tabs/StylesTab.php:81
+#: src/Settings/Tabs/StylesTab.php:76
 msgid "Preferences window"
 msgstr ""
 
-#: src/Settings/Tabs/StylesTab.php:82
+#: src/Settings/Tabs/StylesTab.php:77
 #: src/Settings/Tabs/SubTabs/Styles/CustomCSSSubTabFields.php:46
 msgid "Custom CSS"
 msgstr ""
@@ -387,7 +388,7 @@ msgid "When the option Disable is selected, the category will not be visible to 
 msgstr ""
 
 #: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:24
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:29
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:31
 msgid "Text color"
 msgstr ""
 
@@ -396,7 +397,7 @@ msgid "Select the color of the text on the cookie bar."
 msgstr ""
 
 #: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:30
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:36
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:38
 #: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:35
 msgid "Background color"
 msgstr ""
@@ -437,32 +438,33 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:22
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:24
 msgid "Enable custom styling"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:23
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:25
 msgid "Enable options to customize buttons. While the option is disabled, button styles will be loaded from the default theme."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:30
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:32
 msgid "Select the color of the button text."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:37
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:39
 msgid "Select the background color of the buttons."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:43
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:45
 msgid "Hover background color"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:44
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:46
 msgid "Select the background color that will be applied if the user places the cursor over the button."
 msgstr ""
 
 #. translators: %1$s and %2$s are replaced by opening and closing anchor tag respectively.
 #: src/Settings/Tabs/SubTabs/Styles/CustomCSSSubTabFields.php:35
+#, php-format
 msgid "Enter custom CSS code. You can find instructions for this field in the %1$splugin's documentation%2$s."
 msgstr ""
 
@@ -486,7 +488,7 @@ msgstr ""
 msgid "Choose the background color of the preference window."
 msgstr ""
 
-#: src/Views/Dashboard/customcss.php:34
+#: src/Views/Dashboard/customcss.php:61
 msgid "Reset"
 msgstr ""
 
@@ -575,6 +577,7 @@ msgid "Search for a product&hellip;"
 msgstr ""
 
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:41
+#, php-format
 msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
 msgstr ""
 
@@ -590,6 +593,7 @@ msgstr ""
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:23
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+#, php-format
 msgid "Hey %s,"
 msgstr ""
 
@@ -629,6 +633,7 @@ msgid "Plugin Usage"
 msgstr ""
 
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:70
+#, php-format
 msgid "Current settings and usage information of %1$s plugins"
 msgstr ""
 
@@ -653,6 +658,7 @@ msgid "Current settings and usage information of WP Desk plugins"
 msgstr ""
 
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+#, php-format
 msgid "You are deactivating %s plugin."
 msgstr ""
 
@@ -702,6 +708,10 @@ msgstr ""
 
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
 msgid "Skip &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:126
+msgid "Submit &amp; Deactivate"
 msgstr ""
 
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22

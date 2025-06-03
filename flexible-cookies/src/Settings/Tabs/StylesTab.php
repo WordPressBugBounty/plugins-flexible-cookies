@@ -2,8 +2,6 @@
 
 namespace WPDesk\FlexibleCookies\Settings\Tabs;
 
-use FlexibleCookiesVendor\WPDesk\Forms\Field\NoOnceField;
-use FlexibleCookiesVendor\WPDesk\Persistence\PersistentContainer;
 use FlexibleCookiesVendor\WPDesk\View\Renderer\Renderer;
 use WPDesk\FlexibleCookies\Settings\Fields\HiddenNonce;
 use WPDesk\FlexibleCookies\Settings\Fields\HiddenTabField;
@@ -16,11 +14,11 @@ use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\Styles\SettingsSubTabFields;
 
 class StylesTab extends TabWithFields {
 
-	private const SUBTAB_BAR_SLUG      = 'bar';
-	private const SUBTAB_BUTTONS_SLUG  = 'buttons';
-	private const SUBTAB_OTHER_SLUG    = 'other';
-	private const SUBTAB_SETTINGS_SLUG = 'settings';
-	private const SUBTAB_KEY           = 'subtab';
+	public const SUBTAB_BAR_SLUG      = 'bar';
+	public const SUBTAB_BUTTONS_SLUG  = 'buttons';
+	public const SUBTAB_OTHER_SLUG    = 'other';
+	public const SUBTAB_SETTINGS_SLUG = 'settings';
+	private const SUBTAB_KEY          = 'subtab';
 
 	/**
 	 * @var Renderer
@@ -35,26 +33,23 @@ class StylesTab extends TabWithFields {
 	public function get_fields(): array {
 		$subtab = isset( $_REQUEST[ self::SUBTAB_KEY ] ) ? sanitize_key( $_REQUEST[ self::SUBTAB_KEY ] ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 
-		$fields = [];
-
-		switch ( $subtab ) {
-			case self::SUBTAB_BUTTONS_SLUG:
-				$fields = ( new ButtonsSubTabFields() )->get_fields();
-				break;
-			case self::SUBTAB_SETTINGS_SLUG:
-				$fields = ( new SettingsSubTabFields() )->get_fields();
-				break;
-			case self::SUBTAB_OTHER_SLUG:
-				$fields = ( new CustomCSSSubTabFields( $this->settings ) )->get_fields();
-				break;
-			default:
-				$fields = ( new BarSubTabFields() )->get_fields();
-				break;
-		}
-
-		$fields = array_merge( $this->get_tab_fields( $subtab ), $fields );
+		$subtab_fields = $this->get_subtab_fields()[ $subtab ] ?? $this->get_subtab_fields()[ self::SUBTAB_BAR_SLUG ];
+		$fields        = $subtab_fields->get_fields();
+		$fields        = array_merge( $this->get_tab_fields( $subtab ), $fields );
 
 		return $fields;
+	}
+
+	private function get_subtab_fields(): array {
+		$subtabs = [
+			self::SUBTAB_BUTTONS_SLUG  => new ButtonsSubTabFields(),
+			self::SUBTAB_SETTINGS_SLUG => new SettingsSubTabFields(),
+			self::SUBTAB_OTHER_SLUG    => new CustomCSSSubTabFields( $this->settings ),
+			self::SUBTAB_BAR_SLUG      => new BarSubTabFields(),
+
+		];
+
+		return (array) apply_filters( 'flexible_cookies_settings_styles_subtabs', $subtabs );
 	}
 
 	private function get_tab_fields( $subtab_slug ): array {

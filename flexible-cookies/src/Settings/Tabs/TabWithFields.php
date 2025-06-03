@@ -8,10 +8,7 @@ use FlexibleCookiesVendor\WPDesk\View\Renderer\Renderer;
 
 abstract class TabWithFields implements TabInterface {
 
-	/**
-	 * @var string
-	 */
-	protected $form_id = 'FlexibleCookies_settings';
+	public const FORM_ID = 'FlexibleCookies_settings';
 
 	/**
 	 * @var PersistentContainer
@@ -42,7 +39,7 @@ abstract class TabWithFields implements TabInterface {
 	public function __construct( PersistentContainer $settings, Renderer $renderer ) {
 		$this->settings         = $settings;
 		$this->renderer         = $renderer;
-		$this->form_with_fields = new FormWithFields( $this->get_fields(), $this->form_id );
+		$this->form_with_fields = new FormWithFields( $this->get_fields(), self::FORM_ID );
 		$this->form_with_fields->set_action( admin_url( 'admin-post.php' ) );
 	}
 
@@ -58,17 +55,17 @@ abstract class TabWithFields implements TabInterface {
 
 	public function save_data(): void {
 
-		if ( isset( $_POST[ $this->form_id ] ) ) {  //phpcs:ignore WordPress.Security.NonceVerification.Missing
+		if ( isset( $_POST[ self::FORM_ID ] ) ) {  //phpcs:ignore WordPress.Security.NonceVerification.Missing
 
 			$this->verify_nonce();
 
-			if ( isset( $_POST[ $this->form_id ]['custom_css_reset'] ) ) { //phpcs:ignore WordPress.Security.NonceVerification.Missing
+			if ( isset( $_POST[ self::FORM_ID ]['custom_css_reset'] ) ) { //phpcs:ignore WordPress.Security.NonceVerification.Missing
 				$this->settings->delete( 'custom_css' );
 				wp_safe_redirect( wp_get_referer() );
 				exit;
 			}
 
-			$form_data = $_POST[ $this->form_id ]; // phpcs:ignore
+			$form_data = $_POST[ self::FORM_ID ]; // phpcs:ignore
 			// Sanitized in form_with_fields->handle_request.
 
 			$this->form_with_fields->handle_request( $form_data );
@@ -78,11 +75,11 @@ abstract class TabWithFields implements TabInterface {
 	}
 
 	private function verify_nonce(): void {
-		if ( ! isset( $_POST[ $this->form_id ][ self::NONCE_NAME ] ) ) {
+		if ( ! isset( $_POST[ self::FORM_ID ][ self::NONCE_NAME ] ) ) {
 			wp_die( esc_html__( 'An error occurred during form verification. Changes were not saved.', 'flexible-cookies' ) );
 		}
 
-		if ( isset( $_POST[ $this->form_id ][ self::NONCE_NAME ] ) && ! wp_verify_nonce( sanitize_key( wp_unslash( $_POST[ $this->form_id ][ self::NONCE_NAME ] ) ), self::NONCE_ACTION ) ) {
+		if ( isset( $_POST[ self::FORM_ID ][ self::NONCE_NAME ] ) && ! wp_verify_nonce( sanitize_key( wp_unslash( $_POST[ self::FORM_ID ][ self::NONCE_NAME ] ) ), self::NONCE_ACTION ) ) {
 			wp_die( esc_html__( 'This form has expired. Try again later.', 'flexible-cookies' ) );
 		}
 	}

@@ -83,6 +83,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</table>
 		</span>
 	<span class="cookie_settings_bottom_row">
-		<button id="flexiblecookies_accept_settings_cookies"><?php echo esc_html__( 'Save and accept', 'flexible-cookies' ); ?></button>
+		<button id="flexiblecookies_accept_settings_cookies" class="flexible-cookies-button primary"><?php echo esc_html__( 'Save and accept', 'flexible-cookies' ); ?></button>
 	</span>
 </div>

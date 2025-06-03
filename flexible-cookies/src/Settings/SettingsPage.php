@@ -23,36 +23,33 @@ use WPDesk\FlexibleCookies\Settings\Tabs\TabInterface;
  */
 class SettingsPage implements Hookable {
 
-	private const PAGE_ID           = 'cookies-settings-page';
-	private const ADVANCED_TAB_SLUG = 'advanced';
-	private const GENERAL_TAB_SLUG  = 'general';
-	private const STYLES_TAB_SLUG   = 'styles';
-	private const SCANNER_TAB_SLUG  = 'scanner';
-	private const GOOGLE_TAB_SLUG   = 'google';
-	private const TAB_GLOBAL_NAME   = 'tab';
+	private const PAGE_ID          = 'cookies-settings-page';
+	public const ADVANCED_TAB_SLUG = 'advanced';
+	public const GENERAL_TAB_SLUG  = 'general';
+	public const STYLES_TAB_SLUG   = 'styles';
+	public const SCANNER_TAB_SLUG  = 'scanner';
+	public const GOOGLE_TAB_SLUG   = 'google';
+	private const TAB_GLOBAL_NAME  = 'tab';
 
-	/**
-	 * @var Settings
-	 */
-	private $settings;
+	private Settings $settings;
 
-	/**
-	 * @var Renderer
-	 */
-	private $form_renderer;
+	private Renderer $form_renderer;
 
 	private CookieCategories $cookie_categories;
 
-	public function __construct( Settings $settings, Renderer $form_renderer, CookieCategories $cookie_categories ) {
+	private string $assets_url;
+
+	public function __construct( Settings $settings, Renderer $form_renderer, CookieCategories $cookie_categories, string $assets_url ) {
 		$this->settings          = $settings;
 		$this->form_renderer     = $form_renderer;
 		$this->cookie_categories = $cookie_categories;
+		$this->assets_url        = $assets_url;
 	}
 
 	public function hooks() {
 		add_action( 'admin_menu', [ $this, 'add_admin_menu' ] );
 		add_action( 'admin_post_flexible_cookies_save_settings', [ $this, 'save_tab_settings' ] );
-		ColorPickerField::wp_enqueue_scripts();
+		ColorPickerField::wp_enqueue_scripts( $this->assets_url );
 	}
 
 	public function add_admin_menu(): void {
@@ -90,15 +87,15 @@ class SettingsPage implements Hookable {
 		$tab_slug = $this->get_active_tab_slug();
 		switch ( $tab_slug ) {
 			case self::ADVANCED_TAB_SLUG:
-				return ( new AdvancedTab( $this->form_renderer, $this->settings, $this->cookie_categories, new CategoriesSubTabFields() ) );
+				return apply_filters( 'flexible_cookies_settings_advancedtab', new AdvancedTab( $this->form_renderer, $this->settings, $this->cookie_categories, new CategoriesSubTabFields() ) );
 			case self::STYLES_TAB_SLUG:
-				return ( new StylesTab( $this->settings, $this->form_renderer ) );
+				return apply_filters( 'flexible_cookies_settings_stylestab', new StylesTab( $this->settings, $this->form_renderer ) );
 			case self::SCANNER_TAB_SLUG:
-				return new ScannerTab( new ExternalCookies() );
+				return apply_filters( 'flexible_cookies_settings_scannertab', new ScannerTab( new ExternalCookies() ) );
 			case self::GOOGLE_TAB_SLUG:
-				return new GoogleIntegrationTab( $this->settings, $this->form_renderer, $this->cookie_categories );
+				return apply_filters( 'flexible_cookies_settings_googleintegrationtab', new GoogleIntegrationTab( $this->settings, $this->form_renderer, $this->cookie_categories ) );
 			default:
-				return ( new GeneralTab( $this->settings, $this->form_renderer ) );
+				return apply_filters( 'flexible_cookies_settings_generaltab', new GeneralTab( $this->settings, $this->form_renderer ), $this->form_renderer );
 		}
 	}
 

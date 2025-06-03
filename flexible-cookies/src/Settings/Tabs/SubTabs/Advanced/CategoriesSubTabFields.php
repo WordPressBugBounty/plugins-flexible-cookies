@@ -4,8 +4,8 @@ namespace WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\Advanced;
 
 use FlexibleCookiesVendor\WPDesk\Forms\Field\CheckboxField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\MultipleInputTextField;
-use FlexibleCookiesVendor\WPDesk\Forms\Field\NoOnceField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\SubmitField;
+use FlexibleCookiesVendor\WPDesk\Forms\Field\ToggleField;
 use WPDesk\FlexibleCookies\Settings\Fields\HiddenNonce;
 use WPDesk\FlexibleCookies\Settings\Fields\HiddenTabField;
 use WPDesk\FlexibleCookies\Settings\Fields\WPAction;
@@ -29,7 +29,7 @@ class CategoriesSubTabFields implements SubTabsFields {
 		$fields = [];
 		if ( $slug !== self::NECESSARY_TAB_SLUG ) {
 			$fields = [
-				( new CheckboxField() )
+				( new ToggleField() )
 					->set_label( esc_html__( 'Necessary category', 'flexible-cookies' ) )
 					->set_description( esc_html__( 'Do not allow the use of this category of cookies to be disabled.', 'flexible-cookies' ) )
 					->set_name( 'require_' . $slug )

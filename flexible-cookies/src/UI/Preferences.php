@@ -12,10 +12,8 @@ use WPDesk\FlexibleCookies\Cookies\CookieCategories;
  */
 class Preferences extends UIElement {
 
-	/**
-	 * @var string
-	 */
-	protected $template = 'cookies_settings';
+	protected string $template = 'cookies_settings';
+	public const TEMPLATE      = 'cookies_settings';
 
 	protected function get_default_params(): array {
 		return [];

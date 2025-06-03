@@ -3,8 +3,8 @@
 
 namespace WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\Styles;
 
-use FlexibleCookiesVendor\WPDesk\Forms\Field\CheckboxField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\SubmitField;
+use FlexibleCookiesVendor\WPDesk\Forms\Field\ToggleField;
 use WPDesk\FlexibleCookies\Settings\Fields\ColorPickerField;
 use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\SubTabsFields;
 
@@ -15,15 +15,17 @@ use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\SubTabsFields;
  */
 class ButtonsSubTabFields implements SubTabsFields {
 
+	public const BUTTONS_CUSTOM_STYLING = 'buttons_custom_styling';
+
 	public function get_fields(): array {
 		return [
 
-			( new CheckboxField() )
+			( new ToggleField() )
 				->set_label( esc_html__( 'Enable custom styling', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Enable options to customize buttons. While the option is disabled, button styles will be loaded from the default theme.', 'flexible-cookies' ) )
 				->add_class( 'mgr_hide_if_not_checked' )
 				->set_default_value( 'yes' )
-				->set_name( 'buttons_custom_styling' ),
+				->set_name( self::BUTTONS_CUSTOM_STYLING ),
 
 			( new ColorPickerField() )
 				->set_label( esc_html__( 'Text color', 'flexible-cookies' ) )

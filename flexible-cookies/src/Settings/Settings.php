@@ -11,17 +11,17 @@ use FlexibleCookiesVendor\WPDesk\Persistence\PersistentContainer;
  * @since   1.0.0
  */
 class Settings implements PersistentContainer {
-	private const SETTINGS_PREFIX = 'flexibleCookies_';
+	public const SETTINGS_PREFIX = 'flexibleCookies_';
 
 	/**
 	 * @var WordpressOptionsContainer
 	 */
-	private $persistance;
+	protected $persistance;
 
 	/**
 	 * @var array
 	 */
-	private $default_values;
+	protected $default_values;
 
 	public function __construct() {
 		$this->persistance = new WordpressOptionsContainer( self::SETTINGS_PREFIX );
@@ -82,93 +82,92 @@ class Settings implements PersistentContainer {
 			],
 		];
 
-		return '
-			#flexiblecookies_container div#flexiblecookies_cookie_banner{
-				bottom:40px;
-				flex-wrap: wrap;
-				left: ' . ( $styles['bar']['fullwidth'] ? '40px;' : ( $styles['bar']['position'] === 'left' ? '40px' : 'unset' ) ) . ';
-				right: ' . ( $styles['bar']['fullwidth'] ? '40px;' : ( $styles['bar']['position'] === 'right' ? '40px' : 'unset' ) ) . ';
-				color:' . $styles['bar']['color'] . ';
-				background:' . $styles['bar']['background'] . ' ;
-				width:' . ( $styles['bar']['fullwidth'] ? 'auto' : $styles['bar']['width'] ) . ';
-			}
+		return '#flexiblecookies_container div#flexiblecookies_cookie_banner{
+	bottom:40px;
+	flex-wrap: wrap;
+	left: ' . ( $styles['bar']['fullwidth'] ? '40px;' : ( $styles['bar']['position'] === 'left' ? '40px' : 'unset' ) ) . ';
+	right: ' . ( $styles['bar']['fullwidth'] ? '40px;' : ( $styles['bar']['position'] === 'right' ? '40px' : 'unset' ) ) . ';
+	color:' . $styles['bar']['color'] . ';
+	background:' . $styles['bar']['background'] . ';
+	width:' . ( $styles['bar']['fullwidth'] ? 'auto' : $styles['bar']['width'] ) . ';
+}
 .flexible-cookies-reopen-settings, #flexiblecookies_settings_container, #flexiblecookies_container div#flexiblecookies_cookie_banner{
-box-shadow:0 0 50px #00000030;
+	box-shadow:0 0 50px #00000030;
 }
 div#flexiblecookies_cookie_banner span.flexiblecookies_cookie_text{
-					margin-bottom:15px;
-					margin-right:0;
-			}
-			div#flexiblecookies_cookie_banner button:hover{
-				transform:translatey(-2px);
-			}
+	margin-bottom:15px;
+	margin-right:0;
+}
+div#flexiblecookies_cookie_banner button:hover{
+	transform:translatey(-2px);
+}
 
-			div#flexiblecookies_cookie_banner button, button#flexiblecookies_accept_settings_cookies{
-				width:auto;
-				padding:5px 10px;
-				transition:0.3s;
-			}
-
-			button#flexiblecookies_accept_cookies, button#flexiblecookies_accept_settings_cookies{
-				background:' . $styles['button']['background'] . ';
-				border:2px solid ' . $styles['button']['background'] . ';
-				color:' . $styles['button']['color'] . ';
-			}
-			button#flexiblecookies_accept_cookies:hover, button#flexiblecookies_accept_settings_cookies:hover{
-				background:' . $styles['button']['hover'] . ';
-				border:2px solid ' . $styles['button']['hover'] . ';
-			}
-
-			button#flexiblecookies_deny_cookies{
-				background:transparent;
-				border:2px solid ' . $styles['button']['background'] . ';
-				color:' . $styles['button']['background'] . ';
-			}
-			button#flexiblecookies_deny_cookies:hover{
-				border-color:' . $styles['button']['hover'] . ';
-			}
-
-			button#flexiblecookies_open_settings{
-				padding:0;
-				padding-bottom:5px;
-				background:transparent;
-				color:' . $styles['button']['color'] . ';
-				border-bottom:2px solid ' . $styles['button']['background'] . ';
-			}
-			button#flexiblecookies_open_settings:hover{
-				border-color:' . $styles['button']['hover'] . ';
-			}
-
-			#flexiblecookies_settings_container, #flexiblecookies_container div#flexiblecookies_cookie_banner{
-				flex-wrap: wrap;
-				border-radius:10px;
-				padding:20px 26px;
-			}
-
-			#flexiblecookies_settings_container{
-				color:' . $styles['settings']['description_color'] . ';
-				background:' . $styles['settings']['description_color'] . ' ;
-			}
-
-			@media (max-width:768px){
-	#flexiblecookies_container div#flexiblecookies_cookie_banner{
+div#flexiblecookies_cookie_banner button, button#flexiblecookies_accept_settings_cookies{
 	width:auto;
-	left:10px;
-			        right:10px;
-			        bottom:10px;
-			  	}
-			  	div#flexiblecookies_settings_container{
-			  		width:auto;
-			  		top:10px;
-			  		left:10px;
-			  		right:10px;
-			  		transform:none;
-			  		overflow-y:auto;
-			  		bottom:10px;
-			  	}
-				span#flexiblecookies_settings{
-					height:auto;
-			  	}
-		   }';
+	padding:5px 10px;
+	transition:0.3s;
+}
+
+button#flexiblecookies_accept_cookies, button#flexiblecookies_accept_settings_cookies{
+	background:' . $styles['button']['background'] . ';
+	border:2px solid ' . $styles['button']['background'] . ';
+	color:' . $styles['button']['color'] . ';
+}
+button#flexiblecookies_accept_cookies:hover, button#flexiblecookies_accept_settings_cookies:hover{
+	background:' . $styles['button']['hover'] . ';
+	border:2px solid ' . $styles['button']['hover'] . ';
+}
+
+button#flexiblecookies_deny_cookies{
+	background:transparent;
+	border:2px solid ' . $styles['button']['background'] . ';
+	color:' . $styles['button']['background'] . ';
+}
+button#flexiblecookies_deny_cookies:hover{
+	border-color:' . $styles['button']['hover'] . ';
+}
+
+button#flexiblecookies_open_settings{
+	padding:0;
+	padding-bottom:5px;
+	background:transparent;
+	color:' . $styles['button']['color'] . ';
+	border-bottom:2px solid ' . $styles['button']['background'] . ';
+}
+button#flexiblecookies_open_settings:hover{
+	border-color:' . $styles['button']['hover'] . ';
+}
+
+#flexiblecookies_settings_container, #flexiblecookies_container div#flexiblecookies_cookie_banner{
+	flex-wrap: wrap;
+	border-radius:10px;
+	padding:20px 26px;
+}
+
+#flexiblecookies_settings_container{
+	color:' . $styles['settings']['description_color'] . ';
+	background:' . $styles['settings']['description_color'] . ';
+}
+
+@media (max-width:768px){
+	#flexiblecookies_container div#flexiblecookies_cookie_banner{
+		width:auto;
+		left:10px;
+		right:10px;
+		bottom:10px;
+	}
+	div#flexiblecookies_settings_container{
+		width:auto;
+		top:10px;
+		left:10px;
+		right:10px;
+		transform:none;
+		overflow-y:auto;
+		bottom:10px;
+	}
+	span#flexiblecookies_settings{
+		height:auto;
+	}
+}';
 	}
 }

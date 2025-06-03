@@ -2,6 +2,7 @@
 
 namespace WPDesk\FlexibleCookies\UI;
 
+use WPDesk\FlexibleCookies\Settings\PreviewSettings;
 use WPDesk\FlexibleCookies\Settings\Settings;
 
 /**
@@ -11,10 +12,7 @@ use WPDesk\FlexibleCookies\Settings\Settings;
  */
 abstract class UIElement implements UIElementsInterface {
 
-	/**
-	 * @var string
-	 */
-	protected $template;
+	protected string $template;
 
 	/**
 	 * @var Settings
@@ -22,7 +20,12 @@ abstract class UIElement implements UIElementsInterface {
 	protected $settings;
 
 	public function __construct() {
-		$this->settings = new Settings();
+		if ( isset( $_GET['fc_preview_id'] ) ) { //phpcs:ignore WordPress.Security.NonceVerification.Recommended
+			$preview_id     = wp_unslash( sanitize_key( $_GET['fc_preview_id'] ) ); //phpcs:ignore WordPress.Security.NonceVerification.Recommended
+			$this->settings = new PreviewSettings( get_transient( "flexible_cookies_preview_{$preview_id}" ) );
+		} else {
+			$this->settings = new Settings();
+		}
 		$this->settings->set_default_values( $this->get_default_params() );
 	}
 

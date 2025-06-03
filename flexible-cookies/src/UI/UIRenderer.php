@@ -13,16 +13,15 @@ use FlexibleCookiesVendor\WPDesk\View\Renderer\Renderer;
  */
 class UIRenderer {
 
-	/**
-	 * @var Renderer
-	 */
-	private $renderer;
+	private Renderer $renderer;
 
 	public function __construct( Renderer $renderer ) {
 		$this->renderer = $renderer;
 	}
 
 	public function output( UIElement $ui ): void {
-		$this->renderer->output_render( $ui->get_template(), $ui->get_params() );
+		$content = $this->renderer->render( $ui->get_template(), $ui->get_params() );
+		$content = apply_filters( 'flexible_cookies_template_content', $content, $ui );
+		echo $content; //phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 }

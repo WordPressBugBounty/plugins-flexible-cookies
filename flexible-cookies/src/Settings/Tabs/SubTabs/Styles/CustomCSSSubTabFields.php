@@ -47,7 +47,7 @@ class CustomCSSSubTabFields implements SubTabsFields {
 				->set_description( $custom_css_description )
 				->set_default_value( $this->settings->get_default_custom_css() )
 				->add_class( 'large-text code' )
-				->set_attribute( 'rows', '20' ),
+				->set_attribute( 'rows', '35' ),
 
 			( new SubmitField() )
 				->set_label( esc_html__( 'Save', 'flexible-cookies' ) )

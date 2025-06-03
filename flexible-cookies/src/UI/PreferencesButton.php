@@ -12,10 +12,8 @@ use WPDesk\FlexibleCookies\Cookies\CookieCategories;
  */
 class PreferencesButton extends UIElement {
 
-	/**
-	 * @var string
-	 */
-	protected $template = 'open_settings_button';
+	protected string $template = 'open_settings_button';
+	public const TEMPLATE      = 'open_settings_button';
 
 	protected function get_default_params(): array {
 		return [];

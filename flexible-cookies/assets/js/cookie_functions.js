@@ -54,7 +54,7 @@ class FlexibleCookiesFunctions{
 		Object.entries(parameters).forEach(function([key, value]) {
 			newCookie += key + '=' + value + ';';
 		});
-        document.cookie = newCookie;
+		document.cookie = newCookie;
     }
     getAcceptedCategories(){
         const checkboxValues = [];

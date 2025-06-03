@@ -1,3 +1,8 @@
 tr:has(.hide_if_checked), tr:has(.hide_if_not_checked){
     display: none;
 }
+
+#custom_css + .CodeMirror{
+	height: 700px;
+	margin-bottom: 12px;
+}

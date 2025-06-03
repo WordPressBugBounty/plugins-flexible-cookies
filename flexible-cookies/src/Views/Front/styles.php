@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		flex-direction: column;
 		justify-content: center;
 		position: fixed;
-		bottom: 0px;
+		bottom: 0;
 	<?php echo $params['bar']['position'] === 'right' ? 'right:0;' : 'left:0'; ?>;
 		box-sizing: border-box;
 		width: <?php echo $params['bar']['fullwidth'] ? '100%' : ( empty( $params['bar']['width'] ) ? 'auto' : esc_html( $params['bar']['width'] ) ); ?>;

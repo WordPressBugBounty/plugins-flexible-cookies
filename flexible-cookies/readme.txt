@@ -1,9 +1,9 @@
 === Flexible Cookies ===
 Contributors: wpdesk, dyszczo
 Tags: cookies, cookie, consent, gdpr, cookie notice
-Requires at least: 6.2
-Tested up to: 6.7
-Stable tag: 1.1.11
+Requires at least: 6.3
+Tested up to: 6.8
+Stable tag: 1.2.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -40,6 +40,10 @@ Our plugin is completely free, but prepared by a team that has been professional
 
 = PROFESSIONAL SUPPORT =
 You can count on the support of our team at any time - we will answer all your questions and suggest the best solutions.
+
+== Data use policy ==
+
+Learn about [Use of Data Policy by WP Desk Plugins](https://wpdesk.net/terms-conditions/privacy-policy-use-of-data-collected-by-wp-desk-plugins/?utm_source=wporg&utm_medium=link&utm_campaign=data-use-policy)
 
 == Frequently Asked Questions ==
 
@@ -80,6 +84,13 @@ After the plugin activation, you may go to *Settings &rarr; Flexible Cookies &ra
 3. Go to Flexible Cookies → Settings in your WordPress dashboard and start first configuration
 
 == Changelog ==
+
+= 1.2.0 - 03-06-2025 =
+* Support for Flexible Cookies Styles Addon
+* Improved the use of the code editor in the custom css tab
+* Added support for alpha in color pickers
+* Added more classes in html elements
+* Replaced settings checkboxes with more modern toggles
 
 = 1.1.11 - 23-05-2025 =
 * Changed URL shorteners

@@ -9,8 +9,6 @@ namespace WPDesk\FlexibleCookies\UI;
  */
 class Bar extends CookieBars {
 
-	/**
-	 * @var string
-	 */
-	protected $template = 'cookies_bar';
+	protected string $template = 'cookies_bar';
+	public const TEMPLATE      = 'cookies_bar';
 }

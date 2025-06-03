@@ -2,10 +2,10 @@
 
 namespace WPDesk\FlexibleCookies\Settings\Tabs;
 
-use FlexibleCookiesVendor\WPDesk\Forms\Field\CheckboxField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\InputTextField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\SelectField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\SubmitField;
+use FlexibleCookiesVendor\WPDesk\Forms\Field\ToggleField;
 use FlexibleCookiesVendor\WPDesk\Persistence\PersistentContainer;
 use FlexibleCookiesVendor\WPDesk\View\Renderer\Renderer;
 use WPDesk\FlexibleCookies\Cookies\CookieCategories;
@@ -39,7 +39,7 @@ class GoogleIntegrationTab extends TabWithFields {
 			( new HiddenNonce( 'save_flxblcks_settings' ) )
 				->set_name( '_wpnonce' ),
 
-			( new CheckboxField() )
+			( new ToggleField() )
 				->set_label( esc_html__( 'Enable GCM', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Enable Google Consent Mode.', 'flexible-cookies' ) )
 				->set_name( 'gcm_enabled' )

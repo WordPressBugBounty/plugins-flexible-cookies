@@ -13,9 +13,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<p><?php echo wp_kses_post( $params['message'] ); ?></p>
 		</span>
 		<span class="flexiblecookies_cookie_actions">
-			<button id="flexiblecookies_accept_cookies"><?php echo esc_html__( 'Accept all', 'flexible-cookies' ); ?></button>
-			<button id="flexiblecookies_deny_cookies"><?php echo esc_html__( 'Deny all', 'flexible-cookies' ); ?></button>
-			<button id="flexiblecookies_open_settings" class="flexiblecookies_open_settings_button"><?php echo esc_html__( 'Preferences', 'flexible-cookies' ); ?></button>
+			<button id="flexiblecookies_accept_cookies" class="flexible-cookies-button primary"><?php echo esc_html__( 'Accept all', 'flexible-cookies' ); ?></button>
+			<button id="flexiblecookies_deny_cookies" class="flexible-cookies-button secondary"><?php echo esc_html__( 'Deny all', 'flexible-cookies' ); ?></button>
+			<button id="flexiblecookies_open_settings" class="flexible-cookies-button tertiary flexiblecookies_open_settings_button"><?php echo esc_html__( 'Preferences', 'flexible-cookies' ); ?></button>
 		</span>
 	</div>
 </div>

@@ -3,10 +3,10 @@
 
 namespace WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\Styles;
 
-use FlexibleCookiesVendor\WPDesk\Forms\Field\CheckboxField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\InputTextField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\SelectField;
 use FlexibleCookiesVendor\WPDesk\Forms\Field\SubmitField;
+use FlexibleCookiesVendor\WPDesk\Forms\Field\ToggleField;
 use WPDesk\FlexibleCookies\Settings\Fields\ColorPickerField;
 use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\SubTabsFields;
 
@@ -32,7 +32,7 @@ class BarSubTabFields implements SubTabsFields {
 				->set_default_value( '#fff' )
 				->set_name( 'bar_background' ),
 
-			( new CheckboxField() )
+			( new ToggleField() )
 				->set_label( esc_html__( 'Full width', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Disable this option if you want to set the bar in the corner of the screen.', 'flexible-cookies' ) )
 				->set_default_value( 'no' )
