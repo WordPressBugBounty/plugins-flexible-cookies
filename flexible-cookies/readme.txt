@@ -3,7 +3,7 @@ Contributors: wpdesk, dyszczo
 Tags: cookies, cookie, consent, gdpr, cookie notice
 Requires at least: 6.3
 Tested up to: 6.8
-Stable tag: 1.2.0
+Stable tag: 1.2.2
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -41,6 +41,10 @@ Our plugin is completely free, but prepared by a team that has been professional
 = PROFESSIONAL SUPPORT =
 You can count on the support of our team at any time - we will answer all your questions and suggest the best solutions.
 
+= COOKIE BAR CUSTOMIZATION =
+
+It's also possible to customize cookie bar styling with [Flexible Cookies Style Add-on](https://wpdesk.net/products/flexible-cookies-style-add-on/).
+
 == Data use policy ==
 
 Learn about [Use of Data Policy by WP Desk Plugins](https://wpdesk.net/terms-conditions/privacy-policy-use-of-data-collected-by-wp-desk-plugins/?utm_source=wporg&utm_medium=link&utm_campaign=data-use-policy)
@@ -74,8 +78,9 @@ After the plugin activation, you may go to *Settings &rarr; Flexible Cookies &ra
 3. You can add your own custom CSS
 4. Plugin's general settings
 5. Cookie Bar visible to user
-
-
+6. Cookie bar customization (with paid add-on)
+7. Custom styling for buttons (with paid add-on)
+8. Preferences window styling (with paid add-on)
 
 == Installation ==
 
@@ -84,6 +89,12 @@ After the plugin activation, you may go to *Settings &rarr; Flexible Cookies &ra
 3. Go to Flexible Cookies → Settings in your WordPress dashboard and start first configuration
 
 == Changelog ==
+
+= 1.2.2 - 12-08-2025 =
+* Fixed toggle buttons on firefox
+
+= 1.2.1 - 26-06-2025 =
+* Fixed dashboard widget appearance
 
 = 1.2.0 - 03-06-2025 =
 * Support for Flexible Cookies Styles Addon

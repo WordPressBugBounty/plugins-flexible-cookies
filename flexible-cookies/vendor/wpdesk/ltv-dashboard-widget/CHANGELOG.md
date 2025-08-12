@@ -1,3 +1,7 @@
+## 1.5.10 - 2025-06-24
+### Fixed
+- Widget class name is now not changed due to text domain replacement
+
 ## 1.5.9 - 2025-05-23
 ### Changed
 - Promo URL wpde.sk -> wpdesk.link
