@@ -17,7 +17,7 @@ class CSVReader {
 		if ( file_exists( $file_path ) ) {
 			$file = fopen( $file_path, 'r' );
 
-			while ( ( $file_data = fgetcsv( $file, 0, self::DELIMITER ) ) ) { // phpcs:ignore Generic.CodeAnalysis.AssignmentInCondition.FoundInWhileCondition
+			while ( ( $file_data = fgetcsv( $file, 0, self::DELIMITER, '"', '\\' ) ) ) { // phpcs:ignore Generic.CodeAnalysis.AssignmentInCondition.FoundInWhileCondition
 				$category    = strtolower( $file_data[0] );
 				$name        = $file_data[1];
 				$description = $file_data[2];

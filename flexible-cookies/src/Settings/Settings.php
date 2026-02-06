@@ -4,6 +4,9 @@ namespace WPDesk\FlexibleCookies\Settings;
 
 use FlexibleCookiesVendor\WPDesk\Persistence\Adapter\WordPress\WordpressOptionsContainer;
 use FlexibleCookiesVendor\WPDesk\Persistence\PersistentContainer;
+use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\Styles\BarSubTabFields;
+use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\Styles\ButtonsSubTabFields;
+use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\Styles\SettingsSubTabFields;
 
 /**
  * @package WPDesk\FlexibleCookies
@@ -61,24 +64,25 @@ class Settings implements PersistentContainer {
 		return $this->persistance->has( $id );
 	}
 
-	public function get_default_custom_css(): string {
+	public function get_default_custom_css(): string { //phpcs:ignore Generic.Metrics.CyclomaticComplexity.TooHigh
 		$styles = [
 			'button'   => [
-				'background' => $this->get( 'buttons_background' ),
-				'color'      => $this->get( 'buttons_color' ),
-				'hover'      => $this->get( 'buttons_background_hover' ),
+				'background'     => $this->get( 'buttons_background' ) ?? ButtonsSubTabFields::DEFAULT_BACKGROUND_COLOR,
+				'color'          => $this->get( 'buttons_color' ) ?? ButtonsSubTabFields::DEFAULT_TEXT_COLOR,
+				'teritary_color' => $this->get( 'buttons_color' ) ?? '#222',
+				'hover'          => $this->get( 'buttons_background_hover' ) ?? ButtonsSubTabFields::DEFAULT_BACKGROUND_HOVER_COLOR,
 			],
 			'bar'      => [
-				'background' => $this->get( 'bar_background' ),
-				'color'      => $this->get( 'bar_color' ),
-				'width'      => $this->get( 'bar_width' ),
-				'position'   => $this->get( 'bar_position' ),
-				'fullwidth'  => $this->get( 'bar_fullwidth' ) === 'yes',
+				'background' => $this->get( 'bar_background' ) ?? BarSubTabFields::DEFAULT_BACKGROUND_COLOR,
+				'color'      => $this->get( 'bar_color' ) ?? BarSubTabFields::DEFAULT_TEXT_COLOR,
+				'width'      => $this->get( 'bar_width' ) ?? BarSubTabFields::DEFAULT_WIDTH,
+				'position'   => $this->get( 'bar_position' ) ?? BarSubTabFields::DEFAULT_POSITION,
+				'fullwidth'  => ( $this->get( 'bar_fullwidth' ) ?? BarSubTabFields::DEFAULT_FULLWIDTH ) === 'yes',
 			],
 			'settings' => [
-				'header_color'      => $this->get( 'settings_window_header_color' ),
-				'header_background' => $this->get( 'settings_window_header_background' ),
-				'description_color' => $this->get( 'settings_window_description_color' ),
+				'header_color'      => $this->get( 'settings_window_header_color' ) ?? SettingsSubTabFields::DEFAULT_HEADER_COLOR,
+				'header_background' => $this->get( 'settings_window_header_background' ) ?? SettingsSubTabFields::DEFAULT_BACKGROUND_COLOR,
+				'description_color' => $this->get( 'settings_window_description_color' ) ?? SettingsSubTabFields::DEFAULT_DESCRIPTION_COLOR,
 			],
 		];
 
@@ -131,7 +135,7 @@ button#flexiblecookies_open_settings{
 	padding:0;
 	padding-bottom:5px;
 	background:transparent;
-	color:' . $styles['button']['color'] . ';
+	color:' . $styles['button']['teritary_color'] . ';
 	border-bottom:2px solid ' . $styles['button']['background'] . ';
 }
 button#flexiblecookies_open_settings:hover{

@@ -7,12 +7,12 @@ namespace Composer\Autoload;
 class ComposerStaticInitFlexibleCookies
 {
     public static $prefixLengthsPsr4 = array (
-        'W' => 
+        'W' =>
         array (
             'WPDesk\\FlexibleCookies\\' => 23,
             'WPDesk\\Dashboard\\' => 17,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
@@ -20,19 +20,19 @@ class ComposerStaticInitFlexibleCookies
     );
 
     public static $prefixDirsPsr4 = array (
-        'WPDesk\\FlexibleCookies\\' => 
+        'WPDesk\\FlexibleCookies\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'WPDesk\\Dashboard\\' => 
+        'WPDesk\\Dashboard\\' =>
         array (
             0 => __DIR__ . '/..' . '/wpdesk/ltv-dashboard-widget/src',
         ),
-        'Psr\\Log\\' => 
+        'Psr\\Log\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
-        'Psr\\Container\\' => 
+        'Psr\\Container\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
@@ -40,7 +40,6 @@ class ComposerStaticInitFlexibleCookies
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'FlexibleCookiesVendor\\Psr\\Clock\\ClockInterface' => __DIR__ . '/../..' . '/vendor_prefixed/psr/clock/src/ClockInterface.php',
         'FlexibleCookiesVendor\\Psr\\Container\\ContainerExceptionInterface' => __DIR__ . '/../..' . '/vendor_prefixed/psr/container/src/ContainerExceptionInterface.php',
         'FlexibleCookiesVendor\\Psr\\Container\\ContainerInterface' => __DIR__ . '/../..' . '/vendor_prefixed/psr/container/src/ContainerInterface.php',
         'FlexibleCookiesVendor\\Psr\\Container\\NotFoundExceptionInterface' => __DIR__ . '/../..' . '/vendor_prefixed/psr/container/src/NotFoundExceptionInterface.php',
@@ -75,9 +74,6 @@ class ComposerStaticInitFlexibleCookies
         'FlexibleCookiesVendor\\Psr\\Log\\Test\\DummyTest' => __DIR__ . '/../..' . '/vendor_prefixed/psr/log/Psr/Log/Test/DummyTest.php',
         'FlexibleCookiesVendor\\Psr\\Log\\Test\\LoggerInterfaceTest' => __DIR__ . '/../..' . '/vendor_prefixed/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
         'FlexibleCookiesVendor\\Psr\\Log\\Test\\TestLogger' => __DIR__ . '/../..' . '/vendor_prefixed/psr/log/Psr/Log/Test/TestLogger.php',
-        'FlexibleCookiesVendor\\Psr\\SimpleCache\\CacheException' => __DIR__ . '/../..' . '/vendor_prefixed/psr/simple-cache/src/CacheException.php',
-        'FlexibleCookiesVendor\\Psr\\SimpleCache\\CacheInterface' => __DIR__ . '/../..' . '/vendor_prefixed/psr/simple-cache/src/CacheInterface.php',
-        'FlexibleCookiesVendor\\Psr\\SimpleCache\\InvalidArgumentException' => __DIR__ . '/../..' . '/vendor_prefixed/psr/simple-cache/src/InvalidArgumentException.php',
         'FlexibleCookiesVendor\\WPDesk\\Dashboard\\DashboardWidget' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php',
         'FlexibleCookiesVendor\\WPDesk\\Forms\\ContainerForm' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-forms/src/ContainerForm.php',
         'FlexibleCookiesVendor\\WPDesk\\Forms\\Escaper' => __DIR__ . '/../..' . '/vendor_prefixed/wpdesk/wp-forms/src/Escaper.php',

@@ -1,15 +1,15 @@
-# Copyright (C) 2025 WP Desk
+# Copyright (C) 2026 WP Desk
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Flexible Cookies 1.2.2\n"
+"Project-Id-Version: Flexible Cookies 1.2.7\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/flexible-cookies\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-08-12T14:54:09+00:00\n"
+"POT-Creation-Date: 2026-01-26T06:21:34+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: flexible-cookies\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #: flexible-cookies.php
-msgid "https://www.wpdesk.net/products/flexible-cookies/"
+msgid "https://www.wpdesk.net/sk/flexible-cookies-plugin/"
 msgstr ""
 
 #. Description of the plugin
@@ -39,7 +39,7 @@ msgstr ""
 
 #. Author URI of the plugin
 #: flexible-cookies.php
-msgid "https://www.wpdesk.net/"
+msgid "https://www.wpdesk.net/sk/flexible-cookies-author/"
 msgstr ""
 
 #: src/Cookies/Categories/Advertising.php:18
@@ -97,16 +97,16 @@ msgstr ""
 msgid "Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors."
 msgstr ""
 
-#: src/Plugin.php:180
+#: src/Plugin.php:181
 #: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:188
 msgid "Settings"
 msgstr ""
 
-#: src/Plugin.php:181
-msgid "https://wpdesk.net/docs/flexible-cookies/"
+#: src/Plugin.php:182
+msgid "https://wpdesk.net/sk/flexible-cookies-docs-en/"
 msgstr ""
 
-#: src/Plugin.php:181
+#: src/Plugin.php:182
 #: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:184
 msgid "Docs"
 msgstr ""
@@ -216,10 +216,10 @@ msgstr ""
 #: src/Settings/Tabs/GeneralTab.php:91
 #: src/Settings/Tabs/GoogleIntegrationTab.php:158
 #: src/Settings/Tabs/SubTabs/Advanced/CategoriesSubTabFields.php:87
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:64
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:52
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:70
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:57
 #: src/Settings/Tabs/SubTabs/Styles/CustomCSSSubTabFields.php:53
-#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:41
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:44
 #: src/Views/Scanner/scanner.php:34
 msgid "Save"
 msgstr ""
@@ -387,78 +387,78 @@ msgstr ""
 msgid "When the option Disable is selected, the category will not be visible to the user and cookies will be automatically blocked (not recommended)."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:24
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:31
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:30
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:36
 msgid "Text color"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:25
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:31
 msgid "Select the color of the text on the cookie bar."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:30
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:38
-#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:35
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:36
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:43
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:38
 msgid "Background color"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:31
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:37
 msgid "Select the background color of the cookie bar."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:36
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:42
 msgid "Full width"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:37
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:43
 msgid "Disable this option if you want to set the bar in the corner of the screen."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:43
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:49
 msgid "Width"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:44
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:50
 msgid "Enter the width of the cookie bar."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:51
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:57
 msgid "Position"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:52
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:58
 msgid "Select the position of the cookie bar."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:56
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:62
 msgid "Left"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:57
+#: src/Settings/Tabs/SubTabs/Styles/BarSubTabFields.php:63
 msgid "Right"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:24
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:29
 msgid "Enable custom styling"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:25
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:30
 msgid "Enable options to customize buttons. While the option is disabled, button styles will be loaded from the default theme."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:32
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:37
 msgid "Select the color of the button text."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:39
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:44
 msgid "Select the background color of the buttons."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:45
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:50
 msgid "Hover background color"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:46
+#: src/Settings/Tabs/SubTabs/Styles/ButtonsSubTabFields.php:51
 msgid "Select the background color that will be applied if the user places the cursor over the button."
 msgstr ""
 
@@ -468,23 +468,23 @@ msgstr ""
 msgid "Enter custom CSS code. You can find instructions for this field in the %1$splugin's documentation%2$s."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:23
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:26
 msgid "Header color"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:24
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:27
 msgid "Choose the color of the header with the category name."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:29
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:32
 msgid "Description color"
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:30
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:33
 msgid "Choose the color of the text with the category description."
 msgstr ""
 
-#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:36
+#: src/Settings/Tabs/SubTabs/Styles/SettingsSubTabFields.php:39
 msgid "Choose the background color of the preference window."
 msgstr ""
 
@@ -552,6 +552,61 @@ msgstr ""
 msgid "More info"
 msgstr ""
 
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:206
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on PHP versions older than %s. Please contact your host and ask them to upgrade."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:209
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on WordPress versions older than %s. Please update WordPress."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:212
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run on WooCommerce versions older than %s. Please update WooCommerce."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:215
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without OpenSSL module version at least %s. Please update OpenSSL module."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:303
+#, php-format
+msgid "The &#8220;%1$s&#8221; plugin requires at least %2$s version of %3$s to work correctly. Please update it to its latest release."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:409
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s active. Please install and activate %s plugin."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:461
+#, php-format
+msgid "The &#8220;%s&#8221; plugin requires free %s plugin. <a href=\"%s\">Install %s</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:467
+#, php-format
+msgid "The &#8220;%s&#8221; plugin requires activating %s plugin. <a href=\"%s\">Activate %s</a>"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:509
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s PHP module installed. Please contact your host and ask them to install %s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:534
+#, php-format
+msgid "The &#8220;%s&#8221; plugin cannot run without %s PHP setting set to %s. Please contact your host and ask them to set %s."
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker_With_Update_Disable.php:29
+#, php-format
+msgid "The &#8220;%s&#8221; plugin is temporarily disabled since the required %s plugin is being upgraded."
+msgstr ""
+
 #: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:181
 msgid "Support"
 msgstr ""
@@ -576,7 +631,11 @@ msgstr ""
 msgid "Search for a product&hellip;"
 msgstr ""
 
-#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:41
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/class-wpdesk-tracker.php:164
+msgid "Submit &amp; Deactivate"
+msgstr ""
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:42
 #, php-format
 msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
 msgstr ""
@@ -708,10 +767,6 @@ msgstr ""
 
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
 msgid "Skip &amp; Deactivate"
-msgstr ""
-
-#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:126
-msgid "Submit &amp; Deactivate"
 msgstr ""
 
 #: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22

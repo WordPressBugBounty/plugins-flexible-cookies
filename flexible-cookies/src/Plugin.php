@@ -104,6 +104,7 @@ class Plugin extends AbstractPlugin implements LoggerAwareInterface, HookableCol
 		$this->simple_bar           = $this->settings->get_boolean( 'simple_cookie_bar' );
 		$this->block_until_accepted = $this->settings->get_boolean( 'block_cookies_until_accepted' );
 		$this->admin_mode           = $this->settings->get_boolean( 'admin_mode' );
+		$this->support_url          = get_locale() === 'pl_PL' ? 'https://www.wpdesk.pl/sk/flexible-cookies-support-pl/' : 'https://wpdesk.net/sk/flexible-cookies-support-en/';
 	}
 
 	public function hooks(): void {
@@ -178,7 +179,7 @@ class Plugin extends AbstractPlugin implements LoggerAwareInterface, HookableCol
 	public function links_filter( $links ) {
 		$custom_links = [
 			'<a href="' . esc_url( admin_url( 'options-general.php?page=cookies-settings-page' ) ) . '">' . esc_html__( 'Settings', 'flexible-cookies' ) . '</a>',
-			'<a href="' . esc_url( __( 'https://wpdesk.net/docs/flexible-cookies/', 'flexible-cookies' ) ) . '">' . esc_html__( 'Docs', 'flexible-cookies' ) . '</a>',
+			'<a href="' . esc_url( __( 'https://wpdesk.net/sk/flexible-cookies-docs-en/', 'flexible-cookies' ) ) . '">' . esc_html__( 'Docs', 'flexible-cookies' ) . '</a>',
 		];
 
 		return array_merge( $custom_links, $links );

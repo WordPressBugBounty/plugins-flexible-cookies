@@ -1,9 +1,9 @@
 === Flexible Cookies ===
 Contributors: wpdesk, dyszczo
 Tags: cookies, cookie, consent, gdpr, cookie notice
-Requires at least: 6.3
-Tested up to: 6.8
-Stable tag: 1.2.2
+Requires at least: 6.4
+Tested up to: 6.9
+Stable tag: 1.2.7
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -43,13 +43,17 @@ You can count on the support of our team at any time - we will answer all your q
 
 = COOKIE BAR CUSTOMIZATION =
 
-It's also possible to customize cookie bar styling with [Flexible Cookies Style Add-on](https://wpdesk.net/products/flexible-cookies-style-add-on/).
+It's also possible to customize cookie bar styling with [Flexible Cookies Style Add-on](https://wpdesk.net/sk/flexible-cookies-styles-addon/).
 
 == Data use policy ==
 
-Learn about [Use of Data Policy by WP Desk Plugins](https://wpdesk.net/terms-conditions/privacy-policy-use-of-data-collected-by-wp-desk-plugins/?utm_source=wporg&utm_medium=link&utm_campaign=data-use-policy)
+Learn about [Use of Data Policy by WP Desk Plugins](https://wpdesk.net/sk/flexible-cookies-privacy)
 
 == Frequently Asked Questions ==
+
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the Flexible Cookies plugin through the [Patchstack Vulnerability Disclosure  Program](https://patchstack.com/database/vdp/9e5fc75d-1d73-4fba-9d20-90e328e138f2). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
 
 = Is the plugin free? =
 
@@ -90,74 +94,89 @@ After the plugin activation, you may go to *Settings &rarr; Flexible Cookies &ra
 
 == Changelog ==
 
-= 1.2.2 - 12-08-2025 =
+= 1.2.7 - 2026-01-26 =
+* Fixed problem with empty default CSS rules
+
+= 1.2.6 - 2026-01-15 =
+* Fixed compatibility issues with PHP 8.4 and newer
+
+= 1.2.5 - 2025-12-04 =
+* Added WordPress 6.9 support
+
+= 1.2.4 - 2025-10-22 =
+* Updated plugin links
+
+= 1.2.3 - 2025-10-13 =
+* Changelog update
+
+= 1.2.2 - 2025-08-12 =
 * Fixed toggle buttons on firefox
 
-= 1.2.1 - 26-06-2025 =
+= 1.2.1 - 2025-06-26 =
 * Fixed dashboard widget appearance
 
-= 1.2.0 - 03-06-2025 =
+= 1.2.0 - 2025-06-03 =
 * Support for Flexible Cookies Styles Addon
 * Improved the use of the code editor in the custom css tab
 * Added support for alpha in color pickers
 * Added more classes in html elements
 * Replaced settings checkboxes with more modern toggles
 
-= 1.1.11 - 23-05-2025 =
+= 1.1.11 - 2025-05-23 =
 * Changed URL shorteners
 
-= 1.1.10 - 24-04-2025 =
+= 1.1.10 - 2025-04-24 =
 * Fixed the check for the existence of the GTM class, which previously caused an error in the console
 * Fixed saving plugin cookies so that they expire after 30 days, not after a session
 
-= 1.1.9 - 03-03-2025 =
+= 1.1.9 - 2025-03-03 =
 * Security fixes
 
-= 1.1.8 - 26-01-2025 =
+= 1.1.8 - 2025-01-26 =
 * Added filters for custom management of some plugin elements (flexible_cookies_option_banner_enabled,flexible_cookies_option_gcm_enabled,flexible_cookies_banner_visible,flexible_cookies_can_block_cookies)
 
-= 1.1.7 - 22-01-2025 =
+= 1.1.7 - 2025-01-22 =
 * Corrected settings tab description
 
-= 1.1.6 - 20-01-2025 =
+= 1.1.6 - 2025-01-20 =
 * Default CSS now uses the appearance settings in the plugin
 * Added reset to default CSS button
 
-= 1.1.5 - 25-11-2024 =
+= 1.1.5 - 2024-11-25 =
 * Added WordPress 6.7 support
 
-= 1.1.4 - 29-10-2024 =
+= 1.1.4 - 2024-10-29 =
 * Added support for mobile devices in default CSS
 
-= 1.1.3 - 19-08-2024 =
+= 1.1.3 - 2024-08-19 =
 * Leaving empty GTM ID disables GTM Script
 
-= 1.1.2 - 27-06-2024 =
+= 1.1.2 - 2024-06-27 =
 * Accepting all categories checks all checkboxes
 * Fixed problem with disappearing favicon when bar is active
 
-= 1.1.1 - 11-06-2024 =
+= 1.1.1 - 2024-06-11 =
 * Fixed a problem when saving cookies from scanner
 * Fixed styles
 
-= 1.1.0 - 13-05-2024 =
+= 1.1.0 - 2024-05-13 =
 * Added support for Google Consent Mode
 * Fixed a problem with quotation marks in Custom CSS
 * The default appearance has been changed
 * Scanner now shows what category the cookie has already been assigned to
 * The list in the scanner starts with cookies from the "Other" category
 
-= 1.0.3 - 25-03-2024 =
+= 1.0.3 - 2024-03-25 =
 * Updated libraries
 * Fixed HTML code in descriptions
 * Support for WordPress 6.5
 * Added dashboard widget
 
-= 1.0.2 - 12-03-2024 =
+= 1.0.2 - 2024-03-12 =
 * Updated libraries
 
-= 1.0.1 - 27-12-2023 =
+= 1.0.1 - 2023-12-27 =
 * first release into wordpress repository
 
-= 1.0.0 - 21-09-2023 =
+= 1.0.0 - 2023-09-21 =
 * first release

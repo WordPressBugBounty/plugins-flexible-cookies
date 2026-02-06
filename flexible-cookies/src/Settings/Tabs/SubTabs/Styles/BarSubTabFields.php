@@ -17,32 +17,38 @@ use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\SubTabsFields;
  */
 class BarSubTabFields implements SubTabsFields {
 
+	public const DEFAULT_TEXT_COLOR       = '#222';
+	public const DEFAULT_BACKGROUND_COLOR = '#FFF';
+	public const DEFAULT_FULLWIDTH        = 'no';
+	public const DEFAULT_WIDTH            = '450px';
+	public const DEFAULT_POSITION         = 'left';
+
 	public function get_fields(): array {
 		return [
 
 			( new ColorPickerField() )
 				->set_label( esc_html__( 'Text color', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Select the color of the text on the cookie bar.', 'flexible-cookies' ) )
-				->set_default_value( '#222' )
+				->set_default_value( self::DEFAULT_TEXT_COLOR )
 				->set_name( 'bar_color' ),
 
 			( new ColorPickerField() )
 				->set_label( esc_html__( 'Background color', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Select the background color of the cookie bar.', 'flexible-cookies' ) )
-				->set_default_value( '#fff' )
+				->set_default_value( self::DEFAULT_BACKGROUND_COLOR )
 				->set_name( 'bar_background' ),
 
 			( new ToggleField() )
 				->set_label( esc_html__( 'Full width', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Disable this option if you want to set the bar in the corner of the screen.', 'flexible-cookies' ) )
-				->set_default_value( 'no' )
+				->set_default_value( self::DEFAULT_FULLWIDTH )
 				->add_class( 'mgr_hide_if_checked' )
 				->set_name( 'bar_fullwidth' ),
 
 			( new InputTextField() )
 				->set_label( esc_html__( 'Width', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Enter the width of the cookie bar.', 'flexible-cookies' ) )
-				->set_placeholder( '450px' )
+				->set_placeholder( self::DEFAULT_WIDTH )
 				->add_class( 'hide_if_checked' )
 				->set_name( 'bar_width' ),
 
@@ -57,7 +63,7 @@ class BarSubTabFields implements SubTabsFields {
 						'right' => esc_html__( 'Right', 'flexible-cookies' ),
 					]
 				)
-				->set_default_value( 'left' )
+				->set_default_value( self::DEFAULT_POSITION )
 				->add_class( 'hide_if_checked' ),
 
 			( new SubmitField() )

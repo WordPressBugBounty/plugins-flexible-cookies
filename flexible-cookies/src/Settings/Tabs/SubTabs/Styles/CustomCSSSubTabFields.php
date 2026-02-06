@@ -15,8 +15,8 @@ use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\SubTabsFields;
  */
 class CustomCSSSubTabFields implements SubTabsFields {
 
-	private const PL_DOCS_URL  = 'https://www.wpdesk.pl/docs/flexible-cookies/';
-	private const ENG_DOCS_URL = 'https://wpdesk.net/docs/flexible-cookies/';
+	private const PL_DOCS_URL  = 'https://www.wpdesk.pl/sk/flexible-cookies-settings-docs-pl/';
+	private const ENG_DOCS_URL = 'https://wpdesk.net/sk/flexible-cookies-settings-docs-en/';
 
 	private Settings $settings;
 

@@ -7,7 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'FlexibleCookiesVendor\\Psr\\Clock\\ClockInterface' => $baseDir . '/vendor_prefixed/psr/clock/src/ClockInterface.php',
     'FlexibleCookiesVendor\\Psr\\Container\\ContainerExceptionInterface' => $baseDir . '/vendor_prefixed/psr/container/src/ContainerExceptionInterface.php',
     'FlexibleCookiesVendor\\Psr\\Container\\ContainerInterface' => $baseDir . '/vendor_prefixed/psr/container/src/ContainerInterface.php',
     'FlexibleCookiesVendor\\Psr\\Container\\NotFoundExceptionInterface' => $baseDir . '/vendor_prefixed/psr/container/src/NotFoundExceptionInterface.php',
@@ -42,9 +41,6 @@ return array(
     'FlexibleCookiesVendor\\Psr\\Log\\Test\\DummyTest' => $baseDir . '/vendor_prefixed/psr/log/Psr/Log/Test/DummyTest.php',
     'FlexibleCookiesVendor\\Psr\\Log\\Test\\LoggerInterfaceTest' => $baseDir . '/vendor_prefixed/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
     'FlexibleCookiesVendor\\Psr\\Log\\Test\\TestLogger' => $baseDir . '/vendor_prefixed/psr/log/Psr/Log/Test/TestLogger.php',
-    'FlexibleCookiesVendor\\Psr\\SimpleCache\\CacheException' => $baseDir . '/vendor_prefixed/psr/simple-cache/src/CacheException.php',
-    'FlexibleCookiesVendor\\Psr\\SimpleCache\\CacheInterface' => $baseDir . '/vendor_prefixed/psr/simple-cache/src/CacheInterface.php',
-    'FlexibleCookiesVendor\\Psr\\SimpleCache\\InvalidArgumentException' => $baseDir . '/vendor_prefixed/psr/simple-cache/src/InvalidArgumentException.php',
     'FlexibleCookiesVendor\\WPDesk\\Dashboard\\DashboardWidget' => $baseDir . '/vendor_prefixed/wpdesk/ltv-dashboard-widget/src/DashboardWidget.php',
     'FlexibleCookiesVendor\\WPDesk\\Forms\\ContainerForm' => $baseDir . '/vendor_prefixed/wpdesk/wp-forms/src/ContainerForm.php',
     'FlexibleCookiesVendor\\WPDesk\\Forms\\Escaper' => $baseDir . '/vendor_prefixed/wpdesk/wp-forms/src/Escaper.php',

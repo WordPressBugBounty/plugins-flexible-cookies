@@ -16,25 +16,28 @@ use WPDesk\FlexibleCookies\Settings\Tabs\SubTabs\SubTabsFields;
  */
 class SettingsSubTabFields implements SubTabsFields {
 
+	public const DEFAULT_HEADER_COLOR      = '#222222';
+	public const DEFAULT_DESCRIPTION_COLOR = '#444444';
+	public const DEFAULT_BACKGROUND_COLOR  = '#ffffff';
 	public function get_fields(): array {
 		return [
 
 			( new ColorPickerField() )
 				->set_label( esc_html__( 'Header color', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Choose the color of the header with the category name.', 'flexible-cookies' ) )
-				->set_default_value( '#222222' )
+				->set_default_value( self::DEFAULT_HEADER_COLOR )
 				->set_name( 'settings_window_header_color' ),
 
 			( new ColorPickerField() )
 				->set_label( esc_html__( 'Description color', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Choose the color of the text with the category description.', 'flexible-cookies' ) )
-				->set_default_value( '#444444' )
+				->set_default_value( self::DEFAULT_DESCRIPTION_COLOR )
 				->set_name( 'settings_window_description_color' ),
 
 			( new ColorPickerField() )
 				->set_label( esc_html__( 'Background color', 'flexible-cookies' ) )
 				->set_description( esc_html__( 'Choose the background color of the preference window.', 'flexible-cookies' ) )
-				->set_default_value( '#ffffff' )
+				->set_default_value( self::DEFAULT_BACKGROUND_COLOR )
 				->set_name( 'settings_window_background' ),
 
 			( new SubmitField() )
