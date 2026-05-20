@@ -1,9 +1,9 @@
 === Flexible Cookies ===
 Contributors: wpdesk, dyszczo
 Tags: cookies, cookie, consent, gdpr, cookie notice
-Requires at least: 6.4
-Tested up to: 6.9
-Stable tag: 1.2.7
+Requires at least: 6.5
+Tested up to: 7.0
+Stable tag: 1.2.8
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -93,6 +93,9 @@ After the plugin activation, you may go to *Settings &rarr; Flexible Cookies &ra
 3. Go to Flexible Cookies → Settings in your WordPress dashboard and start first configuration
 
 == Changelog ==
+
+= 1.2.8 - 2026-05-20 =
+* Support for WordPress 7.0
 
 = 1.2.7 - 2026-01-26 =
 * Fixed problem with empty default CSS rules
